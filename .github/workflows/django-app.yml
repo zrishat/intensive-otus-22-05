@@ -32,23 +32,23 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Setup localization
       run: |
-        cd app
+        cd travelRu
         python manage.py compilemessages
     - name: Test with unittest
       run: |
-        cd app
+        cd travelRu
         coverage run --source='.' manage.py test --verbosity=2
         coverage xml -o coverage.xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v2
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        files: ./app/coverage.xml
+        files: ./travelRu/coverage.xml
         flags: unittests
         name: codecov-umbrella
         fail_ci_if_error: true
         verbose: true
     - name: Check if coverage under 100
       run: |
-        cd app
+        cd travelRu
         coverage report --fail-under=100
