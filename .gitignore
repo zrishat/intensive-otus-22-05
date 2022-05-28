@@ -165,3 +165,4 @@ lib*.pc
 *.pid
 data/db/
 .idea/
+venv/
