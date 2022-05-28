@@ -166,3 +166,6 @@ lib*.pc
 data/db/
 .idea/
 venv/
+.env
+.env-*
+env/

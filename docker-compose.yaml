@@ -4,11 +4,8 @@ services:
   pg:
     image: postgres
     volumes:
-      - ./data/db:/var/lib/postgresql/data
-    environment:
-      - POSTGRES_NAME=postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      - ${PWD}/data/db:/var/lib/postgresql/data
+    env_file:
+      - .env-postgres
     ports:
       - "5432:5432"
-
