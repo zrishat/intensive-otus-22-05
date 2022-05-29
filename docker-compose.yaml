@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  pg:
+    image: postgres
+    volumes:
+      - type: volume
+        source: travelru
+        target: /var/lib/postgresql/data
+    env_file:
+      - .env-postgres
+    ports:
+      - "5432:5432"
+volumes:
+  travelru:
