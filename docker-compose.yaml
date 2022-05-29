@@ -4,8 +4,12 @@ services:
   pg:
     image: postgres
     volumes:
-      - ${PWD}/data/db:/var/lib/postgresql/data
+      - type: volume
+        source: travelru
+        target: /var/lib/postgresql/data
     env_file:
       - .env-postgres
     ports:
       - "5432:5432"
+volumes:
+  travelru:
