@@ -1,4 +1,6 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
+
+{% load i18n %}
 
 
 {% block page_title %}
@@ -9,7 +11,7 @@
 {% block main_container %}
 
     <div class="container-md py-2">
-    <h3>Поиск авиабилетов</h3>
+    <h3>Поиск Ж/Д билетов</h3>
     <ul>
         <a href="{% url 'waySearch:index' %}">На главную</a>
     </ul>
