@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+
+{% block page_title %}
+    {% trans "Search" %}
+{% endblock %}
+
+
+{% block main_container %}
+
+    <div class="container-md py-2">
+        <h3 class="pb-3">
+            {% trans "Where are you flying?" %}
+        </h3>
+        <form class="row gy-2 gx-3 align-items-center mb-3">
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingInput">{% trans "From" %}</label>
+                <input type="text" class="form-control" id="autoSizingInput" placeholder={% trans "From" %}>
+            </div>
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingInput">{% trans "To" %}</label>
+                <input type="text" class="form-control" id="autoSizingInput" placeholder={% trans "To" %}>
+            </div>
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingInput">{% trans "Departing" %}</label>
+                <input type="text" class="form-control" id="autoSizingInput" placeholder={% trans "Departing" %}>
+            </div>
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingInput">{% trans "Returning" %}</label>
+                <input type="text" class="form-control" id="autoSizingInput" placeholder={% trans "Returning" %}>
+            </div>
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                <select class="form-select" id="autoSizingSelect">
+                    <option selected>{% trans "Passenger" %}...</option>
+                    <option value="Adult">{% trans "Adult" %}</option>
+                    <option value="Child">{% trans "Child" %}</option>
+                    <option value="Infant">{% trans "Infant" %}</option>
+                </select>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">{% trans "Search" %}</button>
+            </div>
+        </form>
+        <ul>
+            <a href="{% url 'waySearch:index' %}">
+                {% trans "Back to Homepage" %}
+            </a>
+        </ul>
+    </div>
+{% endblock %}

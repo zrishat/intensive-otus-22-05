@@ -4,12 +4,12 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'waySearch/index.html')
+    return render(request, "index.html")
 
 
 def search_avia_page(request):
-    return render(request, 'waySearch/search_avia.html')
+    return render(request, "search_avia.html")
 
 
 def search_train_page(request):
-    return render(request, 'waySearch/search_train.html')
+    return render(request, "search_train.html")
