@@ -14,21 +14,24 @@
         <h3 class="pb-3">
             {% trans "Where are you flying?" %}
         </h3>
-        <form class="row gy-2 gx-3 align-items-center mb-3">
+        <form method="post" class="row gy-2 gx-3 align-items-center mb-3" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
             <div class="col-auto">
-                <label class="visually-hidden" for="autoSizingInput">{% trans "From" %}</label>
-                <input type="text" class="form-control" id="autoSizingInput" placeholder={% trans "From" %}>
+                <label for="departure_city" class="visually-hidden" for="autoSizingInput">{% trans "From" %}</label>
+                <input type="text" value="" class="form-control" id="autoSizingInput" placeholder={% trans "From" %}>
             </div>
             <div class="col-auto">
-                <label class="visually-hidden" for="autoSizingInput">{% trans "To" %}</label>
+                <label for="arrival_city" class="visually-hidden" for="autoSizingInput">{% trans "To" %}</label>
                 <input type="text" class="form-control" id="autoSizingInput" placeholder={% trans "To" %}>
             </div>
             <div class="col-auto">
-                <label class="visually-hidden" for="autoSizingInput">{% trans "Departing" %}</label>
+                <label for="departure_date" class="visually-hidden"
+                       for="autoSizingInput">{% trans "Departing" %}</label>
                 <input type="text" class="form-control" id="autoSizingInput" placeholder={% trans "Departing" %}>
             </div>
             <div class="col-auto">
-                <label class="visually-hidden" for="autoSizingInput">{% trans "Returning" %}</label>
+                <label for="arrival_date" class="visually-hidden" for="autoSizingInput">{% trans "Returning" %}</label>
                 <input type="text" class="form-control" id="autoSizingInput" placeholder={% trans "Returning" %}>
             </div>
             <div class="col-auto">
@@ -44,6 +47,10 @@
                 <button type="submit" class="btn btn-primary">{% trans "Search" %}</button>
             </div>
         </form>
+
+        {% for keys, values in data %}
+            <li>{{ keys }} : {{ values }}</li>
+        {% endfor %}
         <ul>
             <a href="{% url 'waySearch:index' %}">
                 {% trans "Back to Homepage" %}
