@@ -19,11 +19,20 @@ def search_avia_page(request):
         departure_at = data['departure_date']
         return_at = data['arrival_date']
         # direct — получить рейсы без пересадок. По умолчанию false
-        params = {'origin': from_city_to_code(origin), 'destination': from_city_to_code(destination), 'currency': 'rub',
+        params = {'origin': from_city_to_code(origin),
+                  'destination': from_city_to_code(destination),
+                  'currency': 'rub',
                   'departure_at': departure_at,
-                  'return_at': return_at, 'sorting': 'price', 'direct': 'true', 'token': TOKEN_AVIASALES}
-        # params = {'origin': 'MOW', 'destination': 'LED', 'currency': 'rub', 'departure_at': '2022-06-10',
-        #           'sorting': 'price', 'direct': 'true', 'token': TOKEN_AVIASALES}
+                  'return_at': return_at,
+                  'sorting': 'price',
+                  'direct': 'true',
+                  'token': TOKEN_AVIASALES}
+        # params = {'origin': 'MOW',
+        #           'destination': 'LED',
+        #           'currency': 'rub',
+        #           'departure_at': '2022-06-10',
+        #           'sorting': 'price',
+        #           'direct': 'true', 'token': TOKEN_AVIASALES}
         data_info = requests.get(url, headers=headers, params=params).json()
     return render(request, 'search_avia.html', data_info)
 
@@ -90,7 +99,8 @@ def from_city_to_code(code):
         {"city": "Магдагачи", "airport": "Магдагачи", "iata": "GDG"},
         {"city": "Магнитогорск", "airport": "Магнитогорск", "iata": "MQF"},
         {"city": "Махачкала", "airport": "Уйташ", "iata": "MCX"},
-        {"city": "Минеральные Воды", "airport": "Минеральные Воды", "iata": "MRV"},
+        {"city": "Минеральные Воды", "airport": "Минеральные Воды",
+         "iata": "MRV"},
         {"city": "Мирный", "airport": "Мирный", "iata": "MJZ"},
         {"city": "Москва", "airport": "Шереметьево", "iata": "MOW"},
         {"city": "Москва", "airport": "Быково", "iata": "BKA"},
@@ -121,7 +131,8 @@ def from_city_to_code(code):
         {"city": "Пенза", "airport": "Пенза", "iata": "PEZ"},
         {"city": "Пермь", "airport": "Большое Савино", "iata": "PEE"},
         {"city": "Петрозаводск", "airport": "Бесовец", "iata": "PES"},
-        {"city": "Петропавловск-Камчатский", "airport": "Елизово", "iata": "PKC"},
+        {"city": "Петропавловск-Камчатский", "airport": "Елизово",
+         "iata": "PKC"},
         {"city": "Печора", "airport": "Печора", "iata": "PEX"},
         {"city": "Провидения", "airport": "Бухта Провидения", "iata": "PVS"},
         {"city": "Псков", "airport": "Псков", "iata": "PKV"},
