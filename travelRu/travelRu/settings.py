@@ -71,6 +71,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "travelRu.wsgi.application"
 
+# TOKEN API AVIASALES
+TOKEN_AVIASALES = env.get("TOKEN_AVIASALES")
+if not TOKEN_AVIASALES:
+    TOKEN_AVIASALES = 'testtoken'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
