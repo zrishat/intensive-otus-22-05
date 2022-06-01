@@ -9,7 +9,6 @@
 
 
 {% block main_container %}
-
     <div class="container-md py-2">
         <h3 class="pb-3">
             {% trans "Where are you flying?" %}
@@ -19,11 +18,11 @@
 
             <div class="col-auto">
                 <label for="departure_city" class="visually-hidden" for="autoSizingInput">{% trans "From" %}</label>
-                <input type="text" value="MOW" name="departure_city" value="" class="form-control" id="autoSizingInput" placeholder={% trans "From" %}>
+                <input type="text" name="departure_city" value="" class="form-control" id="autoSizingInput" placeholder={% trans "From:" %}>
             </div>
             <div class="col-auto">
                 <label for="arrival_city" class="visually-hidden" for="autoSizingInput">{% trans "To" %}</label>
-                <input type="text" value="LED" name="arrival_city" class="form-control" id="autoSizingInput" placeholder={% trans "To" %}>
+                <input type="text" name="arrival_city" class="form-control" id="autoSizingInput" placeholder={% trans "To:" %}>
             </div>
             <div class="col-auto">
                 <label for="departure_date" class="visually-hidden"
