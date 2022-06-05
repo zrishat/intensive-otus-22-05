@@ -1,2 +1,13 @@
 # intensive-otus-22-05
+
 OTUS SA-intens-2022-05
+
+Для работы необходимы такие переменные:
+- TRAVELRU_SECRET_KEY
+- DJANGO_DEBUG
+- TOKEN_AVIASALES
+- POSTGRES_HOST
+- POSTGRES_PORT
+- POSTGRES_DB
+- POSTGRES_USER
+- POSTGRES_PASSWORD
