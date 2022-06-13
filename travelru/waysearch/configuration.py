@@ -1,3 +1,6 @@
+"""
+configuration
+"""
 IATA = (
     {"city": "Абакан", "airport": "Абакан", "iata": "ABA"},
     {"city": "Алдан", "airport": "Алдан", "iata": "ADH"},
