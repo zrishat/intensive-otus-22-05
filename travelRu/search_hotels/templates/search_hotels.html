@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block page_title %}
+    Main page
+{% endblock %}
+
+
+{% block main_container %}
+    <div class="container-md py-2">
+        {#        <h3 class="pb-3">#}
+        {#            {% trans '' %}#}
+        {#            {% trans "Where are you flying?" %}#}
+        {#        </h3>#}
+        <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
+            {% csrf_token %}
+            <div class="container">
+                <div class="row row-cols-5">
+                    <div class="col">Город:</div>
+                    <div class="col">Дата заезда:</div>
+                    <div class="col">Дата выезда:</div>
+                    <div class="col">Гости:</div>
+                    <div class="col"></div>
+                    <div class="col">
+                        <label for="city" class="visually-hidden"
+                               for="autoSizingInput">{% trans "Введите город" %}</label>
+                        <input type="text" name="city" value="" class="form-control" id="autoSizingInput"
+                               placeholder="Введите город">
+                    </div>
+                    <div class="col">
+                        <label for="check_in" class="visually-hidden"
+                               for="autoSizingInput">{% trans "Departing" %}</label>
+                        <input type="date" name="check_in" class="form-control" id="autoSizingInput"
+                               placeholder={% trans "Departing" %}>
+                    </div>
+                    <div class="col">
+                        <label for="check_out" class="visually-hidden"
+                               for="autoSizingInput">{% trans "Returning" %}</label>
+                        <input type="date" name="check_out" class="form-control" id="autoSizingInput"
+                               placeholder={% trans "Returning" %}>
+                    </div>
+                    <div class="col">
+                        <label for="guest_amount" class="visually-hidden"
+                               for="autoSizingInput">{% trans "Количество" %}</label>
+                        <input type="text" name="guest_amount" value="" class="form-control" id="autoSizingInput"
+                               placeholder="Введите количество">
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">{% trans "Найти отели" %}</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        {% if popularity %}
+        <div class="container-md py-2">
+            <h3 class="pb-3">
+                {% trans "Найденные отели:" %}
+            </h3>
+
+                    {% for hotel_data in popularity %}
+                        <div class="p-3 mb-4 bg-light rounded-3">
+                            <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
+                                <h5>{{ hotel_data.name }}</h5>
+                                <p>Количество звезд:  {{ hotel_data.stars }}</p>
+                                <p>{{ hotel_data.hotel_type }}</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">{{ hotel_data.last_price_info.search_params.checkIn }} - {{ hotel_data.last_price_info.search_params.checkOut }}</li>
+                                </ul>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">Цена за сутки {{ hotel_data.last_price_info.price_pn }}</li>
+                                    <li class="list-inline-item">Стоимость: </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    {% endfor %}
+                    {% endif %}
+                    <ul>
+                        <a href="{% url 'waySearch:index' %}">
+                            {% trans "Back to Homepage" %}
+                        </a>
+                    </ul>
+                </div>
+        </div>
+{% endblock %}
