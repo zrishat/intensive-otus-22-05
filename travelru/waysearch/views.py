@@ -1,16 +1,23 @@
+"""
+views
+"""
 import requests
 from django.shortcuts import render
-
-from travelRu.settings import TOKEN_AVIASALES
-
-from waySearch.configuration import IATA
+from waysearch.configuration import IATA
+from travelru.settings import TOKEN_AVIASALES
 
 
 def index(request):
+    """
+    index
+    """
     return render(request, "index.html")
 
 
 def search_avia_page(request):
+    """
+    search_avia_page
+    """
     data_info = {"data": ""}
     if request.method == "POST":
         url = 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates'
@@ -34,10 +41,16 @@ def search_avia_page(request):
 
 
 def search_train_page(request):
+    """
+    search_train_page
+    """
     return render(request, "search_train.html")
 
 
 def from_city_to_code(code):
+    """
+    from_city_to_code
+    """
     data_cities = IATA
     for city in data_cities:
         if city['city'] == code:
