@@ -30,13 +30,21 @@ jobs:
         python -m pip install --upgrade pip
         sudo apt-get install -y gettext
         pip install coverage
+        pip install pylint
+        pip install flake8
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Analysing the code with pylint
+      run: |
+          pylint $(git ls-files '*.py')
+    - name: Analysing the code with flake8
+      run: |
+          flake8 travelru/*
     - name: Setup localization
       run: |
-        python travelRu/manage.py compilemessages
+        python travelru/manage.py compilemessages
     - name: Test with unittest
       run: |
-        coverage run --source='.' travelRu/manage.py test --verbosity=2
+        coverage run --source='.' travelru/manage.py test --verbosity=2
         coverage xml -o coverage.xml
     - name: Check if coverage under 100
       run: |

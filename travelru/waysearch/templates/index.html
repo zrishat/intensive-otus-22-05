@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+{% block page_title %}
+    Main page
+{% endblock %}
+
+
+{% block main_container %}
+    <div class="container-md py-2">
+        <h3>TravelRu</h3>
+        <p class="fs-4">Поиск билетов</p>
+        <ul>
+            <a href="{% url 'waysearch:search_avia' %}">Поиск авиабилетов</a>
+        </ul>
+        <ul>
+            <a href="{% url 'waysearch:search_train' %}">Поиск Ж/Д билетов</a>
+        </ul>
+        <p class="fs-4">Поиск проживания</p>
+        <ul>
+            <a href={% url 'search_hotels:search_hotels' %}>Поиск отелей</a>
+        </ul>
+    </div>
+{% endblock %}
