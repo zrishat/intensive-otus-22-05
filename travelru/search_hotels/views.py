@@ -1,3 +1,7 @@
+"""
+views
+"""
+
 from django.shortcuts import render
 import requests
 # Create your views here.
@@ -10,12 +14,19 @@ from travelru.settings import TOKEN_AVIASALES
 
 
 def get_id_from_city(city_name: str, cities_list: list[dict]):
+    """
+    get_id_from_city
+    """
     for city in cities_list:
         if city['name'].lower() == city_name.lower():
             return city['id']
+    raise BaseException
 
 
 def search_hotels(request):
+    """
+    search_hotels
+    """
     data_info = {"popularity": ""}
     if request.method == "POST":
         url = 'http://yasen.hotellook.com/tp/public/widget_location_dump.json'
