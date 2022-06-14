@@ -13,7 +13,7 @@ from search_hotels.configuration_cities_hotels import cities_with_id
 from travelru.settings import TOKEN_AVIASALES
 
 
-def get_id_from_city(city_name: str, cities_list: list[dict]):
+def get_id_from_city(city_name: str, cities_list: list[dict]):  # pylint: disable=E1136
     """
     get_id_from_city
     """
