@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env.get("TRAVELRU_SECRET_KEY", "travelru_test_secret_key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True # env.get("DJANGO_DEBUG", "False") == "True"
+DEBUG = env.get("DJANGO_DEBUG", "False") == "True"
 
 ALLOWED_HOSTS = ["*"]
 
@@ -73,7 +73,7 @@ WSGI_APPLICATION = "travelru.wsgi.application"
 # TOKEN API AVIASALES
 TOKEN_AVIASALES = env.get("TOKEN_AVIASALES")
 if not TOKEN_AVIASALES:
-    TOKEN_AVIASALES = '63bb41758c77cbd1d4434079be4f1b70'
+    TOKEN_AVIASALES = 'token'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
