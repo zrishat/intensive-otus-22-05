@@ -70,7 +70,8 @@
         {% endfor %}
         {% endif %}
         {% if success and not data %}
-            <p class="warning">Рейсы не найдены. Попробуйте изменить условия поиска.</p>
+            <p class="warning">Рейсы не найдены. Попробуйте изменить условия поиска.
+            </p>
         {% endif %}
         <ul>
             <a href="{% url 'waysearch:index' %}">
