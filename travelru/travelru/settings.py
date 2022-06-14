@@ -11,11 +11,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 from os import environ as env
 from pathlib import Path
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import ugettext_lazy as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -24,10 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env.get("TRAVELRU_SECRET_KEY", "travelru_test_secret_key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env.get("DJANGO_DEBUG", "False") == "True"
+DEBUG = True # env.get("DJANGO_DEBUG", "False") == "True"
 
 ALLOWED_HOSTS = ["*"]
-
 
 # Application definition
 
@@ -45,6 +43,7 @@ MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
+    'django.middleware.locale.LocaleMiddleware',
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
@@ -74,7 +73,7 @@ WSGI_APPLICATION = "travelru.wsgi.application"
 # TOKEN API AVIASALES
 TOKEN_AVIASALES = env.get("TOKEN_AVIASALES")
 if not TOKEN_AVIASALES:
-    TOKEN_AVIASALES = 'testtoken'
+    TOKEN_AVIASALES = '63bb41758c77cbd1d4434079be4f1b70'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -98,30 +97,38 @@ else:
         }
     }
 
-
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",  # pylint: disable=line-too-long # noqa: E501
+        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
+        # pylint: disable=line-too-long # noqa: E501
     },
     {
-        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",  # pylint: disable=line-too-long # noqa: E501
+        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
+        # pylint: disable=line-too-long # noqa: E501
     },
     {
-        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",  # pylint: disable=line-too-long # noqa: E501
+        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",
+        # pylint: disable=line-too-long # noqa: E501
     },
     {
-        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",  # pylint: disable=line-too-long # noqa: E501
+        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
+        # pylint: disable=line-too-long # noqa: E501
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = "en-US"
+LANGUAGE_CODE = 'ru'
+
+LANGUAGES = (
+    ('ru', _('Russian')),
+    ('en-us', _('English')),
+    ('de', _('German')),
+)
 
 TIME_ZONE = "Europe/Moscow"
 
@@ -130,7 +137,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/

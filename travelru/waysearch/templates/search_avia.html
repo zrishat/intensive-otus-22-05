@@ -11,31 +11,33 @@
 {% block main_container %}
     <div class="container-md py-2">
         <h3 class="pb-3">
-            {% trans "Where are you flying?" %}
+            {% trans "Поиск авиа маршрутов. " %}
         </h3>
         <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
             {% csrf_token %}
 
             <div class="col-auto">
-                <label for="departure_city" class="visually-hidden" for="autoSizingInput">{% trans "From" %}</label>
-                <input type="text" name="departure_city" value="" class="form-control" id="autoSizingInput" placeholder={% trans "From:" %}>
+                <label for="departure_city" class="form-label">{% trans "Откуда" %}</label>
+                <input type="text" name="departure_city" class="form-control" id="inputDepartureCity"
+                       placeholder={% trans "Москва" %} value="{{ data_f.departure_city }}">
             </div>
             <div class="col-auto">
-                <label for="arrival_city" class="visually-hidden" for="autoSizingInput">{% trans "To" %}</label>
-                <input type="text" name="arrival_city" class="form-control" id="autoSizingInput" placeholder={% trans "To:" %}>
+                <label for="arrival_city" class="form-label">{% trans "Куда" %}</label>
+                <input type="text" name="arrival_city" class="form-control" id="inputArrivalCity"
+                       placeholder={% trans "Куда" %} value="{{ data_f.arrival_city }}">
             </div>
             <div class="col-auto">
-                <label for="departure_date" class="visually-hidden"
-                       for="autoSizingInput">{% trans "Departing" %}</label>
-                <input type="date" name="departure_date" class="form-control" id="autoSizingInput" placeholder={% trans "Departing" %}>
+                <label for="departure_date" class="form-label">{% trans "Дата вылета" %}</label>
+                <input type="date" name="departure_date" class="form-control" id="autoSizingInput" value="{{ data_f.departure_date }}">
             </div>
             <div class="col-auto">
-                <label for="arrival_date" class="visually-hidden" for="autoSizingInput">{% trans "Returning" %}</label>
-                <input type="date" name="arrival_date" class="form-control" id="autoSizingInput" placeholder={% trans "Returning" %}>
+                <label for="arrival_date" class="form-label">{% trans "Дата обратно" %}</label>
+                <input type="date" name="arrival_date" class="form-control" id="autoSizingInput"
+                       placeholder={% trans "Returning" %} value="{{ data_f.arrival_date }}">
             </div>
             <div class="col-auto">
-                <label class="visually-hidden" for="autoSizingSelect">Preference</label>
-                <select class="form-select" id="autoSizingSelect">
+                <label class="form-label" for="SelectPassengers">Пассажиры</label>
+                <select class="form-select" id="SelectPassengers">
                     <option selected>{% trans "Passenger" %}...</option>
                     <option value="Adult">{% trans "Adult" %}</option>
                     <option value="Child">{% trans "Child" %}</option>
@@ -43,14 +45,14 @@
                 </select>
             </div>
             <div class="col-auto">
-                <button type="submit" class="btn btn-primary">{% trans "Search" %}</button>
+                <button type="submit" class="btn btn-primary align-bottom">{% trans "Search" %}</button>
             </div>
         </form>
         {% if data %}
         <div class="container-md py-2">
-        <h3 class="pb-3">
-            {% trans "Найденные билеты:" %}
-        </h3>
+          <h3 class="pb-3">
+              {% trans "Найденные билеты:" %}
+          </h3>
         {% for flight in data %}
             <div class="p-3 mb-4 bg-light rounded-3">
                 <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
@@ -66,6 +68,9 @@
                 </div>
             </div>
         {% endfor %}
+        {% endif %}
+        {% if success and not data %}
+            <p class="warning">Рейсы не найдены. Попробуйте изменить условия поиска.</p>
         {% endif %}
         <ul>
             <a href="{% url 'waysearch:index' %}">
