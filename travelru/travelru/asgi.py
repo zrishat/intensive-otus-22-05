@@ -1,5 +1,5 @@
 """
-ASGI config for travelRu project.
+ASGI config for travelru project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
