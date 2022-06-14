@@ -1,1 +1,1 @@
-# pylint: disable=C0103
+# pylint: skip-file
