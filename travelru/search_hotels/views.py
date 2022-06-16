@@ -1,7 +1,7 @@
 """
 views
 """
-
+from django.http import HttpResponse
 from django.shortcuts import render
 import requests
 # Create your views here.
@@ -22,6 +22,9 @@ def get_id_from_city(city_name: str, cities_list: list[dict]):  # pylint: disabl
             return city['id']
     raise BaseException
 
+"""
+запрос без формы
+"""
 
 def search_hotels(request):
     """
@@ -47,3 +50,8 @@ def search_hotels(request):
         data_info = requests.get(url, headers=headers, params=params).json()
         print(data_info)
     return render(request, "search_hotels.html", data_info)
+
+
+
+
+
