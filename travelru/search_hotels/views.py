@@ -2,6 +2,7 @@
 views
 """
 # pylint: skip-file
+# flake8: noqa
 from datetime import datetime
 
 from django.http import HttpResponse
@@ -101,4 +102,3 @@ def search_hotels(request):
     else:
         search_form = SearchHotelsForm
         return render(request, "search_hotels.html", {'form': search_form, 'today_date': today_date})
-

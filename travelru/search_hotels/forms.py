@@ -18,4 +18,4 @@ class SearchHotelsForm(forms.Form):
     check_out = forms.DateField(label='Дата выезда',
                                 # widget=DatePickerInput
                                 )
-    amount_guests = forms.IntegerField(label='Гости', min_value=1, max_value=30)
+    amount_guests = forms.IntegerField(label='Гости', min_value=1, max_value=30)  # noqa: E501
