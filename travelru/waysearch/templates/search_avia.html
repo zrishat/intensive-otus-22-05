@@ -35,15 +35,15 @@
         <input type="date" name="arrival_date" class="form-control" id="autoSizingInput"
                placeholder={% trans "Returning" %} value="{{ data_f.arrival_date }}">
       </div>
-      <div class="col-auto">
-        <label class="form-label" for="SelectPassengers">Пассажиры</label>
-        <select class="form-select" id="SelectPassengers">
-          <option selected>{% trans "Passenger" %}...</option>
-          <option value="Adult">{% trans "Adult" %}</option>
-          <option value="Child">{% trans "Child" %}</option>
-          <option value="Infant">{% trans "Infant" %}</option>
-        </select>
-      </div>
+      {#      <div class="col-auto">#}
+      {#        <label class="form-label" for="SelectPassengers">Пассажиры</label>#}
+      {#        <select class="form-select" id="SelectPassengers">#}
+      {#          <option selected>{% trans "Passenger" %}...</option>#}
+      {#          <option value="Adult">{% trans "Adult" %}</option>#}
+      {#          <option value="Child">{% trans "Child" %}</option>#}
+      {#          <option value="Infant">{% trans "Infant" %}</option>#}
+      {#        </select>#}
+      {#      </div>#}
       <div class="col-auto">
         <button type="submit" class="btn btn-primary align-bottom">{% trans "Search" %}</button>
       </div>
@@ -72,6 +72,10 @@
     {% endif %}
     {% if success and not data %}
       <p class="warning">Рейсы не найдены. Попробуйте изменить условия поиска.
+      </p>
+    {% endif %}
+    {% if error %}
+      <p class="warning">Ошибка поиска. Попробуйте позже .
       </p>
     {% endif %}
     <ul>
