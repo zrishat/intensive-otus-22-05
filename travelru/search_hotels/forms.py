@@ -7,6 +7,9 @@ from django import forms
 
 
 class SearchHotelsForm(forms.Form):
+    """
+    searchhotelsform
+    """
     # city = forms.CharField(label='Город', initial='Введите город')
     city = forms.CharField(label='Город')
     check_in = forms.DateField(label='Дата заезда',

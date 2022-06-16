@@ -1,6 +1,7 @@
 """
 views
 """
+# pylint: skip-file
 from datetime import datetime
 
 from django.http import HttpResponse
@@ -94,7 +95,7 @@ def search_hotels(request):
             # print(type(data_info['amount_guests']), amount_guests)
             return render(request, "search_hotels.html", {'form': search_form,
                                                           'today_date': today_date,
-                                                          'data_info': data_info})  # pylint: disable=C0301
+                                                          'data_info': data_info})    # pylint: disable=line-too-long
         else:  # pylint: disable=C0305
             return HttpResponse('Неверный формат введенных данных, повторите снова')
     else:
