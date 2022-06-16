@@ -25,7 +25,7 @@ SECRET_KEY = env.get("TRAVELRU_SECRET_KEY", "travelru_test_secret_key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.get("DJANGO_DEBUG", "False") == "True"
-
+# DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
 
