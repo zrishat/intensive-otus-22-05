@@ -1,8 +1,7 @@
-import requests
-
 """
 views
 """
+import requests
 from django.shortcuts import render
 from waysearch.configuration import IATA
 from travelru.settings import TOKEN_AVIASALES

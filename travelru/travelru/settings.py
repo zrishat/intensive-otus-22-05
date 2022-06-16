@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 from os import environ as env
 from pathlib import Path
-from django.utils.translation import ugettext_lazy as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -103,33 +102,23 @@ else:
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
-        # pylint: disable=line-too-long # noqa: E501
+        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",  # pylint: disable=line-too-long # noqa: E501
     },
     {
-        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
-        # pylint: disable=line-too-long # noqa: E501
+        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",  # pylint: disable=line-too-long # noqa: E501
     },
     {
-        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",
-        # pylint: disable=line-too-long # noqa: E501
+        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",  # pylint: disable=line-too-long # noqa: E501
     },
     {
-        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
-        # pylint: disable=line-too-long # noqa: E501
+        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",  # pylint: disable=line-too-long # noqa: E501
     },
 ]
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'ru'
-
-LANGUAGES = (
-    ('ru', _('Russian')),
-    ('en-us', _('English')),
-    ('de', _('German')),
-)
+LANGUAGE_CODE = 'ru-RU'
 
 TIME_ZONE = "Europe/Moscow"
 
