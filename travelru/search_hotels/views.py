@@ -4,16 +4,11 @@ views
 
 from django.shortcuts import render
 import requests
-# Create your views here.
-
-
-# def index(request):
-#     return render(request, "search_hotels.html")
 from search_hotels.configuration_cities_hotels import cities_with_id
 from travelru.settings import TOKEN_AVIASALES
 
 
-def get_id_from_city(city_name: str, cities_list: list[dict]):  # pylint: disable=E1136 # noqa: E501
+def get_id_from_city(city_name: str, cities_list: list):  # pylint: disable=E1136 # noqa: E501
     """
     get_id_from_city
     """
