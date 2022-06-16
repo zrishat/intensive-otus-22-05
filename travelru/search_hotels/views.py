@@ -67,7 +67,7 @@ def search_hotels(request):
     """
     search_hotels
     """
-    data_info = {"popularity": ""}
+    # data_info = {"popularity": ""}
     if request.method == "POST":
         url = 'http://yasen.hotellook.com/tp/public/widget_location_dump.json'
         headers = {'Content-Type': 'application/json'}
@@ -94,8 +94,8 @@ def search_hotels(request):
             # print(type(data_info['amount_guests']), amount_guests)
             return render(request, "search_hotels.html", {'form': search_form,
                                                           'today_date': today_date,
-                                                          'data_info': data_info})
-        else:
+                                                          'data_info': data_info})  # pylint: disable=C0301
+        else:  # pylint: disable=C0305
             return HttpResponse('Неверный формат введенных данных, повторите снова')
     else:
         search_form = SearchHotelsForm

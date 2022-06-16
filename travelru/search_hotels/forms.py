@@ -16,4 +16,3 @@ class SearchHotelsForm(forms.Form):
                                 # widget=DatePickerInput
                                 )
     amount_guests = forms.IntegerField(label='Гости', min_value=1, max_value=30)
-
