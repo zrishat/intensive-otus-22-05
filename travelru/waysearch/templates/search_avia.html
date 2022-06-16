@@ -4,79 +4,80 @@
 
 
 {% block page_title %}
-    {% trans "Search" %}
+  Поиск авиамаршрутов
 {% endblock %}
 
 
 {% block main_container %}
-    <div class="container-md py-2">
+  <div class="container-md py-2">
+    <h3 class="pb-3">
+      Поиск авиамаршрутов.
+    </h3>
+    <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
+      {% csrf_token %}
+      <div class="col-auto">
+        <label for="departure_city" class="form-label">{% trans "Откуда" %}</label>
+        <input type="text" name="departure_city" class="form-control" id="inputDepartureCity"
+               placeholder={% trans "Москва" %} value="{{ data_f.departure_city }}">
+      </div>
+      <div class="col-auto">
+        <label for="arrival_city" class="form-label">{% trans "Куда" %}</label>
+        <input type="text" name="arrival_city" class="form-control" id="inputArrivalCity"
+               placeholder={% trans "Куда" %} value="{{ data_f.arrival_city }}">
+      </div>
+      <div class="col-auto">
+        <label for="departure_date" class="form-label">{% trans "Дата вылета" %}</label>
+        <input type="date" name="departure_date" class="form-control" id="autoSizingInput"
+               value="{{ data_f.departure_date }}">
+      </div>
+      <div class="col-auto">
+        <label for="arrival_date" class="form-label">{% trans "Дата обратно" %}</label>
+        <input type="date" name="arrival_date" class="form-control" id="autoSizingInput"
+               placeholder={% trans "Returning" %} value="{{ data_f.arrival_date }}">
+      </div>
+      <div class="col-auto">
+        <label class="form-label" for="SelectPassengers">Пассажиры</label>
+        <select class="form-select" id="SelectPassengers">
+          <option selected>{% trans "Passenger" %}...</option>
+          <option value="Adult">{% trans "Adult" %}</option>
+          <option value="Child">{% trans "Child" %}</option>
+          <option value="Infant">{% trans "Infant" %}</option>
+        </select>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary align-bottom">{% trans "Search" %}</button>
+      </div>
+    </form>
+    {% if data %}
+      <div class="container-md py-2">
         <h3 class="pb-3">
-            {% trans "Поиск авиа маршрутов. " %}
+          {% trans "Найденные билеты:" %}
         </h3>
-        <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
-            {% csrf_token %}
-
-            <div class="col-auto">
-                <label for="departure_city" class="form-label">{% trans "Откуда" %}</label>
-                <input type="text" name="departure_city" class="form-control" id="inputDepartureCity"
-                       placeholder={% trans "Москва" %} value="{{ data_f.departure_city }}">
-            </div>
-            <div class="col-auto">
-                <label for="arrival_city" class="form-label">{% trans "Куда" %}</label>
-                <input type="text" name="arrival_city" class="form-control" id="inputArrivalCity"
-                       placeholder={% trans "Куда" %} value="{{ data_f.arrival_city }}">
-            </div>
-            <div class="col-auto">
-                <label for="departure_date" class="form-label">{% trans "Дата вылета" %}</label>
-                <input type="date" name="departure_date" class="form-control" id="autoSizingInput" value="{{ data_f.departure_date }}">
-            </div>
-            <div class="col-auto">
-                <label for="arrival_date" class="form-label">{% trans "Дата обратно" %}</label>
-                <input type="date" name="arrival_date" class="form-control" id="autoSizingInput"
-                       placeholder={% trans "Returning" %} value="{{ data_f.arrival_date }}">
-            </div>
-            <div class="col-auto">
-                <label class="form-label" for="SelectPassengers">Пассажиры</label>
-                <select class="form-select" id="SelectPassengers">
-                    <option selected>{% trans "Passenger" %}...</option>
-                    <option value="Adult">{% trans "Adult" %}</option>
-                    <option value="Child">{% trans "Child" %}</option>
-                    <option value="Infant">{% trans "Infant" %}</option>
-                </select>
-            </div>
-            <div class="col-auto">
-                <button type="submit" class="btn btn-primary align-bottom">{% trans "Search" %}</button>
-            </div>
-        </form>
-        {% if data %}
-        <div class="container-md py-2">
-          <h3 class="pb-3">
-              {% trans "Найденные билеты:" %}
-          </h3>
         {% for flight in data %}
-            <div class="p-3 mb-4 bg-light rounded-3">
-                <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
-                    <h5>Авиаперевозчик {{ flight.airline }}</h5>
-                    <p>Цена {{ flight.price }} руб</p>
-                    <ul class="list-inline">
-                        <li class="list-inline-item">{{ flight.departure_at }}</li>
-                    </ul>
-                    <ul class="list-inline">
-                        <li class="list-inline-item">Пункт отправления {{ flight.origin }}</li>
-                        <li class="list-inline-item">Пункт назначения {{ flight.destination }}</li>
-                    </ul>
-                </div>
+          <div class="p-3 mb-4 bg-light rounded-3">
+            <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
+              <h5>Авиаперевозчик {{ flight.airline }}</h5>
+              <p>Цена {{ flight.price }} руб</p>
+              <ul class="list-inline">
+                <li class="list-inline-item">{{ flight.departure_at }}</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item">Пункт отправления {{ flight.origin }}</li>
+                <li class="list-inline-item">Пункт назначения {{ flight.destination }}</li>
+              </ul>
             </div>
+          </div>
         {% endfor %}
-        {% endif %}
-        {% if success and not data %}
-            <p class="warning">Рейсы не найдены. Попробуйте изменить условия поиска.
-            </p>
-        {% endif %}
-        <ul>
-            <a href="{% url 'waysearch:index' %}">
-                {% trans "Back to Homepage" %}
-            </a>
-        </ul>
-    </div>
+      </div>
+    {% endif %}
+    {% if success and not data %}
+      <p class="warning">Рейсы не найдены. Попробуйте изменить условия поиска.
+      </p>
+    {% endif %}
+    <ul>
+      <a href="{% url 'waysearch:index' %}">
+        {% trans "Back to Homepage" %}
+      </a>
+    </ul>
+  </div>
 {% endblock %}

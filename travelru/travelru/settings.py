@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'search_hotels',
     "waysearch",
 ]
 
@@ -146,11 +147,6 @@ STATIC_ROOT = BASE_DIR / "static"
 
 LOCALE_PATHS = [
     "locale",
-]
-
-LANGUAGES = [
-    ("en", _("English")),
-    ("ru", _("Russian")),
 ]
 
 # Default primary key field type

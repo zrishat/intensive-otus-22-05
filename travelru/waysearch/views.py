@@ -24,6 +24,7 @@ def search_avia_page(request):
         url = 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates'
         headers = {'Content-Type': 'application/json'}
         data = request.POST
+        # print(data)
         origin = data['departure_city']
         destination = data['arrival_city']
         departure_at = data['departure_date']
