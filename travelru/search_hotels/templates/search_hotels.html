@@ -73,7 +73,7 @@
                             <li class="list-inline-item">Цена за сутки {{ hotel_data.last_price_info.price_pn }}</li>
                             <li class="list-inline-item">Количество ночей: {{ hotel_data.last_price_info.nights }}</li>
                             <li class="list-inline-item fs-5 fw-bolder text-primary">
-                                Стоимость: {% total_cost hotel_data.last_price_info.price_pn data_info.amount_guests %}</li>
+                                Стоимость: {% total_cost hotel_data.last_price_info.price_pn hotel_data.last_price_info.nights data_info.amount_guests %}</li>
                         </ul>
                     </div>
                 </div>
