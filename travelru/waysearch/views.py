@@ -38,6 +38,7 @@ def search_avia_page(request):
                   'direct': 'true',
                   'token': TOKEN_AVIASALES}
         data_info = requests.get(url, headers=headers, params=params).json()
+        data_info['data_f'] = data
         print(data_info)
     return render(request, 'search_avia.html', data_info)
 
