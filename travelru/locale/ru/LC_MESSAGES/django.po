@@ -22,8 +22,16 @@ msgstr ""
 
 #: travelru/settings.py:134
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 #: travelru/settings.py:135
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
+
+msgid "From"
+msgstr "Откуда"
+
+msgid "To"
+msgstr "Куда"
+
+

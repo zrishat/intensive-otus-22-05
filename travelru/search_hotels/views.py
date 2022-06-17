@@ -8,11 +8,6 @@ from datetime import datetime
 from django.http import HttpResponse
 from django.shortcuts import render
 import requests
-# Create your views here.
-
-
-# def index(request):
-#     return render(request, "search_hotels.html")
 from search_hotels.configuration_cities_hotels import cities_with_id
 from search_hotels.forms import SearchHotelsForm
 from travelru.settings import TOKEN_AVIASALES
