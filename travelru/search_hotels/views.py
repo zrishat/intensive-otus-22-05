@@ -18,7 +18,7 @@ from search_hotels.forms import SearchHotelsForm
 from travelru.settings import TOKEN_AVIASALES
 
 
-def get_id_from_city(city_name: str, cities_list: list[dict]):  # pylint: disable=E1136 # noqa: E501
+def get_id_from_city(city_name: str, cities_list: list):  # pylint: disable=E1136 # noqa: E501
     """
     get_id_from_city
     """
