@@ -18,22 +18,22 @@
       <div class="col-auto">
         <label for="departure_city" class="form-label">{% trans "Откуда" %}</label>
         <input type="text" name="departure_city" class="form-control" id="inputDepartureCity"
-               placeholder={% trans "Москва" %} value="{{ data_f.departure_city }}">
+               placeholder={% trans "Москва" %} value="{{ get_request_params.departure_city }}">
       </div>
       <div class="col-auto">
         <label for="arrival_city" class="form-label">{% trans "Куда" %}</label>
         <input type="text" name="arrival_city" class="form-control" id="inputArrivalCity"
-               placeholder={% trans "Куда" %} value="{{ data_f.arrival_city }}">
+               placeholder={% trans "Куда" %} value="{{ get_request_params.arrival_city }}">
       </div>
       <div class="col-auto">
         <label for="departure_date" class="form-label">{% trans "Дата вылета" %}</label>
         <input type="date" name="departure_date" class="form-control" id="autoSizingInput"
-               value="{{ data_f.departure_date }}">
+               value="{{ get_request_params.departure_date }}">
       </div>
       <div class="col-auto">
         <label for="arrival_date" class="form-label">{% trans "Дата обратно" %}</label>
         <input type="date" name="arrival_date" class="form-control" id="autoSizingInput"
-               placeholder={% trans "Returning" %} value="{{ data_f.arrival_date }}">
+               placeholder={% trans "Returning" %} value="{{ get_request_params.arrival_date }}">
       </div>
       {#      <div class="col-auto">#}
       {#        <label class="form-label" for="SelectPassengers">Пассажиры</label>#}
@@ -48,29 +48,43 @@
         <button type="submit" class="btn btn-primary align-bottom">{% trans "Search" %}</button>
       </div>
     </form>
-    {% if data %}
+    {% if flights %}
       <div class="container-md py-2">
         <h3 class="pb-3">
           {% trans "Найденные билеты:" %}
         </h3>
-        {% for flight in data %}
+        {% for flight in flights %}
           <div class="p-3 mb-4 bg-light rounded-3">
             <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
-              <h5>Авиаперевозчик {{ flight.airline }}</h5>
-              <p>Цена {{ flight.price }} руб</p>
+              <h4>Цена: {{ flight.price }} {{ currency_name_rus }}</h4>
+              <p>Авиаперевозчик {{ flight.airline }}</p>
+              <h5>Туда: </h5>
               <ul class="list-inline">
-                <li class="list-inline-item">{{ flight.departure_at }}</li>
+                <li class="list-inline-item">Пункт отправления: {{ flight.origin_name_rus }} ({{ flight.origin_airport }})</li>
+                <li class="list-inline-item">Пункт назначения: {{ flight.destination_name_rus }} ({{ flight.destination_airport }})</li>
               </ul>
               <ul class="list-inline">
-                <li class="list-inline-item">Пункт отправления {{ flight.origin }}</li>
-                <li class="list-inline-item">Пункт назначения {{ flight.destination }}</li>
+                <li class="list-inline-item">Вылет: {{ flight.departure_up_date_str }} в {{ flight.departure_up_time_str }}</li>
+                <li class="list-inline-item">Посадка: {{ flight.departure_down_date_str }} в {{ flight.departure_down_time_str }}</li>
               </ul>
+
+              {% if flight.return_at %}
+                <h5>Обратно: </h5>
+                  <ul class="list-inline">
+                  <li class="list-inline-item">Пункт отправления: {{ flight.destination_name_rus }} ({{ flight.destination_airport }})</li>
+                  <li class="list-inline-item">Пункт назначения: {{ flight.origin_name_rus }} ({{ flight.origin_airport }})</li>
+                </ul>
+                <ul class="list-inline">
+                  <li class="list-inline-item">Вылет: {{ flight.return_up_date_str }} в {{ flight.return_up_time_str }}</li>
+                  <li class="list-inline-item">Посадка: {{ flight.return_down_date_str }} в {{ flight.return_down_time_str }}</li>
+               </ul>
+              {% endif %}
             </div>
           </div>
         {% endfor %}
       </div>
     {% endif %}
-    {% if success and not data %}
+    {% if success and not flights %}
       <p class="warning">Рейсы не найдены. Попробуйте изменить условия поиска.
       </p>
     {% endif %}
