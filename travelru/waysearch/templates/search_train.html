@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+
+{% block page_title %}
+    Search
+{% endblock %}
+
+
+{% block main_container %}
+
+    <div class="container-md py-2">
+    <h3>Поиск Ж/Д билетов</h3>
+    <ul>
+        <a href="{% url 'waysearch:index' %}">На главную</a>
+    </ul>
+    </div>
+{% endblock %}
