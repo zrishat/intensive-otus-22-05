@@ -3,10 +3,9 @@ views
 """
 import requests
 from django.shortcuts import render
-from waysearch.configuration import IATA
 from travelru.settings import TOKEN_AVIASALES
-
 from waysearch.forms import WaysearchForm
+from waysearch.configuration import IATA
 
 
 def index(request):
@@ -56,7 +55,7 @@ def search_avia_page(request):
                   'token': TOKEN_AVIASALES}
         try:
             data_info = requests.get(url, headers=headers, params=params).json()
-        except Exception:
+        except Exception:  # pylint: disable=broad-except
             search_avia.add_error('departure_city', 'Сервис API недоступен.')
             return render(request, 'search_avia.html', {'form': search_avia})
         data_info['data_f'] = data

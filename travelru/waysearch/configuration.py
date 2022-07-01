@@ -1,7 +1,7 @@
 """
 configuration
 """
-
+# pylint: skip-file
 IATA = [
     {'city_code': 'ЭГТ', 'country_code': 'RU', 'name_translations': {'en': 'Zaliv Kresta'}, 'time_zone': 'Asia/Anadyr',
      'flightable': 'true', 'coordinates': {'lat': 66.35833, 'lon': 179.11}, 'name': 'Залив Креста', 'code': 'ЭГТ',
