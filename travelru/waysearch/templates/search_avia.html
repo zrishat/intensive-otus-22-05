@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-
 {% load i18n %}
+{% load waysearch_tag %}
 
 
 {% block page_title %}
@@ -34,14 +34,14 @@
                 {% for flight in data.data %}
                     <div class="p-3 mb-4 bg-light rounded-3">
                         <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
-                            <p>Авиаперевозчик {{ flight.airline }}</p>
+                            <p>Авиаперевозчик {% airline_translated flight.airline %}</p>
                             <p>Цена: <strong>{{ flight.price }}</strong> руб.</p>
                             <ul class="list-inline">
-                                <li class="list-inline-item">{{ flight.departure_at }}</li>
+                                <li class="list-inline-item">Вылет: {% formatted_depature flight.departure_at %}</li>
                             </ul>
                             <ul class="list-inline">
-                                <li class="list-inline-item">Пункт отправления {{ flight.origin }}</li>
-                                <li class="list-inline-item">Пункт назначения {{ flight.destination }}</li>
+                                <li class="list-inline-item">Пункт отправления: {{ form.departure_city.value }}</li>
+                                <li class="list-inline-item">Пункт назначения: {{ form.arrival_city.value }}</li>
                             </ul>
                         </div>
                     </div>
