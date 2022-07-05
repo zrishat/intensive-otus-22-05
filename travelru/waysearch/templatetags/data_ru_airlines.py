@@ -2,31 +2,31 @@ data_ru_airlines = [
   {
     "name": "Sansa Airlines",
     "code": "RZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sansa Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "G9",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Air Arabia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "OS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Austrian Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Caraibes"
     }
@@ -34,15 +34,15 @@ data_ru_airlines = [
   {
     "name": "Air Tanzania",
     "code": "TC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Tanzania"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QS",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "SmartWings"
     }
@@ -50,23 +50,23 @@ data_ru_airlines = [
   {
     "name": "CemAir",
     "code": "5Z",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "CemAir"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Garuda Indonesia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2P",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "PAL Express"
     }
@@ -74,7 +74,7 @@ data_ru_airlines = [
   {
     "name": "Bemidji Airlines",
     "code": "CH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bemidji Airlines"
     }
@@ -82,39 +82,39 @@ data_ru_airlines = [
   {
     "name": "Nesma Airlines",
     "code": "NA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nesma Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZB",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Monarch Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3E",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Choice One"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Srilankan Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UO",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Hong Kong Express Airways"
     }
@@ -122,7 +122,7 @@ data_ru_airlines = [
   {
     "name": "Волга-Днепр",
     "code": "VI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Volga-Dnepr Airlines"
     }
@@ -130,31 +130,31 @@ data_ru_airlines = [
   {
     "name": "Северсталь",
     "code": "D2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Severstal Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "U3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "As Avies"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Y5",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Golden Myanmar Airlines Public Co., Ltd"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4W",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Warbelow's Air Ventures"
     }
@@ -162,7 +162,7 @@ data_ru_airlines = [
   {
     "name": "Air Tindi",
     "code": "8T",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Tindi"
     }
@@ -170,23 +170,23 @@ data_ru_airlines = [
   {
     "name": "Air Cargo Germany",
     "code": "6U",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Cargo Germany"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "HP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Amapola Flyg AB"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IT",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Tigerair Taiwan"
     }
@@ -194,23 +194,23 @@ data_ru_airlines = [
   {
     "name": "Армения Эйрвейз",
     "code": "ЕП",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Armenia Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "H2",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Sky Airline"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Pakistan International Airlines"
     }
@@ -218,15 +218,15 @@ data_ru_airlines = [
   {
     "name": "Condor",
     "code": "DF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Condor"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Z7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Amaszonas"
     }
@@ -234,23 +234,23 @@ data_ru_airlines = [
   {
     "name": "Air Flamenco",
     "code": "F4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Flamenco"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "JSC Aircompany ATMA"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "X4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Excursion, LLC"
     }
@@ -258,15 +258,15 @@ data_ru_airlines = [
   {
     "name": "FlyCorporate",
     "code": "FC",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "FlyCorporate"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "0Q",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hydro - Quebec"
     }
@@ -274,31 +274,31 @@ data_ru_airlines = [
   {
     "name": "Alaska Seaplane",
     "code": "J5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Alaska Seaplane"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Algerie"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Somon Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "A7",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Air Niamey"
     }
@@ -306,23 +306,23 @@ data_ru_airlines = [
   {
     "name": "Monacair",
     "code": "QM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Monacair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Almasria Universal Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2L",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Helvetic Airways"
     }
@@ -330,23 +330,23 @@ data_ru_airlines = [
   {
     "name": "Комиавиатранс",
     "code": "KO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Komiaviatrans"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Icelandair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "W9",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Wizz Air"
     }
@@ -354,7 +354,7 @@ data_ru_airlines = [
   {
     "name": "Viva Air Colombia",
     "code": "VH",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Viva Air Colombia"
     }
@@ -362,7 +362,7 @@ data_ru_airlines = [
   {
     "name": "easyJet Switzerland",
     "code": "DS",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "easyJet Switzerland"
     }
@@ -370,7 +370,7 @@ data_ru_airlines = [
   {
     "name": "TRIP Linhas Aéreas",
     "code": "T4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TRIP Linhas Aéreas"
     }
@@ -378,15 +378,15 @@ data_ru_airlines = [
   {
     "name": "Южное Небо",
     "code": "IH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Southern Sky"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "V9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Thai Vietjet Air"
     }
@@ -394,15 +394,15 @@ data_ru_airlines = [
   {
     "name": "Oriental Air Bridge",
     "code": "OC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Oriental Air Bridge"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Mesa Airlines"
     }
@@ -410,7 +410,7 @@ data_ru_airlines = [
   {
     "name": "GetJet",
     "code": "GW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "GetJet"
     }
@@ -418,23 +418,23 @@ data_ru_airlines = [
   {
     "name": "Delta Connection",
     "code": "DQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Delta Connection"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1I",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ChallengAir"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "I3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ATA Airlines"
     }
@@ -442,23 +442,23 @@ data_ru_airlines = [
   {
     "name": "Discovery Airways",
     "code": "DO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Discovery Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "IrAero"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ITA Airways"
     }
@@ -466,47 +466,47 @@ data_ru_airlines = [
   {
     "name": "Ижавиа",
     "code": "I8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Izhavia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5D",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aerolitoral S.A. de C.V."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Turkish Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Shenzhen Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Royal Flight"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TEM Enterprises"
     }
@@ -514,15 +514,15 @@ data_ru_airlines = [
   {
     "name": "AVANZA",
     "code": "6V",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "AVANZA"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "HR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hahn Air"
     }
@@ -530,7 +530,7 @@ data_ru_airlines = [
   {
     "name": "AirAsia Japan",
     "code": "DJ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "AirAsia Japan"
     }
@@ -538,7 +538,7 @@ data_ru_airlines = [
   {
     "name": "Aero Nomad Airlines",
     "code": "KA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aero Nomad Airlines"
     }
@@ -546,15 +546,15 @@ data_ru_airlines = [
   {
     "name": "National Airlines",
     "code": "N8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "National Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Korongo Airlines"
     }
@@ -562,47 +562,47 @@ data_ru_airlines = [
   {
     "name": "Premier Airlines",
     "code": "0M",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Premier Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5A",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Alpine Aviation Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Ernest Airline"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VJ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "VietjetAir"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Austral Lineas Aereas"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5W",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Wizz Air"
     }
@@ -610,23 +610,23 @@ data_ru_airlines = [
   {
     "name": "CM Airlines",
     "code": "CC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "CM Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "El Al Israel Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JT",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Lion Air"
     }
@@ -634,15 +634,15 @@ data_ru_airlines = [
   {
     "name": "Corendon Dutch Airlines",
     "code": "CD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Corendon Dutch Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Virgin Atlantic"
     }
@@ -650,7 +650,7 @@ data_ru_airlines = [
   {
     "name": "Alidaunia",
     "code": "D4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Alidaunia"
     }
@@ -658,7 +658,7 @@ data_ru_airlines = [
   {
     "name": "NokScoot",
     "code": "XW",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "NokScoot"
     }
@@ -666,7 +666,7 @@ data_ru_airlines = [
   {
     "name": "St Barth Commuter",
     "code": "PV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "St Barth Commuter"
     }
@@ -674,15 +674,15 @@ data_ru_airlines = [
   {
     "name": "Siam Air",
     "code": "O8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Siam Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Jamaica"
     }
@@ -690,23 +690,23 @@ data_ru_airlines = [
   {
     "name": "RwandAir",
     "code": "WB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "RwandAir"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "HX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hong Kong Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TACA Airlines"
     }
@@ -714,15 +714,15 @@ data_ru_airlines = [
   {
     "name": "TAR Aerolíneas",
     "code": "YQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TAR Aerolíneas"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bahamasair"
     }
@@ -730,39 +730,39 @@ data_ru_airlines = [
   {
     "name": "Skyward Express",
     "code": "OW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Skyward Express"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "F5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aerotranscargo"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Buraq Air Transport (BRQ)"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1M",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "JSC Transport Automated InformationSystems - TAIS"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Transasia Airways"
     }
@@ -770,39 +770,39 @@ data_ru_airlines = [
   {
     "name": "СКОЛ",
     "code": "СД",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SKOL"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Georgian Ltd. dba Air Alliance"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cimber"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "J9",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Jazeera Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9Q",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Caicos Express Airways"
     }
@@ -810,7 +810,7 @@ data_ru_airlines = [
   {
     "name": "Stobart Air",
     "code": "RE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Stobart Air"
     }
@@ -818,15 +818,15 @@ data_ru_airlines = [
   {
     "name": "Martinair",
     "code": "MP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Martinair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IX",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Air India Express"
     }
@@ -834,23 +834,23 @@ data_ru_airlines = [
   {
     "name": "T'way Air",
     "code": "TW",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "T'way Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "D6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Inter Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5Q",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "BQB Lineas Aereas"
     }
@@ -858,79 +858,79 @@ data_ru_airlines = [
   {
     "name": "Cobham Aviation Services Australia",
     "code": "NC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cobham Aviation Services Australia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "K4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ALS Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "6H",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Israir Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Japan Transocean Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "W2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "FlexFlight"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Laparkan Airways, Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Z9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bek Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "VLM Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5T",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Canadian North"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "X3",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "TUI fly"
     }
@@ -938,31 +938,31 @@ data_ru_airlines = [
   {
     "name": "Ibex Airlines",
     "code": "FW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Ibex Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "W3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Arik Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ID",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Batik Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Shanghai Airlines"
     }
@@ -970,7 +970,7 @@ data_ru_airlines = [
   {
     "name": "STP Airways",
     "code": "8F",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "STP Airways"
     }
@@ -978,7 +978,7 @@ data_ru_airlines = [
   {
     "name": "Jetstar Pacific Airlines",
     "code": "BL",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Jetstar Pacific Airlines"
     }
@@ -986,31 +986,31 @@ data_ru_airlines = [
   {
     "name": "Ravn Alaska",
     "code": "7H",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Ravn Alaska"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Royal Brunei"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MJ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "MyWay Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "OM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "MIAT Mongolian Airlines"
     }
@@ -1018,15 +1018,15 @@ data_ru_airlines = [
   {
     "name": "Far Eastern Air Transport",
     "code": "FE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Far Eastern Air Transport"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nippon Cargo Airlines"
     }
@@ -1034,15 +1034,15 @@ data_ru_airlines = [
   {
     "name": "Jiangxi Air",
     "code": "RY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jiangxi Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3S",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Antilles Express"
     }
@@ -1050,7 +1050,7 @@ data_ru_airlines = [
   {
     "name": "ZIPAIR Tokyo",
     "code": "ZG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ZIPAIR Tokyo"
     }
@@ -1058,7 +1058,7 @@ data_ru_airlines = [
   {
     "name": "Bees Airline",
     "code": "7B",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bees Airline"
     }
@@ -1066,15 +1066,15 @@ data_ru_airlines = [
   {
     "name": "Loganair",
     "code": "LM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Loganair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Islena de Inversiones S.A. de C.V.dba Islena Airlines"
     }
@@ -1082,31 +1082,31 @@ data_ru_airlines = [
   {
     "name": "Bul Air",
     "code": "LB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bul Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8A",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Panama Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Thai Express Air Co. Ltd"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "PT Kal Star Aviation"
     }
@@ -1114,7 +1114,7 @@ data_ru_airlines = [
   {
     "name": "Fly540",
     "code": "5H",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Fly540"
     }
@@ -1122,23 +1122,23 @@ data_ru_airlines = [
   {
     "name": "Safair",
     "code": "FA",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Safair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Iran Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "7V",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Federal Air"
     }
@@ -1146,31 +1146,31 @@ data_ru_airlines = [
   {
     "name": "AirExplore",
     "code": "ED",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "AirExplore"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ST",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Germania"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "W1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "World Ticket Ltd"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Villa Air Pvt. Ltd. dba Villa Air"
     }
@@ -1178,39 +1178,39 @@ data_ru_airlines = [
   {
     "name": "Эйр Астана (Air Astana)",
     "code": "KC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Astana"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8K",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "K-Mile Air Co. Ltd"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "HO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Juneyao Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jetstar"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4X",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Mercury Air Cargo, Inc."
     }
@@ -1218,15 +1218,15 @@ data_ru_airlines = [
   {
     "name": "StarFlyer",
     "code": "7G",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "StarFlyer"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Island Air"
     }
@@ -1234,39 +1234,39 @@ data_ru_airlines = [
   {
     "name": "Aero Contractors",
     "code": "NG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aero Contractors"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Tahiti Nui"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Meraj Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "P0",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Proflight Zambia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "S3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Santa Barbara Airlines"
     }
@@ -1274,7 +1274,7 @@ data_ru_airlines = [
   {
     "name": "Starlink Aviation",
     "code": "Q4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Starlink Aviation"
     }
@@ -1282,7 +1282,7 @@ data_ru_airlines = [
   {
     "name": "Газпром авиа",
     "code": "4G",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Gazpromavia"
     }
@@ -1290,7 +1290,7 @@ data_ru_airlines = [
   {
     "name": "Norse Atlantic Airways",
     "code": "N0",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Norse Atlantic Airways"
     }
@@ -1298,15 +1298,15 @@ data_ru_airlines = [
   {
     "name": "DOT LT",
     "code": "R6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "DOT LT"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1V",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Galileo International"
     }
@@ -1314,7 +1314,7 @@ data_ru_airlines = [
   {
     "name": "Taquan Air",
     "code": "K3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Taquan Air"
     }
@@ -1322,7 +1322,7 @@ data_ru_airlines = [
   {
     "name": "Iran Air Tours",
     "code": "B9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Iran Air Tours"
     }
@@ -1330,23 +1330,23 @@ data_ru_airlines = [
   {
     "name": "Chautauqua Airlines",
     "code": "RP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Chautauqua Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SITA - Airlines WorldwideTelecommunications and Information Svcs"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "V8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Iliamna Air Taxi Inc."
     }
@@ -1354,31 +1354,31 @@ data_ru_airlines = [
   {
     "name": "Вим-Авиа",
     "code": "NN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "VIM Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MM",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Peach"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Thai Smile"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Qantas"
     }
@@ -1386,7 +1386,7 @@ data_ru_airlines = [
   {
     "name": "Азербайджанские авиалинии (Azal)",
     "code": "J2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Azerbaijan Airlines"
     }
@@ -1394,7 +1394,7 @@ data_ru_airlines = [
   {
     "name": "Skyway Costa Rica",
     "code": "LC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Skyway Costa Rica"
     }
@@ -1402,7 +1402,7 @@ data_ru_airlines = [
   {
     "name": "TAB - Transportes Aéreos Bolivianos",
     "code": "B1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TAB - Transportes Aéreos Bolivianos"
     }
@@ -1410,7 +1410,7 @@ data_ru_airlines = [
   {
     "name": "ZanAir",
     "code": "B4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ZanAir"
     }
@@ -1418,7 +1418,7 @@ data_ru_airlines = [
   {
     "name": "Air Liaison",
     "code": "Q9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Liaison"
     }
@@ -1426,7 +1426,7 @@ data_ru_airlines = [
   {
     "name": "Tectimes Sudamerica",
     "code": "C1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tectimes Sudamerica"
     }
@@ -1434,55 +1434,55 @@ data_ru_airlines = [
   {
     "name": "Premier Airlines",
     "code": "PRM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Premier Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "DE",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Condor"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WS",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Westjet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PN",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "China West Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Greenland"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "S2",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Jet Lite"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Oman Air"
     }
@@ -1490,23 +1490,23 @@ data_ru_airlines = [
   {
     "name": "Уральские авиалинии",
     "code": "U6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Ural Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Corsica"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Binter Canarias"
     }
@@ -1514,7 +1514,7 @@ data_ru_airlines = [
   {
     "name": "FlyDamas",
     "code": "4J",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "FlyDamas"
     }
@@ -1522,55 +1522,55 @@ data_ru_airlines = [
   {
     "name": "SunExpress Deutschland",
     "code": "XG",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "SunExpress Deutschland"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nouvelair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Uganda Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3H",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Inuit"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "X8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Airmax S.A."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2H",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Thalys International"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4P",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Travel Air"
     }
@@ -1578,7 +1578,7 @@ data_ru_airlines = [
   {
     "name": "Azul Brazilian Airlines",
     "code": "AD",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Azul Brazilian Airlines"
     }
@@ -1586,15 +1586,15 @@ data_ru_airlines = [
   {
     "name": "ASL Airlines France",
     "code": "5O",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ASL Airlines France"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9U",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Moldova"
     }
@@ -1602,23 +1602,23 @@ data_ru_airlines = [
   {
     "name": "ЮВТ Аэро",
     "code": "RT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "UVT Aero"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KK",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Atlas Global Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2F",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Afrinat International Airlines"
     }
@@ -1626,15 +1626,15 @@ data_ru_airlines = [
   {
     "name": "Метроджет",
     "code": "7K",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "MetroJet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9F",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Eurostar"
     }
@@ -1642,7 +1642,7 @@ data_ru_airlines = [
   {
     "name": "Urumqi Air",
     "code": "UQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Urumqi Air"
     }
@@ -1650,15 +1650,15 @@ data_ru_airlines = [
   {
     "name": "Sunrise Airways",
     "code": "S6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sunrise Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aerolineas Argentinas"
     }
@@ -1666,15 +1666,15 @@ data_ru_airlines = [
   {
     "name": "Go!",
     "code": "G8",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Go!"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Silkair"
     }
@@ -1682,23 +1682,23 @@ data_ru_airlines = [
   {
     "name": "Cinnamon Air",
     "code": "C7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cinnamon Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Transport Association of Americad\\b\\a Airlines for America"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1U",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ITA Software Inc."
     }
@@ -1706,7 +1706,7 @@ data_ru_airlines = [
   {
     "name": "DoKaSch",
     "code": "3D",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "DoKaSch"
     }
@@ -1714,47 +1714,47 @@ data_ru_airlines = [
   {
     "name": "Jonika Airlines",
     "code": "JO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jonika Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Druk Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4Q",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Safi Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "XL Airways France"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hebei Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VA",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Virgin Australia"
     }
@@ -1762,15 +1762,15 @@ data_ru_airlines = [
   {
     "name": "Thomson Airways",
     "code": "BY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Thomson Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8B",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Business Air Co Ltd"
     }
@@ -1778,15 +1778,15 @@ data_ru_airlines = [
   {
     "name": "CommutAir",
     "code": "C5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "CommutAir"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "R7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aserca Airlines"
     }
@@ -1794,7 +1794,7 @@ data_ru_airlines = [
   {
     "name": "Kartika Airlines",
     "code": "3Y",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kartika Airlines"
     }
@@ -1802,15 +1802,15 @@ data_ru_airlines = [
   {
     "name": "40-Mile Air",
     "code": "Q5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "40-Mile Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1X",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Fly Branson Travel dba Branson AirExpress"
     }
@@ -1818,31 +1818,31 @@ data_ru_airlines = [
   {
     "name": "Cronos Airlines",
     "code": "C8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cronos Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Royal Jordanian"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "OV",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "SalamAir"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air New Zealand"
     }
@@ -1850,15 +1850,15 @@ data_ru_airlines = [
   {
     "name": "Aerolíneas Sosa",
     "code": "P4",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Aerolíneas Sosa"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Caribbean Airlines"
     }
@@ -1866,31 +1866,31 @@ data_ru_airlines = [
   {
     "name": "Air KBZ",
     "code": "K7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air KBZ"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "6E",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "IndiGo"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9W",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jet Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aeromexico"
     }
@@ -1898,23 +1898,23 @@ data_ru_airlines = [
   {
     "name": "CanJet",
     "code": "C6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "CanJet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "7C",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Jeju Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jet Airways Inc."
     }
@@ -1922,7 +1922,7 @@ data_ru_airlines = [
   {
     "name": "Wamos Air",
     "code": "EB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Wamos Air"
     }
@@ -1930,23 +1930,23 @@ data_ru_airlines = [
   {
     "name": "Азимут",
     "code": "A4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Azimut"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Mobility Command"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Maya Island Air"
     }
@@ -1954,47 +1954,47 @@ data_ru_airlines = [
   {
     "name": "Renegade Air",
     "code": "0R",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Renegade Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "0L",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Lodyssey"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "AHK Air Hong Kong Limited"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9E",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Endeavor Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "X1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Fortune"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Ariana Afghan Airlines"
     }
@@ -2002,15 +2002,15 @@ data_ru_airlines = [
   {
     "name": "Hinterland Aviation",
     "code": "OI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hinterland Aviation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Blue Bird Airways"
     }
@@ -2018,23 +2018,23 @@ data_ru_airlines = [
   {
     "name": "HOP!",
     "code": "YS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "HOP!"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tunisair Express"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FD",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Thai AirAsia"
     }
@@ -2042,7 +2042,7 @@ data_ru_airlines = [
   {
     "name": "Yangtze River Express",
     "code": "Y8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Yangtze River Express"
     }
@@ -2050,23 +2050,23 @@ data_ru_airlines = [
   {
     "name": "Southern Air",
     "code": "9R",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Southern Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4I",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "IHY Izmir Havayollari A.S."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nesma Airlines"
     }
@@ -2074,15 +2074,15 @@ data_ru_airlines = [
   {
     "name": "BRA",
     "code": "TF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "BRA"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "M9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Motor Sich Airlines"
     }
@@ -2090,7 +2090,7 @@ data_ru_airlines = [
   {
     "name": "Zambezi Airlines",
     "code": "ZJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Zambezi Airlines"
     }
@@ -2098,7 +2098,7 @@ data_ru_airlines = [
   {
     "name": "Lynx Aviation",
     "code": "L3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Lynx Aviation"
     }
@@ -2106,15 +2106,15 @@ data_ru_airlines = [
   {
     "name": "Starbow",
     "code": "S9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Starbow"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "US-Bangla Airlines"
     }
@@ -2122,31 +2122,31 @@ data_ru_airlines = [
   {
     "name": "Tayaran Jet",
     "code": "E8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tayaran Jet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FZ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Flydubai"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8P",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Pacific Coastal Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AL",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Malta Air"
     }
@@ -2154,23 +2154,23 @@ data_ru_airlines = [
   {
     "name": "Северный Ветер (Nordwind Airlines)",
     "code": "N4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nordwind Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1Z",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sabre Pacific"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aigle Azur"
     }
@@ -2178,15 +2178,15 @@ data_ru_airlines = [
   {
     "name": "Kharkiv Airlines",
     "code": "KW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kharkiv Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Sunshine Inc."
     }
@@ -2194,15 +2194,15 @@ data_ru_airlines = [
   {
     "name": "Nakina Air Service",
     "code": "T2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nakina Air Service"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "G6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Ghadames Air Transport"
     }
@@ -2210,7 +2210,7 @@ data_ru_airlines = [
   {
     "name": "Loong Air",
     "code": "GJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Loong Air"
     }
@@ -2218,7 +2218,7 @@ data_ru_airlines = [
   {
     "name": "Vistara",
     "code": "UK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Vistara"
     }
@@ -2226,23 +2226,23 @@ data_ru_airlines = [
   {
     "name": "Sky Express (Скай Экспресс)",
     "code": "GQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sky Express"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BV",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Blue Panorama Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9T",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ACT Havayollari A.S."
     }
@@ -2250,7 +2250,7 @@ data_ru_airlines = [
   {
     "name": "Republic Airlines",
     "code": "YX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Republic Airlines"
     }
@@ -2258,7 +2258,7 @@ data_ru_airlines = [
   {
     "name": "SkyWork Airlines",
     "code": "SX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SkyWork Airlines"
     }
@@ -2266,71 +2266,71 @@ data_ru_airlines = [
   {
     "name": "NAM Air",
     "code": "IN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "NAM Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "S5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Shuttle America"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "All Nippon Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "White Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2V",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Amtrak"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "B8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Eritrean Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Vanuatu"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "A2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Animawings"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Buzz"
     }
@@ -2338,7 +2338,7 @@ data_ru_airlines = [
   {
     "name": "Fly CamInter",
     "code": "EF",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Fly CamInter"
     }
@@ -2346,7 +2346,7 @@ data_ru_airlines = [
   {
     "name": "Compass Airlines",
     "code": "CP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Compass Airlines"
     }
@@ -2354,7 +2354,7 @@ data_ru_airlines = [
   {
     "name": "Air Côte d'Ivoire",
     "code": "HF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Côte d'Ivoire"
     }
@@ -2362,7 +2362,7 @@ data_ru_airlines = [
   {
     "name": "Papillon Airways",
     "code": "HI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Papillon Airways"
     }
@@ -2370,7 +2370,7 @@ data_ru_airlines = [
   {
     "name": "SUN-AIR",
     "code": "ZU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SUN-AIR"
     }
@@ -2378,7 +2378,7 @@ data_ru_airlines = [
   {
     "name": "Air East",
     "code": "ER",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air East"
     }
@@ -2386,7 +2386,7 @@ data_ru_airlines = [
   {
     "name": "Tailwind Airlines",
     "code": "TI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tailwind Airlines"
     }
@@ -2394,7 +2394,7 @@ data_ru_airlines = [
   {
     "name": "Hi Air",
     "code": "4H",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hi Air"
     }
@@ -2402,23 +2402,23 @@ data_ru_airlines = [
   {
     "name": "Трансаэро",
     "code": "UN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Transaero Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TAP Portugal"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "W6",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Wizz Air"
     }
@@ -2426,23 +2426,23 @@ data_ru_airlines = [
   {
     "name": "Niger Airlines",
     "code": "6N",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Niger Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "D0",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "DHL Air Limited"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1K",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sutra Inc."
     }
@@ -2450,23 +2450,23 @@ data_ru_airlines = [
   {
     "name": "Atlasjet Ukraine",
     "code": "UH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Atlasjet Ukraine"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Atlantis European Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "I9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Italy"
     }
@@ -2474,7 +2474,7 @@ data_ru_airlines = [
   {
     "name": "Fuzhou Airlines",
     "code": "FU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Fuzhou Airlines"
     }
@@ -2482,31 +2482,31 @@ data_ru_airlines = [
   {
     "name": "Air Timor",
     "code": "6C",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Timor"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Mauritius"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bearskin Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "K2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Eurolot"
     }
@@ -2514,23 +2514,23 @@ data_ru_airlines = [
   {
     "name": "Windrose Airlines",
     "code": "7W",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Windrose Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Dolomiti"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9V",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Avior Airlines"
     }
@@ -2538,23 +2538,23 @@ data_ru_airlines = [
   {
     "name": "Afghan Jet International",
     "code": "HN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Afghan Jet International"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Armenia Aircompany"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Swoop"
     }
@@ -2562,47 +2562,47 @@ data_ru_airlines = [
   {
     "name": "Thomas Cook Airlines Belgium",
     "code": "HQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Thomas Cook Airlines Belgium"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "U7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Uganda"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Okay Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2I",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Star Peru"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Solomon Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Chalair Aviation"
     }
@@ -2610,15 +2610,15 @@ data_ru_airlines = [
   {
     "name": "Thomas Cook Airlines",
     "code": "MT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Thomas Cook Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Q3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Anguilla Air Services, Ltd"
     }
@@ -2626,7 +2626,7 @@ data_ru_airlines = [
   {
     "name": "La Compagnie",
     "code": "B0",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "La Compagnie"
     }
@@ -2634,23 +2634,23 @@ data_ru_airlines = [
   {
     "name": "Fuji Dream Airlines",
     "code": "JH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Fuji Dream Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Airlines PNG"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "R1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Zapways, Inc."
     }
@@ -2658,15 +2658,15 @@ data_ru_airlines = [
   {
     "name": "TIK Systems",
     "code": "T1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TIK Systems"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Eva Air"
     }
@@ -2674,7 +2674,7 @@ data_ru_airlines = [
   {
     "name": "Uzbekistan Airways Express",
     "code": "0H",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Uzbekistan Airways Express"
     }
@@ -2682,15 +2682,15 @@ data_ru_airlines = [
   {
     "name": "Глобус",
     "code": "GH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Globus Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "N2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Trans-Mediterranean Airways"
     }
@@ -2698,55 +2698,55 @@ data_ru_airlines = [
   {
     "name": "Air Iceland",
     "code": "NY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Iceland"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "F7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "iFly Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "7E",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sylt Air GmbH"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2M",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Moldavian Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4F",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air City"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "HM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Seychelles"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Bishkek"
     }
@@ -2754,55 +2754,55 @@ data_ru_airlines = [
   {
     "name": "Sunday Express",
     "code": "0S",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sunday Express"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "K1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Topas Co. Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9N",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tropic Air Limited"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Zimbabwe"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ES",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "DHL Aviation EEMEA B.S.C.(c)"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Caledonie"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tianjin Airlines"
     }
@@ -2810,7 +2810,7 @@ data_ru_airlines = [
   {
     "name": "Asia Atlantic Airlines",
     "code": "HB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Asia Atlantic Airlines"
     }
@@ -2818,7 +2818,7 @@ data_ru_airlines = [
   {
     "name": "Добролет",
     "code": "QD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Dobrolet"
     }
@@ -2826,79 +2826,79 @@ data_ru_airlines = [
   {
     "name": "Vanilla Air",
     "code": "JW",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Vanilla Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3Z",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Travel Service Polska Sp. z.o.o."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Heli Air Monaco"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Titan Airways Limited"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Biman Bangladesh Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "D7",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "AirAsia X"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Wizz Air Ukraine"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Nostrum"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "L7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Linea Aerea Carguera de Colombia S.A."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "O2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Linear Air"
     }
@@ -2906,15 +2906,15 @@ data_ru_airlines = [
   {
     "name": "Small Planet Airlines",
     "code": "P7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Small Planet Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "HG",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Niki"
     }
@@ -2922,31 +2922,31 @@ data_ru_airlines = [
   {
     "name": "Air Indus",
     "code": "I6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Indus"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bangkok Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "N6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nomad Aviation (PTY) Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Quikjet Cargo Airlines Pvt. Ltd"
     }
@@ -2954,7 +2954,7 @@ data_ru_airlines = [
   {
     "name": "Eagle Atlantic Airlines",
     "code": "E2",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Eagle Atlantic Airlines"
     }
@@ -2962,39 +2962,39 @@ data_ru_airlines = [
   {
     "name": "Orbest",
     "code": "6O",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Orbest"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Etihad Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tarom"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "V7",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Volotea"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Wisconsin Airlines Corporation(AWAC)"
     }
@@ -3002,23 +3002,23 @@ data_ru_airlines = [
   {
     "name": "Владивосток Авиа",
     "code": "XF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Vladivostok Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9B",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "AccesRail"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "V0",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Conviasa"
     }
@@ -3026,15 +3026,15 @@ data_ru_airlines = [
   {
     "name": "Pascan Aviation",
     "code": "P6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Pascan Aviation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "L9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Lumiwings"
     }
@@ -3042,31 +3042,31 @@ data_ru_airlines = [
   {
     "name": "Norwegian Air Shuttle",
     "code": "DY",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Norwegian Air Shuttle"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Adria Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air One"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4V",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Lignes Aeriennes Congolaises"
     }
@@ -3074,95 +3074,95 @@ data_ru_airlines = [
   {
     "name": "Angara Airlines",
     "code": "2G",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Angara Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "U5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Karinou Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Asian Wings Airways Limited"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VZ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Thai Vietjet Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Q7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SkyBahamas Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "A6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Alps Aviation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "China Eastern Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Belle Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "BMI Regional"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "P5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aerorepublica"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Finnair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Manx2"
     }
@@ -3170,23 +3170,23 @@ data_ru_airlines = [
   {
     "name": "9 Air",
     "code": "AQ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "9 Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Perimeter Aviation Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Penair"
     }
@@ -3194,31 +3194,31 @@ data_ru_airlines = [
   {
     "name": "LATAM Paraguay",
     "code": "PZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LATAM Paraguay"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "China United Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QZ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Indonesia AirAsia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LJ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Jin Air"
     }
@@ -3226,15 +3226,15 @@ data_ru_airlines = [
   {
     "name": "Lao Skyway",
     "code": "LK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Lao Skyway"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Vuelos Economicos Centroamericanos"
     }
@@ -3242,7 +3242,7 @@ data_ru_airlines = [
   {
     "name": "FlyArystan",
     "code": "0Y",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "FlyArystan"
     }
@@ -3250,7 +3250,7 @@ data_ru_airlines = [
   {
     "name": "TurboJET",
     "code": "8S",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TurboJET"
     }
@@ -3258,7 +3258,7 @@ data_ru_airlines = [
   {
     "name": "MNG Airlines",
     "code": "MB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "MNG Airlines"
     }
@@ -3266,23 +3266,23 @@ data_ru_airlines = [
   {
     "name": "TUIfly Nordic",
     "code": "6B",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TUIfly Nordic"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2Q",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Cargo Carriers, LLC."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "A8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aerolink Uganda Limited"
     }
@@ -3290,7 +3290,7 @@ data_ru_airlines = [
   {
     "name": "Gol Transportes Aéreos",
     "code": "G3",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Gol Transportes Aéreos"
     }
@@ -3298,7 +3298,7 @@ data_ru_airlines = [
   {
     "name": "Thai Lion Air",
     "code": "SL",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Thai Lion Air"
     }
@@ -3306,39 +3306,39 @@ data_ru_airlines = [
   {
     "name": "Himalaya Airlines",
     "code": "H9",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Himalaya Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8R",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sol Lineas Aereas"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "PT.Trigana Air Service"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Korean Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4A",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aero Transporte S.A."
     }
@@ -3346,23 +3346,23 @@ data_ru_airlines = [
   {
     "name": "Jetstar Japan",
     "code": "GK",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Jetstar Japan"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XY",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Nas Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4O",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Interjet"
     }
@@ -3370,47 +3370,47 @@ data_ru_airlines = [
   {
     "name": "Ак Барс Аэро",
     "code": "2B",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Ak Bars Aero"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Y4",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Volaris"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Skywings Asia Airlines Co., Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "L2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Lynden Air Cargo, LLC"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9S",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Southern Air Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Libyan Airlines"
     }
@@ -3418,55 +3418,55 @@ data_ru_airlines = [
   {
     "name": "Qanot Sharq",
     "code": "HH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Qanot Sharq"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1T",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "PT Aerosystems Indonesia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "J6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jet Ops"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2W",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Welcome Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "NAYSA"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "DX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Danish Air Transport"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kyrgyz Air"
     }
@@ -3474,15 +3474,15 @@ data_ru_airlines = [
   {
     "name": "LATAM Chile",
     "code": "LA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LATAM Chile"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air China"
     }
@@ -3490,31 +3490,31 @@ data_ru_airlines = [
   {
     "name": "Trenitalia",
     "code": "7T",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Trenitalia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "D5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "DHL Aero Expreso S.A."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2E",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Smokey Bay Air, Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ABX Air, Inc."
     }
@@ -3522,7 +3522,7 @@ data_ru_airlines = [
   {
     "name": "Insel Air",
     "code": "8I",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Insel Air"
     }
@@ -3530,7 +3530,7 @@ data_ru_airlines = [
   {
     "name": "Regional Jet OÜ",
     "code": "EE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Regional Jet OÜ"
     }
@@ -3538,7 +3538,7 @@ data_ru_airlines = [
   {
     "name": "ANA Wings",
     "code": "EH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ANA Wings"
     }
@@ -3546,7 +3546,7 @@ data_ru_airlines = [
   {
     "name": "Ямал",
     "code": "YC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Yamal Airlines"
     }
@@ -3554,15 +3554,15 @@ data_ru_airlines = [
   {
     "name": "Myanmar National Airlines",
     "code": "UB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Myanmar National Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "HA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hawaiian Airlines"
     }
@@ -3570,7 +3570,7 @@ data_ru_airlines = [
   {
     "name": "Emetebe S.A.",
     "code": "0A",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Emetebe S.A."
     }
@@ -3578,15 +3578,15 @@ data_ru_airlines = [
   {
     "name": "Wings Air",
     "code": "IW",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Wings Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "DB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Brit Air"
     }
@@ -3594,7 +3594,7 @@ data_ru_airlines = [
   {
     "name": "French Blue",
     "code": "BF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "French Blue"
     }
@@ -3602,47 +3602,47 @@ data_ru_airlines = [
   {
     "name": "Skypower Express Airways",
     "code": "NB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Skypower Express Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3W",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Malawian Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LAM Mozambique Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "DT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TAAG Angola Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tassili Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Qatar Airways"
     }
@@ -3650,31 +3650,31 @@ data_ru_airlines = [
   {
     "name": "IBC Airways",
     "code": "II",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "IBC Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9K",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cape Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Raya Airways Sdn. Bhd.dba Raya Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4E",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Stabo Air Limited"
     }
@@ -3682,7 +3682,7 @@ data_ru_airlines = [
   {
     "name": "Air Do",
     "code": "HD",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Air Do"
     }
@@ -3690,7 +3690,7 @@ data_ru_airlines = [
   {
     "name": "Tus Airways",
     "code": "U8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tus Airways"
     }
@@ -3698,23 +3698,23 @@ data_ru_airlines = [
   {
     "name": "Aero-Charter Ukraine",
     "code": "DW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aero-Charter Ukraine"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "M7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Marsland Aviation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "U2",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "EasyJet"
     }
@@ -3722,15 +3722,15 @@ data_ru_airlines = [
   {
     "name": "Chongqing Airlines",
     "code": "OQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Chongqing Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Blue1"
     }
@@ -3738,15 +3738,15 @@ data_ru_airlines = [
   {
     "name": "9G Rail",
     "code": "9G",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "9G Rail"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3X",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Premier Trans Aire Inc."
     }
@@ -3754,15 +3754,15 @@ data_ru_airlines = [
   {
     "name": "Travel Service",
     "code": "7O",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Travel Service"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "R5",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Jordan Aviation"
     }
@@ -3770,15 +3770,15 @@ data_ru_airlines = [
   {
     "name": "Skippers Aviation",
     "code": "HK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Skippers Aviation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "AIR CAIRO"
     }
@@ -3786,7 +3786,7 @@ data_ru_airlines = [
   {
     "name": "Canaryfly",
     "code": "PM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Canaryfly"
     }
@@ -3794,7 +3794,7 @@ data_ru_airlines = [
   {
     "name": "Travel Service Slovensko",
     "code": "6D",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Travel Service Slovensko"
     }
@@ -3802,15 +3802,15 @@ data_ru_airlines = [
   {
     "name": "Hellas Jet",
     "code": "HJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hellas Jet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Philippine Airlines"
     }
@@ -3818,15 +3818,15 @@ data_ru_airlines = [
   {
     "name": "S7 Airlines",
     "code": "S7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "S7 Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JE",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Mango"
     }
@@ -3834,15 +3834,15 @@ data_ru_airlines = [
   {
     "name": "Regent Airways",
     "code": "RX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Regent Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "K6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cambodia Angkor Air"
     }
@@ -3850,15 +3850,15 @@ data_ru_airlines = [
   {
     "name": "TUI Airlines Netherlands",
     "code": "OR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TUI Airlines Netherlands"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BE",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Flybe"
     }
@@ -3866,7 +3866,7 @@ data_ru_airlines = [
   {
     "name": "Alliance Airlines",
     "code": "QQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Alliance Airlines"
     }
@@ -3874,7 +3874,7 @@ data_ru_airlines = [
   {
     "name": "Россия",
     "code": "FV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Rossiya Airlines"
     }
@@ -3882,7 +3882,7 @@ data_ru_airlines = [
   {
     "name": "Air Excel",
     "code": "0X",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Excel"
     }
@@ -3890,7 +3890,7 @@ data_ru_airlines = [
   {
     "name": "Узбекские авиалинии (Uzbekistan Airways)",
     "code": "HY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Uzbekistan Airways"
     }
@@ -3898,15 +3898,15 @@ data_ru_airlines = [
   {
     "name": "Farelogix Qatar Airways",
     "code": "F1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Farelogix Qatar Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4S",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Solar Cargo, C.A."
     }
@@ -3914,7 +3914,7 @@ data_ru_airlines = [
   {
     "name": "Coastal Travels",
     "code": "CQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Coastal Travels"
     }
@@ -3922,7 +3922,7 @@ data_ru_airlines = [
   {
     "name": "Aztec Airways",
     "code": "AJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aztec Airways"
     }
@@ -3930,31 +3930,31 @@ data_ru_airlines = [
   {
     "name": "Ред Вингс",
     "code": "WZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Red Wings Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "China Postal Airlines Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "African Express Airways (K)  Limited"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Malta"
     }
@@ -3962,7 +3962,7 @@ data_ru_airlines = [
   {
     "name": "LAN Chile Cargo",
     "code": "UC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LAN Chile Cargo"
     }
@@ -3970,7 +3970,7 @@ data_ru_airlines = [
   {
     "name": "Air Mekong",
     "code": "P8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Mekong"
     }
@@ -3978,39 +3978,39 @@ data_ru_airlines = [
   {
     "name": "Jet Aviation Business",
     "code": "PP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jet Aviation Business"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Transat"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Continental Micronesia, Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Special Ground Handling Service -XH"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5B",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bassaka Air Limited"
     }
@@ -4018,15 +4018,15 @@ data_ru_airlines = [
   {
     "name": "Сапсан",
     "code": "R0",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Russian Railways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2D",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Eastern Airlines, LLC"
     }
@@ -4034,15 +4034,15 @@ data_ru_airlines = [
   {
     "name": "Boliviana de Aviación",
     "code": "OB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Boliviana de Aviación"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Virgin Australia"
     }
@@ -4050,31 +4050,31 @@ data_ru_airlines = [
   {
     "name": "Sky-Taxi",
     "code": "TE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sky-Taxi"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4B",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Boutique Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8D",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "FITS Aviation (Pvt) Ltd"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "DD",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Nok Air"
     }
@@ -4082,23 +4082,23 @@ data_ru_airlines = [
   {
     "name": "Jatayu Airlines",
     "code": "JZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jatayu Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "China Southern Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2U",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sun d'Or International Airlines"
     }
@@ -4106,7 +4106,7 @@ data_ru_airlines = [
   {
     "name": "Ryan Air Service",
     "code": "7S",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Ryan Air Service"
     }
@@ -4114,31 +4114,31 @@ data_ru_airlines = [
   {
     "name": "Armenia Airways",
     "code": "6A",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Armenia Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "N7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nordic Regional Airline"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4L",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Palau National Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Koryo"
     }
@@ -4146,47 +4146,47 @@ data_ru_airlines = [
   {
     "name": "Kyrgyz Trans Avia",
     "code": "6K",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kyrgyz Trans Avia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Uni-Top Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Grant Aviation, Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sky Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "HC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aero-Tropics Air Services"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "People's Viennaline"
     }
@@ -4194,15 +4194,15 @@ data_ru_airlines = [
   {
     "name": "Azur Air Украина",
     "code": "QU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Azur Air Ukraine"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Niugini"
     }
@@ -4210,23 +4210,23 @@ data_ru_airlines = [
   {
     "name": "Asian Express Airline",
     "code": "KV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Asian Express Airline"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "F8",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Flair Airlines Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EW",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Eurowings"
     }
@@ -4234,23 +4234,23 @@ data_ru_airlines = [
   {
     "name": "Avianca Costa Rica",
     "code": "LR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Avianca Costa Rica"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bamboo Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sundair"
     }
@@ -4258,23 +4258,23 @@ data_ru_airlines = [
   {
     "name": "AirBridgeCargo",
     "code": "RU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "AirBridgeCargo"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9A",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Eaglexpress Air Charter Sdn.Bhd.dbaEaglexpress Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IG",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Air Italy"
     }
@@ -4282,7 +4282,7 @@ data_ru_airlines = [
   {
     "name": "MHS Aviation",
     "code": "M2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "MHS Aviation"
     }
@@ -4290,7 +4290,7 @@ data_ru_airlines = [
   {
     "name": "Jazz",
     "code": "QK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jazz"
     }
@@ -4298,7 +4298,7 @@ data_ru_airlines = [
   {
     "name": "Air Arabia Abu Dhabi",
     "code": "3L",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Arabia Abu Dhabi"
     }
@@ -4306,7 +4306,7 @@ data_ru_airlines = [
   {
     "name": "Chang An Airlines",
     "code": "9H",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Chang An Airlines"
     }
@@ -4314,7 +4314,7 @@ data_ru_airlines = [
   {
     "name": "Jet Express",
     "code": "G2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jet Express"
     }
@@ -4322,7 +4322,7 @@ data_ru_airlines = [
   {
     "name": "Regional Air Services",
     "code": "8N",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Regional Air Services"
     }
@@ -4330,7 +4330,7 @@ data_ru_airlines = [
   {
     "name": "Туркменские авиалинии",
     "code": "T5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Turkmenistan Airlines"
     }
@@ -4338,23 +4338,23 @@ data_ru_airlines = [
   {
     "name": "Valuair",
     "code": "VF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Valuair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kam Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4Y",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Airbus Transport International"
     }
@@ -4362,23 +4362,23 @@ data_ru_airlines = [
   {
     "name": "Nolinor Aviation",
     "code": "N5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nolinor Aviation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1J",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Axess International Network Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Syrian Arab Airlines"
     }
@@ -4386,7 +4386,7 @@ data_ru_airlines = [
   {
     "name": "Оренбургские авиалинии",
     "code": "R2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Orenair"
     }
@@ -4394,15 +4394,15 @@ data_ru_airlines = [
   {
     "name": "Sun Air Express",
     "code": "6G",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sun Air Express"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "7A",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Jet"
     }
@@ -4410,47 +4410,47 @@ data_ru_airlines = [
   {
     "name": "Air Mandalay",
     "code": "6T",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Mandalay"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1R",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bird Information Systems Private Limited"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9X",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Executive Express Aviation LLC dbaSouthern Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Major Airline"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AK",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "AirAsia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "BA Cityflyer"
     }
@@ -4458,23 +4458,23 @@ data_ru_airlines = [
   {
     "name": "Sharp Airlines",
     "code": "SH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sharp Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Silk Way Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NK",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Spirit Airlines"
     }
@@ -4482,31 +4482,31 @@ data_ru_airlines = [
   {
     "name": "Qingdao Airlines",
     "code": "QW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Qingdao Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Yan Air Ltd"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "8165343 Canada Inc. dba Air Canada rouge"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Department of National Defence"
     }
@@ -4514,15 +4514,15 @@ data_ru_airlines = [
   {
     "name": "West Link Airlines",
     "code": "9L",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "West Link Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "L6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Mauritania Airlines International"
     }
@@ -4530,7 +4530,7 @@ data_ru_airlines = [
   {
     "name": "RUS Aviation",
     "code": "R4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "RUS Aviation"
     }
@@ -4538,23 +4538,23 @@ data_ru_airlines = [
   {
     "name": "Aviateca",
     "code": "GU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aviateca"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "A9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Georgian Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "A5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "HOP!"
     }
@@ -4562,71 +4562,71 @@ data_ru_airlines = [
   {
     "name": "Mann Yadanarpon Airlines",
     "code": "7Y",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Mann Yadanarpon Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "DG",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Tigerair Philippines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Atlantic Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "E5",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Air Arabia Egypt"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Seaborne Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "DV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SCAT"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Corendon Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Swiftair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "O9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "NOVA Airlines"
     }
@@ -4634,55 +4634,55 @@ data_ru_airlines = [
   {
     "name": "HiSky",
     "code": "H4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "HiSky"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "I2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Iberia Express"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "P3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Passaredo Linhas Aereas"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "0J",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Premium Jet AG"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ME",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Middle East Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nile Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "FedEx"
     }
@@ -4690,23 +4690,23 @@ data_ru_airlines = [
   {
     "name": "Pan American World Airways",
     "code": "7N",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Pan American World Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "United Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Botswana"
     }
@@ -4714,7 +4714,7 @@ data_ru_airlines = [
   {
     "name": "LATAM Argentina",
     "code": "4M",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LATAM Argentina"
     }
@@ -4722,31 +4722,31 @@ data_ru_airlines = [
   {
     "name": "Czech Airlines",
     "code": "OK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Czech Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Corsair International"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Namibia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "L8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Afric Aviation"
     }
@@ -4754,7 +4754,7 @@ data_ru_airlines = [
   {
     "name": "Lufthansa Systems",
     "code": "S1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Lufthansa Systems"
     }
@@ -4762,23 +4762,23 @@ data_ru_airlines = [
   {
     "name": "Skytrans Airlines",
     "code": "Q6",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Skytrans Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hunnu Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Beijing Capital Airlines"
     }
@@ -4786,7 +4786,7 @@ data_ru_airlines = [
   {
     "name": "Aerogaviota",
     "code": "KG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aerogaviota"
     }
@@ -4794,7 +4794,7 @@ data_ru_airlines = [
   {
     "name": "Trans States Airlines",
     "code": "AX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Trans States Airlines"
     }
@@ -4802,15 +4802,15 @@ data_ru_airlines = [
   {
     "name": "LGW Luftfahrtgesellschaft Walter",
     "code": "HE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LGW Luftfahrtgesellschaft Walter"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9M",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Central Mountain Air"
     }
@@ -4818,23 +4818,23 @@ data_ru_airlines = [
   {
     "name": "Connellan air disaster",
     "code": "RF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Connellan air disaster"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "V4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Vieques Air Link"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Auric Air Services Limited"
     }
@@ -4842,7 +4842,7 @@ data_ru_airlines = [
   {
     "name": "Myanmar Airways International",
     "code": "8M",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Myanmar Airways International"
     }
@@ -4850,55 +4850,55 @@ data_ru_airlines = [
   {
     "name": "Polar Airlines",
     "code": "PI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Polar Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Emirates"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Lufthansa CityLine"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "OT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aeropelican Air Services"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Wideroe"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "7F",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "First Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Grand Canyon Airlines, Inc.dba Scenic Airlines"
     }
@@ -4906,31 +4906,31 @@ data_ru_airlines = [
   {
     "name": "Nova Airways",
     "code": "N9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nova Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2S",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kinda Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Z3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "PM Air LLC"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Apsara International Air"
     }
@@ -4938,15 +4938,15 @@ data_ru_airlines = [
   {
     "name": "Polynesian Airlines",
     "code": "OL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Polynesian Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Fiji Airways"
     }
@@ -4954,7 +4954,7 @@ data_ru_airlines = [
   {
     "name": "Air Lituanica",
     "code": "LT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Lituanica"
     }
@@ -4962,15 +4962,15 @@ data_ru_airlines = [
   {
     "name": "Avianca Ecuador",
     "code": "2K",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Avianca Ecuador"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bulgaria Air"
     }
@@ -4978,7 +4978,7 @@ data_ru_airlines = [
   {
     "name": "Белавиа",
     "code": "B2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Belavia"
     }
@@ -4986,7 +4986,7 @@ data_ru_airlines = [
   {
     "name": "Trade Air",
     "code": "C3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Trade Air"
     }
@@ -4994,55 +4994,55 @@ data_ru_airlines = [
   {
     "name": "Air Incheon",
     "code": "KJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Incheon"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "F9",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Frontier Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "J3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Northwestern Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Liat"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "IATA - Clearing HouseInternational Air Transport Association"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Compagnie Africaine d'Aviation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Miami Air Lease, Inc."
     }
@@ -5050,7 +5050,7 @@ data_ru_airlines = [
   {
     "name": "Antrak Air",
     "code": "O4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Antrak Air"
     }
@@ -5058,7 +5058,7 @@ data_ru_airlines = [
   {
     "name": "Aerovías DAP",
     "code": "V5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aerovías DAP"
     }
@@ -5066,15 +5066,15 @@ data_ru_airlines = [
   {
     "name": "Novoair",
     "code": "VQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Novoair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ML",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Mediterranee"
     }
@@ -5082,15 +5082,15 @@ data_ru_airlines = [
   {
     "name": "Everts Air Cargo",
     "code": "5V",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Everts Air Cargo"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Malaysia Airlines"
     }
@@ -5098,7 +5098,7 @@ data_ru_airlines = [
   {
     "name": "Buta Airways",
     "code": "55",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Buta Airways"
     }
@@ -5106,39 +5106,39 @@ data_ru_airlines = [
   {
     "name": "Sqiva Sistem",
     "code": "Q1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sqiva Sistem"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "OY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Andes Lineas Aereas"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5M",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hi Fly Ltd"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Merpati Nusantara Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5S",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Global Aviation Services Group"
     }
@@ -5146,15 +5146,15 @@ data_ru_airlines = [
   {
     "name": "Аэрофлот",
     "code": "SU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aeroflot"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "US",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "US Airways"
     }
@@ -5162,15 +5162,15 @@ data_ru_airlines = [
   {
     "name": "Helijet",
     "code": "JB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Helijet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5C",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nature Air"
     }
@@ -5178,15 +5178,15 @@ data_ru_airlines = [
   {
     "name": "MAYAir",
     "code": "7M",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "MAYAir"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LS",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Jet2.com"
     }
@@ -5194,47 +5194,47 @@ data_ru_airlines = [
   {
     "name": "Itek Air",
     "code": "GI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Itek Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bahrain Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Horizon Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Thai Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "F0",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Fly Jordan"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "OpenSkies"
     }
@@ -5242,15 +5242,15 @@ data_ru_airlines = [
   {
     "name": "Tandem Aero",
     "code": "TQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tandem Aero"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Empire Airlines"
     }
@@ -5258,55 +5258,55 @@ data_ru_airlines = [
   {
     "name": "SkyWest Airlines",
     "code": "OO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SkyWest Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Precision Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5X",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "UPS"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "JSC Kazaviaspas"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VY",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Vueling"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Macau"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "EuroAtlantic Airways S.A."
     }
@@ -5314,23 +5314,23 @@ data_ru_airlines = [
   {
     "name": "Аврора",
     "code": "HZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aurora"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Iran Aseman Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Vietnam Airlines"
     }
@@ -5338,7 +5338,7 @@ data_ru_airlines = [
   {
     "name": "AirAsia Zest",
     "code": "Z2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "AirAsia Zest"
     }
@@ -5346,7 +5346,7 @@ data_ru_airlines = [
   {
     "name": "Air Panama",
     "code": "7P",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Panama"
     }
@@ -5354,31 +5354,31 @@ data_ru_airlines = [
   {
     "name": "Elite Airways",
     "code": "7Q",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Elite Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tyrolean Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ULS Airlines Cargo"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Canada"
     }
@@ -5386,47 +5386,47 @@ data_ru_airlines = [
   {
     "name": "Southern Air Charter",
     "code": "PL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Southern Air Charter"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Scandinavian Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZM",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Air Manas"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "PT Republic Express Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Calm Air International"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Winair"
     }
@@ -5434,15 +5434,15 @@ data_ru_airlines = [
   {
     "name": "Ukraine International airlines",
     "code": "PS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "UIA"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1L",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "CitizenPlane"
     }
@@ -5450,15 +5450,15 @@ data_ru_airlines = [
   {
     "name": "Transportes Aéreos Regionales",
     "code": "5U",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Transportes Aéreos Regionales"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SY",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Sun Country Airlines"
     }
@@ -5466,15 +5466,15 @@ data_ru_airlines = [
   {
     "name": "Aruba Airlines",
     "code": "AG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aruba Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8U",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Afriqiyah Airways"
     }
@@ -5482,23 +5482,23 @@ data_ru_airlines = [
   {
     "name": "Sriwijaya Air",
     "code": "SJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sriwijaya Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2A",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Deutsche Bahn AG"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ТФ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Avia Traffic Company"
     }
@@ -5506,31 +5506,31 @@ data_ru_airlines = [
   {
     "name": "Aerolíneas Mas",
     "code": "N3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aerolíneas Mas"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2O",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Redemption Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cathay Pacific"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Brindabella Airlines"
     }
@@ -5538,39 +5538,39 @@ data_ru_airlines = [
   {
     "name": "French Armed Forces",
     "code": "RD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "French Armed Forces"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aeronautical Telecommunications Ltd.(AEROTEL)"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VX",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Virgin America "
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Level"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Saint Pierre"
     }
@@ -5578,15 +5578,15 @@ data_ru_airlines = [
   {
     "name": "Malindo Air",
     "code": "OD",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Malindo Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ARINC(Aeronautical Radio, Inc.)"
     }
@@ -5594,15 +5594,15 @@ data_ru_airlines = [
   {
     "name": "Viva Air",
     "code": "VV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Viva Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2R",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "VIA Rail Canada Inc."
     }
@@ -5610,7 +5610,7 @@ data_ru_airlines = [
   {
     "name": "Olympic Air",
     "code": "OA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Olympic Air"
     }
@@ -5618,7 +5618,7 @@ data_ru_airlines = [
   {
     "name": "FlyOne Armenia",
     "code": "3F",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "FlyOne"
     }
@@ -5626,7 +5626,7 @@ data_ru_airlines = [
   {
     "name": "Servicios Aéreos de los Andes",
     "code": "FP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Servicios Aéreos de los Andes"
     }
@@ -5634,7 +5634,7 @@ data_ru_airlines = [
   {
     "name": "Air Freight NZ",
     "code": "OG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Freight NZ"
     }
@@ -5642,15 +5642,15 @@ data_ru_airlines = [
   {
     "name": "Татарстан",
     "code": "U9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tatarstan Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1P",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Worldspan"
     }
@@ -5658,7 +5658,7 @@ data_ru_airlines = [
   {
     "name": "Héli Sécurité Hélicopter Airline",
     "code": "HS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Héli Sécurité Hélicopter Airline"
     }
@@ -5666,23 +5666,23 @@ data_ru_airlines = [
   {
     "name": "Interstate Airlines",
     "code": "I4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Interstate Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cayman Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tunisair"
     }
@@ -5690,39 +5690,39 @@ data_ru_airlines = [
   {
     "name": "Aklak Air",
     "code": "6L",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aklak Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TACV Cabo Verde Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "W4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LC Busre SAC"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TT",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Tigerair Australia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "OZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Asiana Airlines"
     }
@@ -5730,7 +5730,7 @@ data_ru_airlines = [
   {
     "name": "Yemenia",
     "code": "IY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Yemenia"
     }
@@ -5738,23 +5738,23 @@ data_ru_airlines = [
   {
     "name": "Qazaq Air",
     "code": "IQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Qazaq Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3M",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Silver Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3P",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tiara Air Aruba"
     }
@@ -5762,7 +5762,7 @@ data_ru_airlines = [
   {
     "name": "Руслайн",
     "code": "7R",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "RusLine"
     }
@@ -5770,7 +5770,7 @@ data_ru_airlines = [
   {
     "name": "Sun-Air of Scandinavia",
     "code": "EZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sun-Air of Scandinavia"
     }
@@ -5778,23 +5778,23 @@ data_ru_airlines = [
   {
     "name": "Solaseed Air",
     "code": "6J",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Solaseed Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cityjet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "J4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "BADR AIRLINES"
     }
@@ -5802,7 +5802,7 @@ data_ru_airlines = [
   {
     "name": "Vista Georgia",
     "code": "GT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Vista Georgia"
     }
@@ -5810,7 +5810,7 @@ data_ru_airlines = [
   {
     "name": "Airkenya Express",
     "code": "QP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Airkenya Express"
     }
@@ -5818,15 +5818,15 @@ data_ru_airlines = [
   {
     "name": "TNT Airways",
     "code": "3V",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TNT Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "KLM"
     }
@@ -5834,15 +5834,15 @@ data_ru_airlines = [
   {
     "name": "Глобус",
     "code": "XT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Globus LLС"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "X5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "S.C. Ten Airways S.R.L."
     }
@@ -5850,39 +5850,39 @@ data_ru_airlines = [
   {
     "name": "Atlas Air",
     "code": "5Y",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Atlas Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QG",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Citilink Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "V6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Clairmont Holdings Ltd dba VI Air Link"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air India"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Shandong Airlines"
     }
@@ -5890,15 +5890,15 @@ data_ru_airlines = [
   {
     "name": "LATAM Brasil",
     "code": "JJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LATAM Brasil"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "T7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Twin Jet"
     }
@@ -5906,55 +5906,55 @@ data_ru_airlines = [
   {
     "name": "AnadoluJet",
     "code": "0T",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "AnadoluJet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sudan Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Edelweiss Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SW Italia s.p.a."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "01",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "JetHunter"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Great Lakes Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "S8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sounds Air Travel \u0026 Tourism Ltd."
     }
@@ -5962,7 +5962,7 @@ data_ru_airlines = [
   {
     "name": "Якутия",
     "code": "R3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Yakutia Airlines"
     }
@@ -5970,15 +5970,15 @@ data_ru_airlines = [
   {
     "name": "Peruvian Airlines",
     "code": "P9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Peruvian Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Mokulele Airlines"
     }
@@ -5986,15 +5986,15 @@ data_ru_airlines = [
   {
     "name": "North-Wright Airways",
     "code": "HW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "North-Wright Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kuwait Airways"
     }
@@ -6002,47 +6002,47 @@ data_ru_airlines = [
   {
     "name": "Aurigny Air Services",
     "code": "GR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aurigny Air Services"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "KLM Cityhopper"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hex Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "X7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Exec Air, Inc. of Naples"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4R",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "CJSC Royal Flight airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "DL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Delta Air Lines"
     }
@@ -6050,7 +6050,7 @@ data_ru_airlines = [
   {
     "name": "Северо-Запад",
     "code": "0E",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Northwest"
     }
@@ -6058,31 +6058,31 @@ data_ru_airlines = [
   {
     "name": "Nauru Airline",
     "code": "ON",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nauru Airline"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aer Lingus"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4K",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kenn Borek Air Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Qeshm Air"
     }
@@ -6090,31 +6090,31 @@ data_ru_airlines = [
   {
     "name": "Business jet",
     "code": "0W",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Business jet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5E",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Siam Ga Co. Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Serbia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "L1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "E-Savtravel"
     }
@@ -6122,7 +6122,7 @@ data_ru_airlines = [
   {
     "name": "Hi Fly",
     "code": "5K",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Hi Fly"
     }
@@ -6130,15 +6130,15 @@ data_ru_airlines = [
   {
     "name": "Smartavia",
     "code": "5N",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Smartavia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Felix Airways"
     }
@@ -6146,23 +6146,23 @@ data_ru_airlines = [
   {
     "name": "Air Ocean",
     "code": "0O",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Ocean"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5R",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Rutas Aereas, C.A. dba  RUTACA"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1B",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Abacus International Pte. Ltd."
     }
@@ -6170,7 +6170,7 @@ data_ru_airlines = [
   {
     "name": "Joon",
     "code": "JN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Joon"
     }
@@ -6178,31 +6178,31 @@ data_ru_airlines = [
   {
     "name": "Air Alsie",
     "code": "6I",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Alsie"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8C",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Transport International L.L.C."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4Z",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Airlink"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "B7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Uni Air"
     }
@@ -6210,31 +6210,31 @@ data_ru_airlines = [
   {
     "name": "Tajik Air",
     "code": "7J",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tajik Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "OU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Croatia Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "AIS Airlines B.V."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Airshop B.V."
     }
@@ -6242,55 +6242,55 @@ data_ru_airlines = [
   {
     "name": "CEIBA Intercontinental",
     "code": "C2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "CEIBA Intercontinental"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "V Air Corporation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "W7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Wings of Lebanon S.a.l"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "HU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hainan Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Mandarin Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SG",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "SpiceJet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Yeti Airlines Domestic Pvt. Ltd."
     }
@@ -6298,23 +6298,23 @@ data_ru_airlines = [
   {
     "name": "Air Service Liege",
     "code": "L4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Service Liege"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EU",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Chengdu Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Webjet Linhas Aereas"
     }
@@ -6322,7 +6322,7 @@ data_ru_airlines = [
   {
     "name": "Aero VIP",
     "code": "NJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aero VIP"
     }
@@ -6330,7 +6330,7 @@ data_ru_airlines = [
   {
     "name": "Japan Air Commuter",
     "code": "JC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Japan Air Commuter"
     }
@@ -6338,39 +6338,39 @@ data_ru_airlines = [
   {
     "name": "Halcyonair",
     "code": "7Z",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Halcyonair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8Q",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Onur Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5I",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Alsa Grupo SLU"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3U",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sichuan Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "A3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aegean Airlines"
     }
@@ -6378,7 +6378,7 @@ data_ru_airlines = [
   {
     "name": "Safarilink Aviation",
     "code": "F2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Safarilink Aviation"
     }
@@ -6386,15 +6386,15 @@ data_ru_airlines = [
   {
     "name": "Sky Regional Airlines",
     "code": "RS",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Sky Regional Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "South African Express"
     }
@@ -6402,39 +6402,39 @@ data_ru_airlines = [
   {
     "name": "InterCaribbean Airways",
     "code": "JY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "InterCaribbean Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4C",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LAN COLOMBIA AIRLINES"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Blue Islands"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Lufthansa"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Iberia"
     }
@@ -6442,71 +6442,71 @@ data_ru_airlines = [
   {
     "name": "UM Airlines",
     "code": "UF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "UM Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Caucasus"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "W8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cargojet Airways Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Rotana Jet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "China Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "HT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Ningxia Cargo Airlines CO.,LTD"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "V3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Carpatair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8V",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Wright Air Service"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WN",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Southwest Airlines"
     }
@@ -6514,15 +6514,15 @@ data_ru_airlines = [
   {
     "name": "Norwegian Long Haul",
     "code": "DU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Norwegian Long Haul"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Austral"
     }
@@ -6530,95 +6530,95 @@ data_ru_airlines = [
   {
     "name": "fastjet",
     "code": "FN",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "fastjet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WW",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "WOW Air ehf"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WG",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Sunwing Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Pegasus Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Montenegro"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8E",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bering Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VC",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Charter Air Transport, Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "BVI Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Grand China Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FL",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Airtran Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Surinam Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "M5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kenmore Air"
     }
@@ -6626,23 +6626,23 @@ data_ru_airlines = [
   {
     "name": "Avianca Cargo",
     "code": "QT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Avianca Cargo"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "X9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Avion Express"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tradewind Aviation"
     }
@@ -6650,23 +6650,23 @@ data_ru_airlines = [
   {
     "name": "Public Charters",
     "code": "P1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Public Charters"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "South Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1S",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sabre Inc."
     }
@@ -6674,7 +6674,7 @@ data_ru_airlines = [
   {
     "name": "Bulgarian Air Charter",
     "code": "H6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bulgarian Air Charter"
     }
@@ -6682,7 +6682,7 @@ data_ru_airlines = [
   {
     "name": "European Air Transport",
     "code": "QY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "European Air Transport"
     }
@@ -6690,71 +6690,71 @@ data_ru_airlines = [
   {
     "name": "Helicópteros del Sureste",
     "code": "UV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Helicópteros del Sureste"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "9J",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Dana Airlines Limited"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BX",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Air Busan"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "South African Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "American Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Madagascar"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1A",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Amadeus IT Group SA"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "O3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Orange Air, LLCN/A"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ND",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sky Wings Airlines"
     }
@@ -6762,15 +6762,15 @@ data_ru_airlines = [
   {
     "name": "Euro-Asia Air",
     "code": "6Z",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Euro-Asia Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Copa Airlines"
     }
@@ -6778,15 +6778,15 @@ data_ru_airlines = [
   {
     "name": "Mid Africa Aviation",
     "code": "8G",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Mid Africa Aviation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "G4",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Allegiant Air"
     }
@@ -6794,7 +6794,7 @@ data_ru_airlines = [
   {
     "name": "Ruili Airlines",
     "code": "DR",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Ruili Airlines"
     }
@@ -6802,55 +6802,55 @@ data_ru_airlines = [
   {
     "name": "Grumeti Air",
     "code": "0G",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Grumeti Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "OJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Fly Jamaica Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "C4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Conquest Air, Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "British Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "HOP!"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Avianca"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "B\u0026H Airlines"
     }
@@ -6858,55 +6858,55 @@ data_ru_airlines = [
   {
     "name": "Shaheen Air",
     "code": "NL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Shaheen Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4D",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Sinai"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2C",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SNCF"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Level"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4U",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Germanwings"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CO",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Cobalt Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aircalin"
     }
@@ -6914,47 +6914,47 @@ data_ru_airlines = [
   {
     "name": "EgyptAir",
     "code": "MS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "EgyptAir"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "M6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Amerijet International Inc."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aviacon Zitotrans Air Company JSC"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "6W",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "FlyBosnia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Royal Nepal Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2N",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Nextjet"
     }
@@ -6962,15 +6962,15 @@ data_ru_airlines = [
   {
     "name": "Ultimate Jetcharters",
     "code": "UE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Ultimate Jetcharters"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Syphax Airlines"
     }
@@ -6978,31 +6978,31 @@ data_ru_airlines = [
   {
     "name": "Germania Flug",
     "code": "GM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Germania Flug"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LOT Polish Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Royal Air Maroc"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Japan Airlines"
     }
@@ -7010,7 +7010,7 @@ data_ru_airlines = [
   {
     "name": "C.A.I. First",
     "code": "XM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "C.A.I. First"
     }
@@ -7018,31 +7018,31 @@ data_ru_airlines = [
   {
     "name": "Primera Air",
     "code": "PF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Primera Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TO",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Transavia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Skyview Airways Company Limiteddba Skyview"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Singapore Airlines"
     }
@@ -7050,15 +7050,15 @@ data_ru_airlines = [
   {
     "name": "East Horizon Airlines",
     "code": "EA",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "East Horizon Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1D",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Radixx Solutions International, Inc."
     }
@@ -7066,7 +7066,7 @@ data_ru_airlines = [
   {
     "name": "Avianca Brazil",
     "code": "O6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Avianca Brazil"
     }
@@ -7074,7 +7074,7 @@ data_ru_airlines = [
   {
     "name": "Afrijet Business Service",
     "code": "J7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Afrijet Business Service"
     }
@@ -7082,7 +7082,7 @@ data_ru_airlines = [
   {
     "name": "Jetairfly",
     "code": "TB",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Jetairfly"
     }
@@ -7090,15 +7090,15 @@ data_ru_airlines = [
   {
     "name": "BB Airways",
     "code": "BO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "BB Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2Z",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Passaredo Transportes Aereos S.A."
     }
@@ -7106,63 +7106,63 @@ data_ru_airlines = [
   {
     "name": "Донавиа",
     "code": "D9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Donavia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Creebec"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MN",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Comair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "7L",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aerocaribbean"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "U1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Videcom International Limited"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3N",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Urga"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Q8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Trans Air Congo"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1G",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Travelport Global Distribution SystemB.V."
     }
@@ -7170,7 +7170,7 @@ data_ru_airlines = [
   {
     "name": "New England Airlines",
     "code": "EJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "New England Airlines"
     }
@@ -7178,23 +7178,23 @@ data_ru_airlines = [
   {
     "name": "Neos",
     "code": "NO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Neos"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Miami Air International"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Swiss International Air Lines"
     }
@@ -7202,15 +7202,15 @@ data_ru_airlines = [
   {
     "name": "American Eagle",
     "code": "ZZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "American Eagle"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1E",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Travelsky Technology Limited"
     }
@@ -7218,7 +7218,7 @@ data_ru_airlines = [
   {
     "name": "SATA",
     "code": "S4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SATA"
     }
@@ -7226,55 +7226,55 @@ data_ru_airlines = [
   {
     "name": "Spring Airlines Japan",
     "code": "IJ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Spring Airlines Japan"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "T8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Telair International GmbH"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Japan"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3J",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cargo Three Inc. dba Pan Air Cargo"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "W5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Mahan Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1N",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Navitaire"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PQ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "SkyUp Airlines"
     }
@@ -7282,7 +7282,7 @@ data_ru_airlines = [
   {
     "name": "Utair",
     "code": "UT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Utair"
     }
@@ -7290,7 +7290,7 @@ data_ru_airlines = [
   {
     "name": "LAN Express",
     "code": "LU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LAN Express"
     }
@@ -7298,55 +7298,55 @@ data_ru_airlines = [
   {
     "name": "Orient Thai Airlines",
     "code": "OX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Orient Thai Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "T3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Eastern Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "JR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Joy Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kenya Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "MF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Xiamen Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "D3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Daallo Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VB",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "VivaAerobus"
     }
@@ -7354,23 +7354,23 @@ data_ru_airlines = [
   {
     "name": "Portugália",
     "code": "NI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Portugália"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Provincial Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Tahiti"
     }
@@ -7378,7 +7378,7 @@ data_ru_airlines = [
   {
     "name": "Jet Asia Airways",
     "code": "JF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jet Asia Airways"
     }
@@ -7386,15 +7386,15 @@ data_ru_airlines = [
   {
     "name": "Gambia Bird Airlines",
     "code": "3G",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Gambia Bird Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Regional Express"
     }
@@ -7402,15 +7402,15 @@ data_ru_airlines = [
   {
     "name": "BH Air",
     "code": "8H",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "BH Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cyprus Airways"
     }
@@ -7418,15 +7418,15 @@ data_ru_airlines = [
   {
     "name": "Air Armenia",
     "code": "QN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Armenia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XJ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Thai AirAsia X"
     }
@@ -7434,15 +7434,15 @@ data_ru_airlines = [
   {
     "name": "TACA Peru",
     "code": "T0",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TACA Peru"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "WJ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Labrador Airways Limited"
     }
@@ -7450,31 +7450,31 @@ data_ru_airlines = [
   {
     "name": "Norwegian Air International",
     "code": "D8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Norwegian Air International"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tibet Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "G5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "China Express Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3O",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Air Arabia Maroc"
     }
@@ -7482,23 +7482,23 @@ data_ru_airlines = [
   {
     "name": "Spring Airlines",
     "code": "9C",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Spring Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "E7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Equaflight Service"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3T",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tarco Air"
     }
@@ -7506,39 +7506,39 @@ data_ru_airlines = [
   {
     "name": "EcoJet",
     "code": "8J",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "EcoJet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Luxair"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "B6",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "JetBlue Airways"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Alitalia CityLiner"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Polar Air Cargo Worldwide, Inc."
     }
@@ -7546,7 +7546,7 @@ data_ru_airlines = [
   {
     "name": "Transavia Denmark",
     "code": "PH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Transavia Denmark"
     }
@@ -7554,7 +7554,7 @@ data_ru_airlines = [
   {
     "name": "NordStar",
     "code": "Y7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "NordStar"
     }
@@ -7562,7 +7562,7 @@ data_ru_airlines = [
   {
     "name": "Ellinair",
     "code": "EL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Ellinair"
     }
@@ -7570,15 +7570,15 @@ data_ru_airlines = [
   {
     "name": "Bringer Air Cargo",
     "code": "E6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bringer Air Cargo"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4N",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air North Charter and Training Ltd."
     }
@@ -7586,7 +7586,7 @@ data_ru_airlines = [
   {
     "name": "Songbird Airways",
     "code": "F3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Flyadeal"
     }
@@ -7594,15 +7594,15 @@ data_ru_airlines = [
   {
     "name": "LATAM Ecuador",
     "code": "XL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LATAM Ecuador"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "YH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sunsplash Aviation, LLC."
     }
@@ -7610,15 +7610,15 @@ data_ru_airlines = [
   {
     "name": "Westair Aviation",
     "code": "WV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Westair Aviation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1C",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hewlett-Packard (Schweiz) GmbH"
     }
@@ -7626,31 +7626,31 @@ data_ru_airlines = [
   {
     "name": "Evelop Airlines",
     "code": "E9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Evelop Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "0B",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Blue Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Lao Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "CB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Caribbean Air Export Import Inc."
     }
@@ -7658,23 +7658,23 @@ data_ru_airlines = [
   {
     "name": "AirAsia India",
     "code": "I5",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "AirAsia India"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "EQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "TAME Linea Aerea del Ecuador"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ASKY Airlines"
     }
@@ -7682,7 +7682,7 @@ data_ru_airlines = [
   {
     "name": "Mistral Air",
     "code": "M4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Mistral Air"
     }
@@ -7690,15 +7690,15 @@ data_ru_airlines = [
   {
     "name": "Douniah Airlines",
     "code": "DH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Douniah Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "7I",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Insel Air"
     }
@@ -7706,47 +7706,47 @@ data_ru_airlines = [
   {
     "name": "GoJet Airlines",
     "code": "G7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "GoJet Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "OE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Laudamotion"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "RI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Tigerair Mandala"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3A",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Chu Kong Passenger Transport Co. Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Rarotonga"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "J1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "One Jet, Inc."
     }
@@ -7754,39 +7754,39 @@ data_ru_airlines = [
   {
     "name": "airBaltic",
     "code": "BT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "airBaltic"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AS",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Alaska Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2Y",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "PT. My Indo Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Via Ltd."
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ZE",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Eastar Jet"
     }
@@ -7794,7 +7794,7 @@ data_ru_airlines = [
   {
     "name": "Airkenya Express",
     "code": "P2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Airkenya Express"
     }
@@ -7802,47 +7802,47 @@ data_ru_airlines = [
   {
     "name": "LASER Airlines",
     "code": "QL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "LASER Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "J0",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Jetlink Express"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Freebird Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "4T",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Belair Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "H1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hahn Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Y1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Travel Technology Interactive SA"
     }
@@ -7850,15 +7850,15 @@ data_ru_airlines = [
   {
     "name": "SkyJet",
     "code": "M8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SkyJet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "V1",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "IBS Software Services Americas, Inc."
     }
@@ -7866,31 +7866,31 @@ data_ru_airlines = [
   {
     "name": "Transavia",
     "code": "HV",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Transavia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "5F",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "FlyOne"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3C",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Calima Aviacion S.L"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "6M",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Zacarias Moreno"
     }
@@ -7898,7 +7898,7 @@ data_ru_airlines = [
   {
     "name": "Alliance Air",
     "code": "9I",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Alliance Air"
     }
@@ -7906,7 +7906,7 @@ data_ru_airlines = [
   {
     "name": "Mexicana de Aviación",
     "code": "MX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Mexicana de Aviación"
     }
@@ -7914,15 +7914,15 @@ data_ru_airlines = [
   {
     "name": "airblue",
     "code": "PA",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "airblue"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Z4",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Zagros Air Co."
     }
@@ -7930,7 +7930,7 @@ data_ru_airlines = [
   {
     "name": "Braathens Regional",
     "code": "DC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Braathens Regional"
     }
@@ -7938,31 +7938,31 @@ data_ru_airlines = [
   {
     "name": "Azur Air",
     "code": "ZF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Azur Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "QC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Camair-Co"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "J8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Berjaya Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XO",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "South East Asian Airlines (SEAIR)International, Inc."
     }
@@ -7970,23 +7970,23 @@ data_ru_airlines = [
   {
     "name": "Cebu Pacific",
     "code": "5J",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Cebu Pacific"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SATA Air Acores"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Brussels Airlines"
     }
@@ -7994,23 +7994,23 @@ data_ru_airlines = [
   {
     "name": "OAG",
     "code": "CR",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "OAG"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "SV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Saudia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GP",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Guangxi Beibu Gulf Airlines Co., Ltd."
     }
@@ -8018,23 +8018,23 @@ data_ru_airlines = [
   {
     "name": "Envoy Air",
     "code": "MQ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Envoy Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "IZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Arkia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Sky Lease I, Inc."
     }
@@ -8042,15 +8042,15 @@ data_ru_airlines = [
   {
     "name": "Australian Airlines",
     "code": "AO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Australian Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "2J",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Burkina"
     }
@@ -8058,7 +8058,7 @@ data_ru_airlines = [
   {
     "name": "Avia Traffic Company",
     "code": "YK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Avia Traffic Company"
     }
@@ -8066,23 +8066,23 @@ data_ru_airlines = [
   {
     "name": "Up Israel",
     "code": "86",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Up Israel"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1Y",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Electronic Data Systems Corporation"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "NW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Northwest Airlines"
     }
@@ -8090,23 +8090,23 @@ data_ru_airlines = [
   {
     "name": "Skymark Airlines",
     "code": "BC",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Skymark Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "LW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Pacific Wings"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "PD",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Porter Airlines"
     }
@@ -8114,15 +8114,15 @@ data_ru_airlines = [
   {
     "name": "Air Arabia Jordan",
     "code": "9P",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Air Arabia Jordan"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air France"
     }
@@ -8130,15 +8130,15 @@ data_ru_airlines = [
   {
     "name": "Cargolux",
     "code": "CV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cargolux"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "ET",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Ethiopian Airlines"
     }
@@ -8146,15 +8146,15 @@ data_ru_airlines = [
   {
     "name": "Asian Air",
     "code": "DM",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Asian Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FR",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Ryanair"
     }
@@ -8162,23 +8162,23 @@ data_ru_airlines = [
   {
     "name": "Ширак Авиа",
     "code": "5G",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Shirak Avia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AB",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Berlin"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Y9",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kish Airlines"
     }
@@ -8186,7 +8186,7 @@ data_ru_airlines = [
   {
     "name": "Air Kiribati Limited",
     "code": "IK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Kiribati Limited"
     }
@@ -8194,7 +8194,7 @@ data_ru_airlines = [
   {
     "name": "АЛРОСА",
     "code": "6R",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ALROSA"
     }
@@ -8202,7 +8202,7 @@ data_ru_airlines = [
   {
     "name": "SeaPort Airlines",
     "code": "K5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SeaPort Airlines"
     }
@@ -8210,15 +8210,15 @@ data_ru_airlines = [
   {
     "name": "C.A.I. Second",
     "code": "VE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "C.A.I. Second"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "H8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hesa Airlines"
     }
@@ -8226,23 +8226,23 @@ data_ru_airlines = [
   {
     "name": "Bhutan Airlines",
     "code": "B3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Bhutan Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XE",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ExpressJet"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "GF",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Gulf Air"
     }
@@ -8250,23 +8250,23 @@ data_ru_airlines = [
   {
     "name": "North Flying",
     "code": "M3",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "North Flying"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "VW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Aeromar"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "V2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Vision Airlines"
     }
@@ -8274,15 +8274,15 @@ data_ru_airlines = [
   {
     "name": "Победа",
     "code": "DP",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Pobeda"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Major Airline"
     }
@@ -8290,7 +8290,7 @@ data_ru_airlines = [
   {
     "name": "Днеправиа",
     "code": "Z6",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Dniproavia"
     }
@@ -8298,23 +8298,23 @@ data_ru_airlines = [
   {
     "name": "Maluti Sky",
     "code": "7D",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Maluti Sky"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "Z8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Amaszonas"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "8L",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Lucky Air"
     }
@@ -8322,7 +8322,7 @@ data_ru_airlines = [
   {
     "name": "ExpressJet",
     "code": "EV",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "ExpressJet"
     }
@@ -8330,15 +8330,15 @@ data_ru_airlines = [
   {
     "name": "Pegas Fly",
     "code": "EO",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Pegas Fly"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "KY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kunming Airlines"
     }
@@ -8346,23 +8346,23 @@ data_ru_airlines = [
   {
     "name": "Private Wings",
     "code": "8W",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Private Wings"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TL",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Airnorth"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1F",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "INFINI Travel Information, Inc."
     }
@@ -8370,15 +8370,15 @@ data_ru_airlines = [
   {
     "name": "Cubana de Aviación",
     "code": "CU",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Cubana de Aviación"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "B5",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "East African Safari Air"
     }
@@ -8386,31 +8386,31 @@ data_ru_airlines = [
   {
     "name": "KrasAvia",
     "code": "KI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "KrasAvia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "K8",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Kan Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "6Y",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SmartLynx Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "3K",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Jetstar Asia"
     }
@@ -8418,15 +8418,15 @@ data_ru_airlines = [
   {
     "name": "Alpha Air Transport",
     "code": "7U",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Alpha Air Transport"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "FY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Firefly"
     }
@@ -8434,31 +8434,31 @@ data_ru_airlines = [
   {
     "name": "China Cargo Airlines",
     "code": "CK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "China Cargo Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "DN",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Norwegian Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "UX",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Air Europa"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "XQ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Sun Express"
     }
@@ -8466,7 +8466,7 @@ data_ru_airlines = [
   {
     "name": "Gambia International Airlines",
     "code": "GC",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Gambia International Airlines"
     }
@@ -8474,7 +8474,7 @@ data_ru_airlines = [
   {
     "name": "Donghai Airlines",
     "code": "DZ",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Donghai Airlines"
     }
@@ -8482,7 +8482,7 @@ data_ru_airlines = [
   {
     "name": "Colorful Guizhou Airlines",
     "code": "GY",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Colorful Guizhou Airlines"
     }
@@ -8490,15 +8490,15 @@ data_ru_airlines = [
   {
     "name": "SiAvia",
     "code": "KT",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "SiAvia"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TZ",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Scoot"
     }
@@ -8506,7 +8506,7 @@ data_ru_airlines = [
   {
     "name": "Thomas Cook Airlines Scandinavia",
     "code": "DK",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Thomas Cook Airlines Scandinavia"
     }
@@ -8514,7 +8514,7 @@ data_ru_airlines = [
   {
     "name": "JETGO Australia",
     "code": "JG",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "JETGO Australia"
     }
@@ -8522,15 +8522,15 @@ data_ru_airlines = [
   {
     "name": "HiSky",
     "code": "H7",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "HiSky"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "1H",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "JSC \"Sirena-Travel\""
     }
@@ -8538,7 +8538,7 @@ data_ru_airlines = [
   {
     "name": "Maldivian",
     "code": "Q2",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Maldivian"
     }
@@ -8546,23 +8546,23 @@ data_ru_airlines = [
   {
     "name": "Norwegian Air",
     "code": "DI",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Norwegian Air"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "TR",
-    "is_lowcost": true,
+    "is_lowcost": True,
     "name_translations": {
       "en": "Scoot"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "AW",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Africa World Airlines"
     }
@@ -8570,15 +8570,15 @@ data_ru_airlines = [
   {
     "name": "Avior Airlines",
     "code": "3R",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Avior Airlines"
     }
   },
   {
-    "name": null,
+    "name": "",
     "code": "BH",
-    "is_lowcost": false,
+    "is_lowcost": False,
     "name_translations": {
       "en": "Hawkair"
     }
