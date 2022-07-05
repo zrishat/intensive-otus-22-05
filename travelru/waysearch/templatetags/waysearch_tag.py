@@ -17,10 +17,8 @@ def airline_translated(airline_code):
         if airline_code == airline['code']:
             if airline['name']:
                 return airline['name']
-            elif airline['name_translations']['en']:
+            if airline['name_translations']['en']:
                 return airline['name_translations']['en']
-            else:
-                return airline_code
     return airline_code
 
 
@@ -32,4 +30,3 @@ def formatted_depature(date_str):
     date_day = date_str.split('T')[0]
     date_time = date_str.split('T')[1].split('+')[0]
     return f"{date_day}, {date_time}"
-

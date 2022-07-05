@@ -1,3 +1,7 @@
+"""
+airlines
+"""
+# pylint: skip-file
 data_ru_airlines = [
   {
     "name": "Sansa Airlines",
