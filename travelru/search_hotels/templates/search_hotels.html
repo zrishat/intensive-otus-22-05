@@ -6,87 +6,87 @@
     Main page
 {% endblock %}
 
+{% block js %}
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+{% endblock %}
 
 {% block main_container %}
     <div class="container-md py-2">
-        <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
-            {% csrf_token %}
-            <div class="row row-cols-5">
-                <div class="col">{{ form.city.label }}</div>
-                <div class="col">{{ form.check_in.label }}</div>
-                <div class="col">{{ form.check_out.label }}</div>
-                <div class="col">{{ form.amount_guests.label }}</div>
-                <div class="col"></div>
-                <div class="col">
-                    <label for="city" class="visually-hidden"
-                           for="autoSizingInput">{% trans "Введите город" %}</label>
-                    <input type="text" class="form-control" value='{{ form.city.value|default:'' }}'
-                           id="autoSizingInput" name="city"
-                           placeholder="Введите город">
+        <div class="forms-resolver">
+            <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
+                {% csrf_token %}
+
+                {% for error, descriptions in form.errors.items %}
+                    {% for description in descriptions %}
+                        <p>{{ description }}</p>
+                    {% endfor %}
+                {% endfor %}
+
+                <div class="row row-cols-5">
+                    <div class="col">{{ form.city.label }}</div>
+                    <div class="col">{{ form.check_in.label }}</div>
+                    <div class="col">{{ form.check_out.label }}</div>
+                    <div class="col">{{ form.amount_guests.label }}</div>
+                    <div class="col"></div>
+                    <div class="col">{{ form.city|default:'' }}</div>
+                    <div class="col">{{ form.check_in }}</div>
+                    <div class="col">{{ form.check_out }}</div>
+                    <div class="col">{{ form.amount_guests }}</div>
+
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">{% trans "Найти отели" %}</button>
+                    </div>
                 </div>
-                <div class="col">
-                    <input type="date" name="check_in" class="form-control"
-                           min={{ today_date }} value='{{ form.check_in.value }}'
-                           id="autoSizingInput"
-                           placeholder={% trans "Дата заезда" %}>
-                    {#                    {{ form.check_in }}#}
-                </div>
-                <div class="col">
-                    <input type="date" name="check_out" class="form-control"
-                           min={{ today_date }} value='{{ form.check_out.value }}'
-                           id="autoSizingInput" min="today"
-                           placeholder={% trans "Дата выезда" %}>
-                    {#                    {{ form.check_out }}#}
-                </div>
-                <div class="col">
-                    <input type="text" name="amount_guests" class="form-control"
-                           value='{{ form.amount_guests.value|default:'' }}'
-                           id="autoSizingInput"
-                           placeholder={% trans "2" %}>
-                    {#                    {{ form.amount_guests }}#}
-                </div>
-                <div class="col">
-                    <button type="submit" class="btn btn-primary">{% trans "Найти отели" %}</button>
-                </div>
-            </div>
-        </form>
-        {% if data_info.popularity %}
-            <div class="container-md py-2">
+            </form>
+        </div>
+
+        {#        {% if data_info.popularity %}#}
+        <div class="container-md py-2">
             <h3 class="pb-3">
                 {% trans "Найденные отели:" %}
             </h3>
-            {% for hotel_data in data_info.popularity %}
+            {% for hotel in hotel_data %}
                 <div class="p-3 mb-4 bg-light rounded-3">
                     <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
-                        <h5>{{ hotel_data.name }}</h5>
-                        <p>Количество звезд: {{ hotel_data.stars }}</p>
-                        {#                        <p>{{ hotel_data.hotel_type }}</p>#}
-                        <p>Тип отеля: {% for type in hotel_data.hotel_type %}
-                             {{ type }}
-                        {% endfor %}
-                        </p>
+                        <h5>{{ hotel.name }}</h5>
+                        <p>Количество звезд: {{ hotel.stars }}</p>
+                        <p>Тип отеля: {{ hotel.hotel_type }}
                         <ul class="list-inline">
-                            <li class="list-inline-item">{{ hotel_data.last_price_info.search_params.checkIn }}
-                                - {{ hotel_data.last_price_info.search_params.checkOut }}</li>
+                            <li class="list-inline-item">{{ hotel.check_in }}
+                                - {{ hotel.check_out }}</li>
                         </ul>
                         <ul class="list-inline">
-                            <li class="list-inline-item">Цена за сутки {{ hotel_data.last_price_info.price_pn }}</li>
-                            <li class="list-inline-item">Количество ночей: {{ hotel_data.last_price_info.nights }}</li>
+                            <li class="list-inline-item">Цена за сутки {{ hotel.price }}</li>
+                            <li class="list-inline-item">Количество ночей: {{ hotel.nights }}</li>
                             <li class="list-inline-item fs-5 fw-bolder text-primary">
-                                Стоимость: {% total_cost hotel_data.last_price_info.price_pn hotel_data.last_price_info.nights data_info.amount_guests %}</li>
+                                Стоимость: {% total_cost hotel.price hotel.nights hotel.amount_guests %}</li>
                         </ul>
+
                     </div>
                 </div>
             {% endfor %}
-        {% endif %}
-
-        <ul>
-            <a href="{% url 'waysearch:index' %}">
-                {% trans "На главную страницу" %}
-            </a>
-        </ul>
+            <ul>
+                <a href="{% url 'waysearch:index' %}">
+                    {% trans "На главную страницу" %}
+                </a>
+            </ul>
         </div>
-    </div>
 
+
+        <script>
+            $(function () {
+                var availableTags = [
+                    {% for city in cities %}
+                        "{{ city.name }}",
+                    {% endfor %}
+                ];
+                $("#city").autocomplete({
+                    source: availableTags
+                });
+            });
+        </script>
 
 {% endblock %}
