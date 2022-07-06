@@ -5,6 +5,7 @@ views
 # flake8: noqa
 import json
 from datetime import datetime
+from typing import List
 
 from django.http import HttpResponse
 from django.shortcuts import render
@@ -29,7 +30,7 @@ def get_id_from_city(city_name: str, cities_list: list):  # pylint: disable=E113
 """
 
 
-def get_hotels_data(check_in: datetime.date, check_out: datetime.date, city_id: str, amount_guests: int) -> list[dict]:
+def get_hotels_data(check_in: datetime.date, check_out: datetime.date, city_id: str, amount_guests: int) -> List[dict]:
     url = 'http://yasen.hotellook.com/tp/public/widget_location_dump.json'
     params = {'check_in': check_in,
               'check_out': check_out,
