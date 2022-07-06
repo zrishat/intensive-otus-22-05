@@ -69,11 +69,20 @@ def search_hotels(request):
         url = 'http://yasen.hotellook.com/tp/public/widget_location_dump.json'
         headers = {'Content-Type': 'application/json'}
         search_form = SearchHotelsForm(request.POST)
-#        print(city, check_in, check_out)
+        # проверка валидности поля "количество гостей"
+        if not search_form['amount_guests'].value().isdigit() or int(search_form['amount_guests'].value()) <= 0:
+            return render(request, "search_hotels.html",
+                          {'form': search_form, 'today_date': today_date, 'form_error': True,
+                           'form_error_text': "* Количество гостей должно быть целым положительным числом, попробуйте еще раз"})
+        # проверка заполненности полей с датами
+        if search_form['check_out'].value() == "" or search_form['check_in'].value() == "":
+            return render(request, "search_hotels.html", {'form': search_form, 'today_date': today_date, 'date_error': True,
+                                                              'date_error_text': "* Проверьте даты выезда и заезда"})
         if search_form.is_valid():
             city = search_form.cleaned_data['city']
             check_in = search_form.cleaned_data['check_in']
             check_out = search_form.cleaned_data['check_out']
+            # проверка валидности даты выезда
             if check_out <= check_in:
                 return render(request, "search_hotels.html", {'form': search_form, 'today_date': today_date, 'date_error': True,
                                                               'date_error_text': "* Дата выезда должна быть позже даты заезда, попробуйте еще раз"})
@@ -89,7 +98,6 @@ def search_hotels(request):
                       'id': city_id,
                       'token': TOKEN_AVIASALES}
             data_info = requests.get(url, headers=headers, params=params).json()
-
             data_info['amount_guests'] = int(amount_guests)
             print(data_info)
             # print(type(data_info['amount_guests']), amount_guests)
