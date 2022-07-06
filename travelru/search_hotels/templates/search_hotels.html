@@ -50,6 +50,12 @@
                 </div>
             </div>
         </form>
+        {% if date_error %}
+            <p> <font color="#ff0000">{{date_error_text}}</font></p>
+        {% endif %}
+        {% if form_error %}
+            <p> <font color="#ff0000">{{form_error_text}}</font></p>
+        {% endif %}
         {% if data_info.popularity %}
             <div class="container-md py-2">
             <h3 class="pb-3">
