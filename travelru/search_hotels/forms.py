@@ -1,8 +1,6 @@
 """
 forms
 """
-from datetime import datetime
-
 from django import forms
 
 
@@ -11,10 +9,11 @@ class SearchHotelsForm(forms.Form):
     searchhotelsform
     """
 
-    city = forms.CharField(label='Город', widget=forms.TextInput(attrs={'class': 'form-control',
-                                                                        'placeholder': 'Введите город',
-                                                                        'id': 'city'})
-                           )
+    city = forms.CharField(label='Город', widget=forms.TextInput(
+        attrs={'class': 'form-control',
+               'placeholder': 'Введите город',
+               'id': 'city'})
+               )
     check_in = forms.DateField(label='Дата заезда',
                                widget=forms.DateInput(attrs={'class': 'form-control',
                                                              'type': 'date',

@@ -1,10 +1,6 @@
 from unittest.mock import patch
 
 from django.test import TestCase
-from django.urls import reverse, resolve
-
-from search_hotels.views import search_hotels
-
 
 
 class UrlTests(TestCase):
@@ -20,13 +16,19 @@ class UrlTests(TestCase):
         }
 
     def test_get_page(self):
+        """
+        get main page
+        :return:
+        """
         response = self.client.get('/search_hotels/')
 
         self.assertEqual(200, response.status_code)
         self.assertContains(response, 'Поиск отелей')
 
     def test_search_hotels(self):
-
+        """
+        search hotels
+        """
         with patch('search_hotels.views.get_hotels_data') as get_hotels_data:
             get_hotels_data.return_value = [{'name': 'hotel_name',
                               'stars': '5',

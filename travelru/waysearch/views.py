@@ -3,9 +3,9 @@ views
 """
 import requests
 from django.shortcuts import render
-from travelru.settings import TOKEN_AVIASALES
 from waysearch.forms import WaysearchForm
 from waysearch.configuration import IATA
+from travelru.settings import TOKEN_AVIASALES
 
 
 def index(request):

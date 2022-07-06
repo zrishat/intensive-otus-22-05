@@ -23,6 +23,12 @@ def print_multiple(value, count):
     """Print a value multiple times."""
     return ' '.join([value] * count)
 
+
 @register.filter(name='times')
 def times(number):
+    """
+
+    :param number:
+    :return:
+    """
     return range(number)
