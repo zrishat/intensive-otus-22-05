@@ -82,7 +82,7 @@ def search_hotels(request):
                 return render(request, "search_hotels.html", {'form': search_form})
 
             hotel_data = get_hotels_data(check_in, check_out, city_id, amount_guests)
-            print('hotel data', hotel_data)
+            # print('hotel data', hotel_data)
 
             return render(request, "search_hotels.html", {'form': search_form,
                                                           # 'today_date': today_date,
