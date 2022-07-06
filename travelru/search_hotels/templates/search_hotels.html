@@ -3,7 +3,7 @@
 {% load calculation_tag %}
 
 {% block page_title %}
-    Main page
+    Поиск отелей
 {% endblock %}
 
 {% block js %}
@@ -11,11 +11,16 @@
     <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
 {% endblock %}
 
 {% block main_container %}
     <div class="container-md py-2">
+        <div><h3 class="text-center" style="
+                 margin-bottom: 40px;" >Поиск отелей на Create-travel.ru</h3></div>
         <div class="forms-resolver">
+
+
             <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
                 {% csrf_token %}
 
@@ -43,17 +48,17 @@
             </form>
         </div>
 
-        {#        {% if data_info.popularity %}#}
+
         <div class="container-md py-2">
-            <h3 class="pb-3">
-                {% trans "Найденные отели:" %}
-            </h3>
+
             {% for hotel in hotel_data %}
                 <div class="p-3 mb-4 bg-light rounded-3">
+
                     <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
+
                         <h5>{{ hotel.name }}</h5>
                         {#                        <p>Количество звезд: {{ hotel.stars }}</p>#}
-                        <p>Количество звезд:
+                        <p>
                             {% for i in hotel.stars|times %}
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                      class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -62,7 +67,10 @@
 
                             {% endfor %}
                         </p>
-                        <p>Тип отеля: {{ hotel.hotel_type }}
+                        <p>
+                            {% for type in  hotel.hotel_type %}
+                                <a href="#"> {{ type }}</a>
+                            {% endfor %}
                         <ul class="list-inline">
                             <li class="list-inline-item">{{ hotel.check_in }}
                                 - {{ hotel.check_out }}</li>
@@ -83,6 +91,18 @@
                 </a>
             </ul>
         </div>
+
+
+        <script type="text/javascript">
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0');
+            var yyyy = today.getFullYear();
+
+            today = yyyy + '-' + mm + '-' + dd;
+            $('#check_in').attr('min', today);
+            $('#check_out').attr('min', today);
+        </script>
 
 
         <script>
