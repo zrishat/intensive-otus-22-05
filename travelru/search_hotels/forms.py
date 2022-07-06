@@ -1,6 +1,7 @@
 """
 forms
 """
+# flake8: noqa
 from django import forms
 
 

@@ -11,6 +11,7 @@ class UrlTests(TestCase):
     """
     UrlTests
     """
+
     def setUp(self):
         self.search_data = {
             'city': 'Москва',
@@ -34,14 +35,16 @@ class UrlTests(TestCase):
         search hotels
         """
         with patch('search_hotels.views.get_hotels_data') as get_hotels_data:
-            get_hotels_data.return_value = [{'name': 'hotel_name',
-                              'stars': '5',
-                              'hotel_type': 'с бассейном',
-                              'price': '5000',
-                              'nights': '3',
-                              'check_in': '2022-11-05',
-                              'check_out': '2022-11-08',
-                              'amount_guests': '2'}]
+            get_hotels_data.return_value = [{
+                'name': 'hotel_name',
+                'stars': '5',
+                'hotel_type': 'с бассейном',
+                'price': '5000',
+                'nights': '3',
+                'check_in': '2022-11-05',
+                'check_out': '2022-11-08',
+                'amount_guests': '2'
+            }]
             response = self.client.post(
                 '/search_hotels/',
                 data={

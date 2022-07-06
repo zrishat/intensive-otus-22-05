@@ -1,6 +1,7 @@
 """
 views
 """
+# flake8: noqa
 import requests
 from django.shortcuts import render
 from waysearch.forms import WaysearchForm

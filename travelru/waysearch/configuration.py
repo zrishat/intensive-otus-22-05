@@ -1,6 +1,7 @@
 """
 configuration
 """
+# flake8: noqa
 # pylint: skip-file
 IATA = [
     {'city_code': 'ЭГТ', 'country_code': 'RU', 'name_translations': {'en': 'Zaliv Kresta'}, 'time_zone': 'Asia/Anadyr',
