@@ -3,90 +3,119 @@
 {% load calculation_tag %}
 
 {% block page_title %}
-    Main page
+    Поиск отелей
 {% endblock %}
 
+{% block js %}
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+{% endblock %}
 
 {% block main_container %}
     <div class="container-md py-2">
-        <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
-            {% csrf_token %}
-            <div class="row row-cols-5">
-                <div class="col">{{ form.city.label }}</div>
-                <div class="col">{{ form.check_in.label }}</div>
-                <div class="col">{{ form.check_out.label }}</div>
-                <div class="col">{{ form.amount_guests.label }}</div>
-                <div class="col"></div>
-                <div class="col">
-                    <label for="city" class="visually-hidden"
-                           for="autoSizingInput">{% trans "Введите город" %}</label>
-                    <input type="text" class="form-control" value='{{ form.city.value|default:'' }}'
-                           id="autoSizingInput" name="city"
-                           placeholder="Введите город">
+        <div><h3 class="text-center" style="
+                 margin-bottom: 40px;" >Поиск отелей на Create-travel.ru</h3></div>
+        <div class="forms-resolver">
+
+
+            <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
+                {% csrf_token %}
+
+                {% for error, descriptions in form.errors.items %}
+                    {% for description in descriptions %}
+                        <p>{{ description }}</p>
+                    {% endfor %}
+                {% endfor %}
+
+                <div class="row row-cols-5">
+                    <div class="col">{{ form.city.label }}</div>
+                    <div class="col">{{ form.check_in.label }}</div>
+                    <div class="col">{{ form.check_out.label }}</div>
+                    <div class="col">{{ form.amount_guests.label }}</div>
+                    <div class="col"></div>
+                    <div class="col">{{ form.city|default:'' }}</div>
+                    <div class="col">{{ form.check_in }}</div>
+                    <div class="col">{{ form.check_out }}</div>
+                    <div class="col">{{ form.amount_guests }}</div>
+
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">{% trans "Найти отели" %}</button>
+                    </div>
                 </div>
-                <div class="col">
-                    <input type="date" name="check_in" class="form-control"
-                           min={{ today_date }} value='{{ form.check_in.value }}'
-                           id="autoSizingInput"
-                           placeholder={% trans "Дата заезда" %}>
-                    {#                    {{ form.check_in }}#}
-                </div>
-                <div class="col">
-                    <input type="date" name="check_out" class="form-control"
-                           min={{ today_date }} value='{{ form.check_out.value }}'
-                           id="autoSizingInput" min="today"
-                           placeholder={% trans "Дата выезда" %}>
-                    {#                    {{ form.check_out }}#}
-                </div>
-                <div class="col">
-                    <input type="text" name="amount_guests" class="form-control"
-                           value='{{ form.amount_guests.value|default:'' }}'
-                           id="autoSizingInput"
-                           placeholder={% trans "2" %}>
-                    {#                    {{ form.amount_guests }}#}
-                </div>
-                <div class="col">
-                    <button type="submit" class="btn btn-primary">{% trans "Найти отели" %}</button>
-                </div>
-            </div>
-        </form>
-        {% if data_info.popularity %}
-            <div class="container-md py-2">
-            <h3 class="pb-3">
-                {% trans "Найденные отели:" %}
-            </h3>
-            {% for hotel_data in data_info.popularity %}
+            </form>
+        </div>
+
+
+        <div class="container-md py-2">
+
+            {% for hotel in hotel_data %}
                 <div class="p-3 mb-4 bg-light rounded-3">
+
                     <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
-                        <h5>{{ hotel_data.name }}</h5>
-                        <p>Количество звезд: {{ hotel_data.stars }}</p>
-                        {#                        <p>{{ hotel_data.hotel_type }}</p>#}
-                        <p>Тип отеля: {% for type in hotel_data.hotel_type %}
-                             {{ type }}
-                        {% endfor %}
+
+                        <h5>{{ hotel.name }}</h5>
+                        {#                        <p>Количество звезд: {{ hotel.stars }}</p>#}
+                        <p>
+                            {% for i in hotel.stars|times %}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                     class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+
+                            {% endfor %}
                         </p>
+                        <p>
+                            {% for type in  hotel.hotel_type %}
+                                <a href="#"> {{ type }}</a>
+                            {% endfor %}
                         <ul class="list-inline">
-                            <li class="list-inline-item">{{ hotel_data.last_price_info.search_params.checkIn }}
-                                - {{ hotel_data.last_price_info.search_params.checkOut }}</li>
+                            <li class="list-inline-item">{{ hotel.check_in }}
+                                - {{ hotel.check_out }}</li>
                         </ul>
                         <ul class="list-inline">
-                            <li class="list-inline-item">Цена за сутки {{ hotel_data.last_price_info.price_pn }}</li>
-                            <li class="list-inline-item">Количество ночей: {{ hotel_data.last_price_info.nights }}</li>
+                            <li class="list-inline-item">Цена за сутки {{ hotel.price }}</li>
+                            <li class="list-inline-item">Количество ночей: {{ hotel.nights }}</li>
                             <li class="list-inline-item fs-5 fw-bolder text-primary">
-                                Стоимость: {% total_cost hotel_data.last_price_info.price_pn hotel_data.last_price_info.nights data_info.amount_guests %}</li>
+                                Стоимость: {% total_cost hotel.price hotel.nights hotel.amount_guests %}</li>
                         </ul>
+
                     </div>
                 </div>
             {% endfor %}
-        {% endif %}
-
-        <ul>
-            <a href="{% url 'waysearch:index' %}">
-                {% trans "На главную страницу" %}
-            </a>
-        </ul>
+            <ul>
+                <a href="{% url 'waysearch:index' %}">
+                    {% trans "На главную страницу" %}
+                </a>
+            </ul>
         </div>
-    </div>
 
+
+        <script type="text/javascript">
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0');
+            var yyyy = today.getFullYear();
+
+            today = yyyy + '-' + mm + '-' + dd;
+            $('#check_in').attr('min', today);
+            $('#check_out').attr('min', today);
+        </script>
+
+
+        <script>
+            $(function () {
+                var availableTags = [
+                    {% for city in cities %}
+                        "{{ city.name }}",
+                    {% endfor %}
+                ];
+                $("#city").autocomplete({
+                    source: availableTags
+                });
+            });
+        </script>
 
 {% endblock %}
