@@ -17,7 +17,9 @@
             {% csrf_token %}
             {% for field in form %}
                 <div class="col-auto">
-                    {{ field.errors }}
+                    <div class="text-danger">
+                        {{ field.errors }}
+                    </div>
                     {{ field.label_tag }}
                     {{ field }}
                 </div>
