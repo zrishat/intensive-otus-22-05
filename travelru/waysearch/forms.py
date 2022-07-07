@@ -15,7 +15,7 @@ class WaysearchForm(forms.Form):
         label='Откуда',
         widget=forms.TextInput(
             attrs={
-                'class': 'city-auto form-control', 
+                'class': 'city-auto form-control',
                 'placeholder': 'Откуда'}
         )
     )
@@ -23,7 +23,7 @@ class WaysearchForm(forms.Form):
         label='Куда',
         widget=forms.TextInput(
            attrs={
-                'class': 'city-auto form-control', 
+                'class': 'city-auto form-control',
                 'placeholder': 'Куда'}
         )
     )
@@ -32,7 +32,7 @@ class WaysearchForm(forms.Form):
         widget=forms.DateInput(
             attrs={
                 'type': 'date', 
-                'class': 'form-control', 
+                'class': 'form-control',
                 'min': today_date,
                 'onkeydown': 'return false'}
         )
@@ -41,8 +41,8 @@ class WaysearchForm(forms.Form):
         label='Дата обратно',
         widget=forms.DateInput(
             attrs={
-                'type': 'date', 
-                'class': 'form-control', 
+                'type': 'date',
+                'class': 'form-control',
                 'min': today_date,
                 'onkeydown': 'return false'}
         )
