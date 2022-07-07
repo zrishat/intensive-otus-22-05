@@ -27,6 +27,7 @@ def formatted_depature(date_str):
     """
     decorator simple tag
     """
-    date_day = date_str.split('T')[0]
+    date_day = date_str.split('T')[0].split('-')
+    date_day = f"{date_day[2]}.{date_day[1]}.{date_day[0]}"
     date_time = date_str.split('T')[1].split('+')[0]
-    return f"{date_day}, {date_time}"
+    return f"Дата: {date_day}, Время: {date_time}"
