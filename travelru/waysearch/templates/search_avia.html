@@ -39,7 +39,7 @@
                             <p>Авиаперевозчик {% airline_translated flight.airline %}</p>
                             <p>Цена: <strong>{{ flight.price }}</strong> руб.</p>
                             <ul class="list-inline">
-                                <li class="list-inline-item">Вылет: {% formatted_depature flight.departure_at %}</li>
+                                <li class="list-inline-item">{% formatted_depature flight.departure_at %}</li>
                             </ul>
                             <ul class="list-inline">
                                 <li class="list-inline-item">Пункт отправления: {{ form.departure_city.value }}</li>
