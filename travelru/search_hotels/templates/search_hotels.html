@@ -74,8 +74,8 @@
                         <ul class="list-inline">
                             <li class="list-inline-item">Цена за сутки {{ hotel.price }}</li>
                             <li class="list-inline-item">Количество ночей: {{ hotel.nights }}</li>
-                            <li class="list-inline-item fs-5 fw-bolder text-primary">
-                                Стоимость: {% total_cost hotel.price hotel.nights hotel.amount_guests %} ₽
+                            <li class="list-inline-item ">
+                                <strong>Стоимость: {% total_cost hotel.price hotel.nights hotel.amount_guests %} ₽</strong>
                             </li>
                         </ul>
                     </div>

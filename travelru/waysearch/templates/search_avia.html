@@ -10,59 +10,109 @@
 
 {% block main_container %}
     <div class="container-md py-2">
-        <h3 class="pb-3">
-            Поиск авиамаршрутов
-        </h3>
-        <form method="post" class="row gy-2 gx-3 align-items-end mb-3">
-            {% csrf_token %}
-            {% for field in form %}
+        <div><h3 class="text-center" style="
+                 margin-bottom: 40px;">Поиск авиамаршрутов на Create-travel.ru</h3></div>
+        {#        <h3 class="pb-3">#}
+        {#            Поиск авиамаршрутов#}
+        {#        </h3>#}
+        <div class="forms-resolver">
+            <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
+
+                {% csrf_token %}
+
+
                 <div class="col-auto">
-                    <div class="text-danger">
-                        {{ field.errors }}
-                    </div>
-                    {{ field.label_tag }}
-                    {{ field }}
-                </div>
-            {% endfor %}
-            <div class="col-auto">
-                <button type="submit" class="btn btn-primary">{% trans "Search" %}</button>
-            </div>
-        </form>
-        {% if data.data %}
-            <div class="container-md py-2">
-                <h3 class="pb-3">
-                    {% trans "Найденные билеты:" %}
-                </h3>
-                {% for flight in data.data %}
-                    <div class="p-3 mb-4 bg-light rounded-3">
-                        <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
-                            <p>Авиаперевозчик {% airline_translated flight.airline %}</p>
-                            <p>Цена: <strong>{{ flight.price }}</strong> руб.</p>
-                            <ul class="list-inline">
-                                <li class="list-inline-item">{% formatted_depature flight.departure_at %}</li>
-                            </ul>
-                            <ul class="list-inline">
-                                <li class="list-inline-item">Пункт отправления: {{ form.departure_city.value }}</li>
-                                <li class="list-inline-item">Пункт назначения: {{ form.arrival_city.value }}</li>
-                            </ul>
+                    {#                    <div class="row row-cols-4">#}
+                    <div class="row row-cols-5">
+                        <div class="col">{{ form.departure_city.label }}</div>
+                        <div class="col">{{ form.arrival_city.label }}</div>
+                        <div class="col">{{ form.departure_date.label }}</div>
+                        <div class="col">{{ form.arrival_date.label }}</div>
+                        <div class="col"></div>
+                        <div class="col">{{ form.departure_city|default:'' }}</div>
+                        <div class="col">{{ form.arrival_city }}</div>
+                        <div class="col">{{ form.departure_date }}</div>
+                        <div class="col">{{ form.arrival_date }}</div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">{% trans "Найти" %}</button>
                         </div>
                     </div>
+
+
+                </div>
+
+                {#                <div class="col">#}
+                {#                    <button type="submit" class="btn btn-primary">{% trans "Search" %}</button>#}
+                {#                </div>#}
+                {% for error, descriptions in form.errors.items %}
+                    {% for description in descriptions %}
+                        <p class="text-danger">{{ description }}</p>
+                    {% endfor %}
+                    {#                    <div class="text-danger">#}
+                    {#                        {{ field.errors }}#}
+                    {#                    </div>#}
+                    {#                    {{ field.label_tag }}#}
+                    {#                    {{ field }}#}
                 {% endfor %}
-            </div>
-        {% endif %}
-        {% if data.success and not data.data %}
-            <p class="warning">Рейсы не найдены. Попробуйте изменить условия поиска.
-            </p>
-        {% endif %}
-        {% if data.error %}
-            <p class="warning">Ошибка поиска. Попробуйте позже.
-            </p>
-        {% endif %}
-        <ul>
-            <a href="{% url 'waysearch:index' %}">
-                {% trans "На главную страницу" %}
-            </a>
-        </ul>
+            </form>
+            {% if data.data %}
+                <div class="container-md py-2">
+                    <h3 class="pb-3">
+                        {% trans "Найденные билеты:" %}
+                    </h3>
+                    {% for flight in data.data %}
+                        <div class="p-3 mb-4 bg-light rounded-3">
+                            <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
+                                <p>Авиаперевозчик {% airline_translated flight.airline %}</p>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Туда:</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">{% formatted_depature flight.departure_at %}</li>
+                                        </ul>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">Пункт
+                                                отправления: {{ form.departure_city.value }}</li>
+                                            <li class="list-inline-item">Пункт
+                                                назначения: {{ form.arrival_city.value }}</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <p>Обратно:</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">{% formatted_depature flight.return_at %}</li>
+                                        </ul>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">Пункт
+                                                отправления: {{ form.arrival_city.value }}</li>
+                                            <li class="list-inline-item">Пункт
+                                                назначения: {{ form.departure_city.value }}</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <p class="text-center">Цена: <strong>{{ flight.price }}</strong> руб.</p>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+            {% if data.success and not data.data %}
+                <p class="warning">Рейсы не найдены. Попробуйте изменить условия поиска.
+                </p>
+            {% endif %}
+            {% if data.error %}
+                <p class="warning">Ошибка поиска. Попробуйте позже.
+                </p>
+            {% endif %}
+{#            <ul>#}
+{#                <a href="{% url 'waysearch:index' %}">#}
+{#                    {% trans "На главную страницу" %}#}
+{#                </a>#}
+{#            </ul>#}
+        </div>
     </div>
     <script>
         $(function () {
