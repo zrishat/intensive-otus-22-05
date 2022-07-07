@@ -3,11 +3,10 @@ views
 """
 # pylint: skip-file
 # flake8: noqa
-import json
+
 from datetime import datetime
 from typing import List
 
-from django.http import HttpResponse
 from django.shortcuts import render
 import requests
 from search_hotels.configuration_cities_hotels import cities_with_id
@@ -49,7 +48,7 @@ def get_hotels_data(check_in: datetime.date, check_out: datetime.date, city_id: 
             one_hotel_info = {'name': value_hotel_data.get('name'),
                               'stars': value_hotel_data.get('stars'),
                               'hotel_type': value_hotel_data.get('hotel_type'),
-                              'price': value_hotel_data.get('last_price_info')['price'],
+                              'price': value_hotel_data.get('last_price_info')['price_pn'],
                               'nights': value_hotel_data.get('last_price_info')['nights'],
                               'check_in': value_hotel_data.get('last_price_info')['search_params']['checkIn'],
                               'check_out': value_hotel_data.get('last_price_info')['search_params']['checkOut'],
@@ -59,6 +58,12 @@ def get_hotels_data(check_in: datetime.date, check_out: datetime.date, city_id: 
         except TypeError:
             pass
     return hotel_data
+
+
+def get_sorted_hotels(hotels_list: List[dict]) -> List[dict]:
+    sorted_hotels_list = sorted(hotels_list, key=lambda k: k['price'])
+    return sorted_hotels_list
+
 
 def search_hotels(request):
     """
@@ -74,8 +79,11 @@ def search_hotels(request):
             check_out = search_form.cleaned_data['check_out']
             amount_guests = int(search_form.cleaned_data['amount_guests'])
             print(city, check_in, check_out)
-            if check_out <= check_in:
+            if check_out < check_in:
                 search_form.add_error('check_out', 'Дата выезда не может быть раньше даты въезда!')
+                return render(request, "search_hotels.html", {'form': search_form})
+            elif check_out == check_in:
+                search_form.add_error('check_out', 'Дата выезда не может быть равна дате въезда!')
                 return render(request, "search_hotels.html", {'form': search_form})
             city_id = get_id_from_city(city, cities_with_id)
             if city_id == 'error':
@@ -83,11 +91,13 @@ def search_hotels(request):
                 return render(request, "search_hotels.html", {'form': search_form})
 
             hotel_data = get_hotels_data(check_in, check_out, city_id, amount_guests)
+            sorted_hotel_data = get_sorted_hotels(hotel_data)
             # print('hotel data', hotel_data)
-
+            print('hotel data', sorted_hotel_data)
             return render(request, "search_hotels.html", {'form': search_form,
                                                           # 'today_date': today_date,
-                                                          'hotel_data': hotel_data,
+                                                          'after_request': True,
+                                                          'hotel_data': sorted_hotel_data,
                                                           'cities': cities})  # pylint: disable=line-too-long
         else:  # pylint: disable=C0305
             return render(request, "search_hotels.html", {'form': search_form})
