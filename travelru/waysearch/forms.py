@@ -31,7 +31,7 @@ class WaysearchForm(forms.Form):
         label='Дата вылета',
         widget=forms.DateInput(
             attrs={
-                'type': 'date', 
+                'type': 'date',
                 'class': 'form-control',
                 'min': today_date,
                 'onkeydown': 'return false'}
