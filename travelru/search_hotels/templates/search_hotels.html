@@ -17,19 +17,10 @@
 {% block main_container %}
     <div class="container-md py-2">
         <div><h3 class="text-center" style="
-                 margin-bottom: 40px;" >Поиск отелей на Create-travel.ru</h3></div>
+                 margin-bottom: 40px;">Поиск отелей на Create-travel.ru</h3></div>
         <div class="forms-resolver">
-
-
             <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
                 {% csrf_token %}
-
-                {% for error, descriptions in form.errors.items %}
-                    {% for description in descriptions %}
-                        <p>{{ description }}</p>
-                    {% endfor %}
-                {% endfor %}
-
                 <div class="row row-cols-5">
                     <div class="col">{{ form.city.label }}</div>
                     <div class="col">{{ form.check_in.label }}</div>
@@ -40,24 +31,29 @@
                     <div class="col">{{ form.check_in }}</div>
                     <div class="col">{{ form.check_out }}</div>
                     <div class="col">{{ form.amount_guests }}</div>
-
                     <div class="col">
                         <button type="submit" class="btn btn-primary">{% trans "Найти отели" %}</button>
                     </div>
                 </div>
             </form>
+            {% for error, descriptions in form.errors.items %}
+                {% for description in descriptions %}
+                    <p class="text-danger">{{ description }}</p>
+                {% endfor %}
+            {% endfor %}
         </div>
+        {% if after_request and not hotel_data %}
+            <p class="warning">Отели не найдены. Попробуйте изменить условия поиска.
+            </p>
+        {% endif %}
+
 
 
         <div class="container-md py-2">
-
             {% for hotel in hotel_data %}
                 <div class="p-3 mb-4 bg-light rounded-3">
-
                     <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
-
                         <h5>{{ hotel.name }}</h5>
-                        {#                        <p>Количество звезд: {{ hotel.stars }}</p>#}
                         <p>
                             {% for i in hotel.stars|times %}
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -78,20 +74,19 @@
                         <ul class="list-inline">
                             <li class="list-inline-item">Цена за сутки {{ hotel.price }}</li>
                             <li class="list-inline-item">Количество ночей: {{ hotel.nights }}</li>
-                            <li class="list-inline-item fs-5 fw-bolder text-primary">
-                                Стоимость: {% total_cost hotel.price hotel.nights hotel.amount_guests %}</li>
+                            <li class="list-inline-item ">
+                                <strong>Стоимость: {% total_cost hotel.price hotel.nights hotel.amount_guests %} ₽</strong>
+                            </li>
                         </ul>
-
                     </div>
                 </div>
             {% endfor %}
-            <ul>
-                <a href="{% url 'waysearch:index' %}">
-                    {% trans "На главную страницу" %}
-                </a>
-            </ul>
+            {#            <ul>#}
+            {#                <a href="{% url 'waysearch:index' %}">#}
+            {#                    {% trans "На главную страницу" %}#}
+            {#                </a>#}
+            {#            </ul>#}
         </div>
-
 
         <script type="text/javascript">
             var today = new Date();
@@ -103,7 +98,6 @@
             $('#check_in').attr('min', today);
             $('#check_out').attr('min', today);
         </script>
-
 
         <script>
             $(function () {
@@ -117,5 +111,5 @@
                 });
             });
         </script>
-
+    </div>
 {% endblock %}

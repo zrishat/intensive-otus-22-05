@@ -46,7 +46,8 @@ def search_avia_page(request):
         departure_at = data['departure_date']
         return_at = data['arrival_date']
         if departure_at > return_at:
-            search_avia.add_error('departure_date', f'Дата возвращения должна быть позже даты вылета')
+            search_avia.add_error('departure_date',
+                                  'Дата возвращения должна быть позже даты вылета')
             return render(request, 'search_avia.html', {'form': search_avia})
         # direct — получить рейсы без пересадок. По умолчанию false
         params = {'origin': from_city_to_code(origin),
