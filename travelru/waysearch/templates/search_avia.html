@@ -99,7 +99,8 @@
                                 <form method="post" action="{% url 'waysearch:add_avia_to_travel' %}">
                                     {% csrf_token %}
                                     <input type="hidden" name="type" value="Avia" />
-                                    <input type="hidden" name="name" value="{{ form.arrival_city.value }} - {{ form.departure_city.value }}" />
+                                    <input type="hidden" name="city_from" value="{{ form.departure_city.value }}" />
+                                    <input type="hidden" name="city_to" value="{{ form.arrival_city.value }}" />
                                     <input type="hidden" name="datetime_beg" value="{{ flight.departure_at }}" />
                                     <input type="hidden" name="duration" value="{{ flight.duration }}" />
                                     <input type="hidden" name="datetime_end" value="{{ flight.return_at }}" />

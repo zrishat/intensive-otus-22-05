@@ -14,7 +14,7 @@
     <ul>
         {% for item in my_travel_list %}
             <li>{{item.item_type}} : {{ item.name }}</li>
-            <li>{{ item.date_beg }} - {{ item.date_end }}</li>
+            <li>{{ item.date_beg }} {{ item.time_beg }}  --  {{ item.date_end }} {{ item.time_end }}</li>
             <li>User: {{ item.user }}</li>
             <li>Price: {{ item.price }}</li>
                 <form method="post" action="{% url 'my_travel:delete_hotel_from_travel' %}">
@@ -24,4 +24,5 @@
                 </form>
         {% endfor %}
     </ul>
+    </div>>
 {% endblock %}
