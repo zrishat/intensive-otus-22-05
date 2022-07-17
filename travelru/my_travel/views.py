@@ -11,6 +11,5 @@ def my_travel(request):
 def delete_hotel_from_travel(request):
     id = request.POST['id']
     item = Item.objects.get(id=id)
-    print(item)
     item.delete()
     return HttpResponseRedirect('/my-travel')
