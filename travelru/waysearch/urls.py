@@ -14,13 +14,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-from .views import search_avia_page, search_train_page, index, add_to_travel
+from waysearch.views import search_avia_page, search_train_page, index, add_avia_to_travel
 
 app_name = "waysearch"  # pylint: disable=invalid-name
 
 urlpatterns = [
     path("", index, name="index"),
     path("search_avia/", search_avia_page, name="search_avia"),
-    path("search_avia/add/", add_to_travel, name="add_to_travel"),
+    path("search_avia/add/", add_avia_to_travel, name="add_avia_to_travel"),
     path("search_train/", search_train_page, name="search_train"),
+
 ]

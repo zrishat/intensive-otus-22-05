@@ -3,11 +3,15 @@ views
 """
 # flake8: noqa
 import requests
+from datetime import datetime, timedelta
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
+from django.contrib.auth import authenticate
+from django.contrib.auth.models import AnonymousUser
 from waysearch.forms import WaysearchForm
 from waysearch.configuration import IATA
 from travelru.settings import TOKEN_AVIASALES
+from my_travel.models import Item, Avia
 
 
 def index(request):
@@ -65,6 +69,7 @@ def search_avia_page(request):
             search_avia.add_error('departure_city', 'Сервис API недоступен.')
             return render(request, 'search_avia.html', {'form': search_avia})
         data_info['data_f'] = data
+        print(data_info)
     data_info["iata"] = IATA
     return render(request, 'search_avia.html', {'form': search_avia, "data": data_info})
 
@@ -90,12 +95,35 @@ def from_city_to_code(city):
                 return iata_tag['code']
     return ""
 
-def add_to_travel(request):
+def add_avia_to_travel(request):
     name = request.POST['name']
-    price = request.POST['price']
     print(request.POST)
-    print(name)
+    price = float(request.POST['price'].replace(",", "."))
     print(price)
+    print(request.user)
+    datetime_beg = datetime.strptime(request.POST['datetime_beg'], "%Y-%m-%dT%H:%M:%S%z")
+    date_beg = datetime_beg.date()
+    time_beg = datetime_beg.time()
+    print(datetime_beg)
+    datetime_end = datetime_beg + timedelta(minutes=int(request.POST['duration']))
+    date_end = datetime_end.date()
+    time_end = datetime_end.time()
+    print(datetime_end)
+    # time_beg = datetime.strptime("13:00", "%H:%M").time()
+    # time_end = datetime.strptime("11:00", "%H:%M").time()
+    #user = authenticate(username='guest', password='fdsa4321')
+
+    if not request.user.is_authenticated:
+        print('AnonimousUser detected!')
+        user = authenticate(username='guest', password='fdsa4321')
+    else:
+        user = request.user
+    item = Item.objects.create(name=name, item_type="AVIA", price=price, user=user,
+                                date_beg=date_beg, date_end=date_end,
+                                time_beg=time_beg, time_end=time_end)
+    print(item)
+    #    avia = Avia.objects.create(item=item, link="testlink")
 #    hoteldata =
 #    add_hotel_item_to_models(hotel_data)
+#    return render(request, 'search_avia.html')
     return HttpResponseRedirect('/my-travel')

@@ -18,8 +18,9 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("accounts/", include("django.contrib.auth.urls")),
+    path("my-travel/", include("my_travel.urls", namespace="my_travel")),
     path("", include("waysearch.urls", namespace="waysearch")),
     path('search_hotels/', include('search_hotels.urls', namespace='search_hotels')),  # noqa: E501
-    path("my-travel", include("my_travel.urls", namespace="my_travel")),
 
 ]

@@ -154,3 +154,5 @@ if env.get("CACHE_BACKEND"):
             "LOCATION": env.get("CACHE_LOCATION"),
         }
     }
+
+LOGIN_REDIRECT_URL = "/"

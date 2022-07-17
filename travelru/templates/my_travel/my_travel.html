@@ -1,5 +1,27 @@
-<ul>
-    {% for travel in my_travel_list %}
-        <li>Hotel: {{ travel.name }}, Price: {{ travel.price }} </li>
-    {% endfor %}
-</ul>
+{% extends "base.html" %}
+{% load i18n %}
+{% load waysearch_tag %}
+
+{% block page_title %}
+    Мое путешествие:
+{% endblock %}
+
+
+{% block main_container %}
+    <div class="container-md py-2">
+        <div><h3 class="text-center" style="
+                 margin-bottom: 40px;">Моё путешествие на Create-travel.ru</h3></div>
+    <ul>
+        {% for item in my_travel_list %}
+            <li>{{item.item_type}} : {{ item.name }}</li>
+            <li>{{ item.date_beg }} - {{ item.date_end }}</li>
+            <li>User: {{ item.user }}</li>
+            <li>Price: {{ item.price }}</li>
+                <form method="post" action="{% url 'my_travel:delete_hotel_from_travel' %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="id" value="{{ item.id }}" />
+                    <button type="submit">Delete from travel</button>
+                </form>
+        {% endfor %}
+    </ul>
+{% endblock %}

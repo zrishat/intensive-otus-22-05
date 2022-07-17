@@ -20,7 +20,7 @@ class Item(models.Model):
     date_end = models.DateField()
     time_end = models.TimeField()
     price = models.FloatField()
-    user = models.CharField(max_length=30)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 #    user
 
 class Avia(models.Model):

@@ -9,11 +9,13 @@ from typing import List
 
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
+from django.contrib.auth import authenticate
+from django.contrib.auth.models import AnonymousUser
 import requests
 from search_hotels.configuration_cities_hotels import cities_with_id
 from search_hotels.forms import SearchHotelsForm
 from travelru.settings import TOKEN_AVIASALES
-from my_travel.models import Item
+from my_travel.models import Item, Hotel
 
 
 def get_id_from_city(city_name: str, cities_list: list):  # pylint: disable=E1136 # noqa: E501
@@ -110,18 +112,25 @@ def search_hotels(request):
                                                       # 'today_date': today_date,
                                                       'cities': cities})
 
-def add_to_travel(request):
+def add_hotel_to_travel(request):
     print(request.POST)
     name = request.POST['name']
     price = float(request.POST['price'].replace(",", "."))
-    print(price)
     date_beg = datetime.strptime(request.POST['check_in'], "%Y-%m-%d").date()
     date_end = datetime.strptime(request.POST['check_out'], "%Y-%m-%d").date()
     time_beg = datetime.strptime("13:00", "%H:%M").time()
     time_end = datetime.strptime("11:00", "%H:%M").time()
-    item = Item.objects.create(name=name, item_type="HOTEL", price=price, user=request.user,
+    print(request.user)
+#    user = authenticate(username='guest', password='fdsa4321')
+    if not request.user.is_authenticated:
+        print('AnonimousUser detected!')
+        user = authenticate(username='guest', password='fdsa4321')
+    else:
+        user = request.user
+    print(user)
+    item = Item.objects.create(name=name, item_type="HOTEL", price=price, user=user,
                                date_beg=date_beg, date_end=date_end,
                                time_beg=time_beg, time_end=time_end)
-#    avia = Avia.objects.create(item=item, link="testlink")
+    print("added "+item.name)
 #    add_hotel_item_to_models(hotel_data)
     return HttpResponseRedirect('/my-travel')
