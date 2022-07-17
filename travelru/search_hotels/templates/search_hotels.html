@@ -77,6 +77,17 @@
                             <li class="list-inline-item ">
                                 <strong>Стоимость: {% total_cost hotel.price hotel.nights hotel.amount_guests %} ₽</strong>
                             </li>
+                            <ul class="list-inline">
+                            <form method="post" action="{% url 'search_hotels:add_to_travel' %}">
+                                {% csrf_token %}
+                                <input type="hidden" name="name" value="{{ hotel.name }}" />
+                                <input type="hidden" name="check_in" value="{{ hotel.check_in }}" />
+                                <input type="hidden" name="check_out" value="{{ hotel.check_out }}" />
+                                <input type="hidden" name="nights" value="{{ hotel.nights }}" />
+                                <input type="hidden" name="price" value="{{ hotel.price }}" />
+                                <button type="submit" class="btn btn-primary">Add to travel</button>
+                            </form>
+                            </ul>
                         </ul>
                     </div>
                 </div>

@@ -4,6 +4,7 @@ views
 # flake8: noqa
 import requests
 from django.shortcuts import render
+from django.http import HttpResponseRedirect
 from waysearch.forms import WaysearchForm
 from waysearch.configuration import IATA
 from travelru.settings import TOKEN_AVIASALES
@@ -88,3 +89,13 @@ def from_city_to_code(city):
             if iata_tag['city_name'] == city:
                 return iata_tag['code']
     return ""
+
+def add_to_travel(request):
+    name = request.POST['name']
+    price = request.POST['price']
+    print(request.POST)
+    print(name)
+    print(price)
+#    hoteldata =
+#    add_hotel_item_to_models(hotel_data)
+    return HttpResponseRedirect('/my-travel')

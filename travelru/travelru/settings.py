@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     'search_hotels',
     "waysearch",
+    "my_travel",
+
 ]
 
 MIDDLEWARE = [

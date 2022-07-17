@@ -8,10 +8,12 @@ from datetime import datetime
 from typing import List
 
 from django.shortcuts import render
+from django.http import HttpResponseRedirect
 import requests
 from search_hotels.configuration_cities_hotels import cities_with_id
 from search_hotels.forms import SearchHotelsForm
 from travelru.settings import TOKEN_AVIASALES
+from my_travel.models import Item
 
 
 def get_id_from_city(city_name: str, cities_list: list):  # pylint: disable=E1136 # noqa: E501
@@ -107,3 +109,19 @@ def search_hotels(request):
         return render(request, "search_hotels.html", {'form': search_form,
                                                       # 'today_date': today_date,
                                                       'cities': cities})
+
+def add_to_travel(request):
+    print(request.POST)
+    name = request.POST['name']
+    price = float(request.POST['price'].replace(",", "."))
+    print(price)
+    date_beg = datetime.strptime(request.POST['check_in'], "%Y-%m-%d").date()
+    date_end = datetime.strptime(request.POST['check_out'], "%Y-%m-%d").date()
+    time_beg = datetime.strptime("13:00", "%H:%M").time()
+    time_end = datetime.strptime("11:00", "%H:%M").time()
+    item = Item.objects.create(name=name, item_type="HOTEL", price=price, user=request.user,
+                               date_beg=date_beg, date_end=date_end,
+                               time_beg=time_beg, time_end=time_end)
+#    avia = Avia.objects.create(item=item, link="testlink")
+#    add_hotel_item_to_models(hotel_data)
+    return HttpResponseRedirect('/my-travel')

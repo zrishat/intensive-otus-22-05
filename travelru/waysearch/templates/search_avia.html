@@ -94,8 +94,18 @@
 
 
                             </div>
-                            <p class="text-center">Цена: <strong>{{ flight.price }}</strong> руб.</p>
+                            <p class="text-center">Цена: <strong>{{ flight.price }}</strong> руб.
+                            <ul class="list-inline">
+                                <form method="post" action="{% url 'waysearch:add_to_travel' %}">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="type" value="air_ticket" />
+                                    <input type="hidden" name="name" value="{{ flight.departure_at }}" />
+                                    <input type="hidden" name="price" value="{{ flight.price }}" />
+                                    <button type="submit" class="btn btn-primary">Add to travel</button>
+                                </form>
+                            </ul></p>
                         </div>
+
                     {% endfor %}
                 </div>
             {% endif %}
