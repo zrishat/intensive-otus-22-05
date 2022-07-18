@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     'search_hotels',
     "waysearch",
+    "my_travel",
+
 ]
 
 MIDDLEWARE = [
@@ -152,3 +154,5 @@ if env.get("CACHE_BACKEND"):
             "LOCATION": env.get("CACHE_LOCATION"),
         }
     }
+
+LOGIN_REDIRECT_URL = "/"

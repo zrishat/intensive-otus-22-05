@@ -171,3 +171,4 @@ venv/
 env/
 node_modules/
 
+/travelru/waysearch/IATA_aiports.txt
