@@ -44,18 +44,21 @@ def get_hotels_data(check_in: datetime.date, check_out: datetime.date, city_id: 
               'token': TOKEN_AVIASALES}
 
     dirty_hotel_data = requests.get(url, params=params).json()
-    print('url', url, params)
+    # print('url', url, params)
     hotel_data = []
     for value_hotel_data in dirty_hotel_data['popularity']:
         try:
-            one_hotel_info = {'name': value_hotel_data.get('name'),
-                              'stars': value_hotel_data.get('stars'),
-                              'hotel_type': value_hotel_data.get('hotel_type'),
-                              'price': value_hotel_data.get('last_price_info')['price_pn'],
-                              'nights': value_hotel_data.get('last_price_info')['nights'],
-                              'check_in': value_hotel_data.get('last_price_info')['search_params']['checkIn'],
-                              'check_out': value_hotel_data.get('last_price_info')['search_params']['checkOut'],
-                              'amount_guests': amount_guests}
+            one_hotel_info = dict(name=value_hotel_data.get('name'), stars=value_hotel_data.get('stars'),
+                                  hotel_type=value_hotel_data.get('hotel_type'),
+                                  price=value_hotel_data.get('last_price_info')['price_pn'],
+                                  nights=value_hotel_data.get('last_price_info')['nights'],
+                                  check_in=datetime.strptime(
+                                    value_hotel_data.get('last_price_info')['search_params']['checkIn'],
+                                    '%Y-%m-%d').date(),
+                                  check_out=datetime.strptime(
+                                    value_hotel_data.get('last_price_info')['search_params']['checkOut'],
+                                    '%Y-%m-%d').date(),
+                                  amount_guests=amount_guests)
             hotel_data.append(one_hotel_info)
 
         except TypeError:
@@ -72,6 +75,8 @@ def search_hotels(request):
     """
     search_hotels
     """
+    print('search_hotels')
+
     # today_date = datetime.today().strftime("%Y-%m-%d")
     cities = cities_with_id
     if request.method == "POST":
@@ -95,7 +100,7 @@ def search_hotels(request):
             hotel_data = get_hotels_data(check_in, check_out, city_id, amount_guests)
             sorted_hotel_data = get_sorted_hotels(hotel_data)
             # print('hotel data', hotel_data)
-            print('hotel data', sorted_hotel_data)
+            # print('hotel data', sorted_hotel_data)
             return render(request, "search_hotels.html", {'form': search_form,
                                                           # 'today_date': today_date,
                                                           'after_request': True,

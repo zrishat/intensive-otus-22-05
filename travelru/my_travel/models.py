@@ -5,6 +5,7 @@ from django.conf import settings
 # class User(models):
 #     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
+
 class Item(models.Model):
     ITEM_TYPE = [
         ('HOTEL', 'Hotel'),
@@ -23,9 +24,11 @@ class Item(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 #    user
 
+
 class Avia(models.Model):
     item = models.OneToOneField(Item, on_delete=models.CASCADE)
     link = models.CharField(max_length=300)
+
 
 class Hotel(models.Model):
     item = models.OneToOneField(Item, on_delete=models.CASCADE)
