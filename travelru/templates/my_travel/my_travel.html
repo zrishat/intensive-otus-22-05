@@ -20,9 +20,9 @@
                 <form method="post" action="{% url 'my_travel:delete_hotel_from_travel' %}">
                     {% csrf_token %}
                     <input type="hidden" name="id" value="{{ item.id }}" />
-                    <button type="submit">Delete from travel</button>
+                    <button type="submit">Удалить</button>
                 </form>
         {% endfor %}
     </ul>
-    </div>>
+    </div>
 {% endblock %}
