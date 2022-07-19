@@ -64,11 +64,13 @@ def search_avia_page(request):
                   'token': TOKEN_AVIASALES}
         try:
             data_info = requests.get(url, headers=headers, params=params).json()
+            print(data_info)
         except Exception:  # pylint: disable=broad-except
             search_avia.add_error('departure_city', 'Сервис API недоступен.')
             return render(request, 'search_avia.html', {'form': search_avia})
         data_info['data_f'] = data
     data_info["iata"] = IATA
+
     return render(request, 'search_avia.html', {'form': search_avia, "data": data_info})
 
 
@@ -92,6 +94,7 @@ def from_city_to_code(city):
             if iata_tag['city_name'] == city:
                 return iata_tag['code']
     return ""
+
 
 def add_avia_to_travel(request):
 
