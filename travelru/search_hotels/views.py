@@ -50,7 +50,7 @@ def get_hotels_data(check_in: datetime.date, check_out: datetime.date, city_id: 
         try:
             one_hotel_info = dict(name=value_hotel_data.get('name'), stars=value_hotel_data.get('stars'),
                                   hotel_type=value_hotel_data.get('hotel_type'),
-                                  price=value_hotel_data.get('last_price_info')['price_pn'],
+                                  price=round(value_hotel_data.get('last_price_info')['price_pn']),
                                   nights=value_hotel_data.get('last_price_info')['nights'],
                                   check_in=datetime.strptime(
                                     value_hotel_data.get('last_price_info')['search_params']['checkIn'],
@@ -63,6 +63,7 @@ def get_hotels_data(check_in: datetime.date, check_out: datetime.date, city_id: 
 
         except TypeError:
             pass
+
     return hotel_data
 
 
@@ -80,6 +81,7 @@ def search_hotels(request):
     # today_date = datetime.today().strftime("%Y-%m-%d")
     cities = cities_with_id
     if request.method == "POST":
+        print(request.POST)
         search_form = SearchHotelsForm(request.POST)
         if search_form.is_valid():
             city = search_form.cleaned_data['city']
@@ -90,7 +92,7 @@ def search_hotels(request):
                 search_form.add_error('check_out', 'Дата выезда не может быть раньше даты въезда!')
                 return render(request, "search_hotels.html", {'form': search_form})
             elif check_out == check_in:
-                search_form.add_error('check_out', 'Дата выезда не может быть равна дате въезда!')
+                search_form.add_error('check_out', 'Дата выезда не может совпадать с датой заезда!')
                 return render(request, "search_hotels.html", {'form': search_form})
             city_id = get_id_from_city(city, cities_with_id)
             if city_id == 'error':
@@ -115,12 +117,15 @@ def search_hotels(request):
                                                       # 'today_date': today_date,
                                                       'cities': cities})
 
+
 def add_hotel_to_travel(request):
-    print(request.POST)
+    # print(request.POST)
     name = request.POST['name']
-    price = float(request.POST['price'].replace(",", "."))
-    date_beg = datetime.strptime(request.POST['check_in'], "%Y-%m-%d").date()
-    date_end = datetime.strptime(request.POST['check_out'], "%Y-%m-%d").date()
+    # price = float(request.POST['price'].replace(",", "."))
+    price = int(request.POST['price'])
+    hotel_city = request.POST['city']
+    date_beg = datetime.strptime(request.POST['check_in'], "%d-%m-%Y").date()
+    date_end = datetime.strptime(request.POST['check_out'], "%d-%m-%Y").date()
     time_beg = datetime.strptime("13:00", "%H:%M").time()
     time_end = datetime.strptime("11:00", "%H:%M").time()
 
@@ -131,6 +136,7 @@ def add_hotel_to_travel(request):
         user = request.user
 
     item = Item.objects.create(name=name, item_type="HOTEL", price=price, user=user,
+                               hotel_city=hotel_city,
                                date_beg=date_beg, date_end=date_end,
                                time_beg=time_beg, time_end=time_end)
 #    add_hotel_item_to_models(hotel_data)

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load waysearch_tag %}
+
+{% block page_title %}
+    Мое путешествие:
+{% endblock %}
+
+
+{% block main_container %}
+    <div class="container-md py-2">
+        <div><h3 class="text-center" style="
+                 margin-bottom: 40px;">Моё путешествие на Create-travel.ru</h3></div>
+    <ul>
+        {% for item in my_travel_list %}
+            <div class="card">
+            <div class="card-body">
+                <h3>{{ item.hotel_city }} {{ item.item_type }}</h3>
+                <p>{{ item.name }}</p>
+                <p>{{ item.date_beg }} {{ item.time_beg }} - {{ item.date_end }} {{ item.time_end }}</p>
+                <p>Пользователь: {{ item.user }}</p>
+                <p>Цена за ночь: {{ item.price }} ₽</p>
+                <form method="post" action="{% url 'my_travel:delete_hotel_from_travel' %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="id" value="{{ item.id }}"/>
+                    <button type="submit" class="btn btn-warning">Удалить</button>
+                </form>
+            </div>
+            </div>
+
+        {% endfor %}
+    </ul>
+    </div>
+{% endblock %}

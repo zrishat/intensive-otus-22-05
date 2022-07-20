@@ -68,25 +68,29 @@
                                 <a href="#"> {{ type }}</a>
                             {% endfor %}
                         <ul class="list-inline">
-                            <li class="list-inline-item">{{ hotel.check_in }}
-                                - {{ hotel.check_out }}</li>
+                            <li class="list-inline-item">{{ hotel.check_in|date:"d E Y" }}
+                                - {{ hotel.check_out|date:"d E Y" }}</li>
                         </ul>
                         <ul class="list-inline">
-                            <li class="list-inline-item">Цена за сутки {{ hotel.price }}</li>
+                            <li class="list-inline-item">Цена за сутки: {{ hotel.price }} ₽</li>
                             <li class="list-inline-item">Количество ночей: {{ hotel.nights }}</li>
                             <li class="list-inline-item ">
-                                <strong>Стоимость: {% total_cost hotel.price hotel.nights hotel.amount_guests %} ₽</strong>
+                                <strong>Стоимость: {% total_cost hotel.price hotel.nights hotel.amount_guests %}
+                                    ₽</strong>
                             </li>
                             <ul class="list-inline">
-                            <form method="post" action="{% url 'search_hotels:add_hotel_to_travel' %}">
-                                {% csrf_token %}
-                                <input type="hidden" name="name" value="{{ hotel.name }}" />
-                                <input type="hidden" name="check_in" value="{{ hotel.check_in }}" />
-                                <input type="hidden" name="check_out" value="{{ hotel.check_out }}" />
-                                <input type="hidden" name="nights" value="{{ hotel.nights }}" />
-                                <input type="hidden" name="price" value="{{ hotel.price }}" />
-                                <button type="submit">Добавить</button>
-                            </form>
+                                <form method="post" action="{% url 'search_hotels:add_hotel_to_travel' %}">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="city" value="{{ form.city.value }}"/>
+                                    <input type="hidden" name="name" value="{{ hotel.name }}"/>
+                                    <input type="hidden" name="check_in" value="{{ hotel.check_in|date:"d-m-Y" }}"/>
+                                    <input type="hidden" name="check_out" value="{{ hotel.check_out|date:"d-m-Y" }}"/>
+                                    <input type="hidden" name="nights" value="{{ hotel.nights }}"/>
+                                    <input type="hidden" name="price" value="{{ hotel.price }}"/>
+                                    <button type="submit" class="btn btn-success" style="margin-top: 20px;">
+                                        Добавить в путешествие
+                                    </button>
+                                </form>
                             </ul>
                         </ul>
                     </div>

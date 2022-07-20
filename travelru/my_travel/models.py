@@ -20,7 +20,8 @@ class Item(models.Model):
     time_beg = models.TimeField()
     date_end = models.DateField()
     time_end = models.TimeField()
-    price = models.FloatField()
+    price = models.IntegerField()
+    hotel_city = models.CharField(max_length=30, null=True)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 #    user
 
@@ -32,3 +33,4 @@ class Avia(models.Model):
 
 class Hotel(models.Model):
     item = models.OneToOneField(Item, on_delete=models.CASCADE)
+
