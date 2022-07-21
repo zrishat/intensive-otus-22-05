@@ -17,12 +17,12 @@ Including another URLconf
 
 from django.urls import path
 
-from my_travel.views import my_travel, delete_hotel_from_travel
+from my_travel.views import my_travel, delete_hotel_from_travel, delete_avia_from_travel
 
 app_name = "my_travel"
 
 urlpatterns = [
     path("", my_travel, name="my_travel"),
-    path("delete/", delete_hotel_from_travel, name="delete_hotel_from_travel"),
-
+    path("delete_hotel/", delete_hotel_from_travel, name="delete_hotel_from_travel"),
+    path("delete_avia/", delete_avia_from_travel, name="delete_avia_from_travel"),
 ]

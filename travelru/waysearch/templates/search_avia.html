@@ -17,10 +17,7 @@
         {#        </h3>#}
         <div class="forms-resolver">
             <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
-
                 {% csrf_token %}
-
-
                 <div class="col-auto">
                     {#                    <div class="row row-cols-4">#}
                     <div class="row row-cols-5">
@@ -89,12 +86,9 @@
                                                 назначения: {{ form.departure_city.value }} {{ flight.origin_airport }}</li>
                                         </ul>
                                     </div>
-
                                 </div>
-
-
                             </div>
-                            <p class="text-center">Цена: <strong>{{ flight.price }}</strong> руб.
+                            <p class="text-center">Цена: <strong>{{ flight.price }} ₽</strong>
                             <ul class="list-inline">
                                 <form method="post" action="{% url 'waysearch:add_avia_to_travel' %}">
                                     {% csrf_token %}
@@ -105,6 +99,7 @@
                                     <input type="hidden" name="duration" value="{{ flight.duration }}"/>
                                     <input type="hidden" name="datetime_end" value="{{ flight.return_at }}"/>
                                     <input type="hidden" name="price" value="{{ flight.price }}"/>
+                                    <input type="hidden" name="airline" value="{{ flight.airline }}"/>
                                     <div class="col text-center">
                                         <button type="submit" class="btn btn-success">
                                             Добавить в путешествие
