@@ -3,10 +3,14 @@ views
 """
 # flake8: noqa
 import requests
+from datetime import datetime, timedelta
 from django.shortcuts import render
+from django.http import HttpResponseRedirect
+from django.contrib.auth import authenticate
 from waysearch.forms import WaysearchForm
 from waysearch.configuration import IATA
 from travelru.settings import TOKEN_AVIASALES
+from my_travel.models import Item, Avia
 
 
 def index(request):
@@ -60,11 +64,13 @@ def search_avia_page(request):
                   'token': TOKEN_AVIASALES}
         try:
             data_info = requests.get(url, headers=headers, params=params).json()
+            # print(data_info)
         except Exception:  # pylint: disable=broad-except
             search_avia.add_error('departure_city', 'Сервис API недоступен.')
             return render(request, 'search_avia.html', {'form': search_avia})
         data_info['data_f'] = data
     data_info["iata"] = IATA
+
     return render(request, 'search_avia.html', {'form': search_avia, "data": data_info})
 
 
@@ -88,3 +94,57 @@ def from_city_to_code(city):
             if iata_tag['city_name'] == city:
                 return iata_tag['code']
     return ""
+
+
+def add_avia_to_travel(request):
+    print(request.POST)
+    if not request.user.is_authenticated:
+        print('AnonymousUser detected!')
+        user = authenticate(username='guest', password='fdsa4321')
+    else:
+        user = request.user
+
+    airline = request.POST['airline']
+    departure_at = datetime.strptime(request.POST['datetime_beg'], "%Y-%m-%dT%H:%M:%S%z")
+    return_at = datetime.strptime(request.POST['datetime_end'], "%Y-%m-%dT%H:%M:%S%z")
+    city_from = request.POST['city_from']
+    city_to = request.POST['city_to']
+    price = int(request.POST['price'])
+
+    direct_flight = Avia.objects.create(airline=airline,
+                                        price=price,
+                                        departure_at=departure_at,
+                                        return_at=return_at,
+                                        city_from=city_from,
+                                        city_to=city_to,
+                                        )
+
+
+    # datetime_beg = datetime.strptime(request.POST['datetime_beg'], "%Y-%m-%dT%H:%M:%S%z")
+    # name = f"{city_from} - {city_to}"
+    # datetime_beg = datetime.strptime(request.POST['datetime_beg'], "%Y-%m-%dT%H:%M:%S%z")
+    # date_beg = datetime_beg.date()
+    # time_beg = datetime_beg.time()
+    # datetime_end = datetime_beg + timedelta(minutes=int(request.POST['duration']))
+    # date_end = datetime_end.date()
+    # time_end = datetime_end.time()
+    # item1 = Item.objects.create(name=name, item_type="AVIA", price=price/2, user=user,
+    #                             date_beg=date_beg, date_end=date_end,
+    #                             time_beg=time_beg, time_end=time_end,
+    #                             city_from=city_from, city_to=city_to)
+    # # Полет обратно
+    # if not (datetime_end == ''):
+    #     name = f"{city_to} - {city_from}"
+    #     datetime_beg = datetime.strptime(request.POST['datetime_end'], "%Y-%m-%dT%H:%M:%S%z")
+    #     date_beg = datetime_beg.date()
+    #     time_beg = datetime_beg.time()
+    #     datetime_end = datetime_beg + timedelta(minutes=int(request.POST['duration']))
+    #     date_end = datetime_end.date()
+    #     time_end = datetime_end.time()
+    #     item2 = Item.objects.create(name=name, item_type="AVIA", price=price/2, user=user,
+    #                                 date_beg=date_beg, date_end=date_end,
+    #                                 time_beg=time_beg, time_end=time_end,
+    #                                 city_from=city_to, city_to=city_from)
+
+    #    avia = Avia.objects.create(item=item, link="testlink")
+    return HttpResponseRedirect('/my-travel')
