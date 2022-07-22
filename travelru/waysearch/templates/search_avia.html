@@ -17,10 +17,7 @@
         {#        </h3>#}
         <div class="forms-resolver">
             <form method="post" class="row gy-2 gx-3 align-items-center mb-3">
-
                 {% csrf_token %}
-
-
                 <div class="col-auto">
                     {#                    <div class="row row-cols-4">#}
                     <div class="row row-cols-5">
@@ -63,7 +60,7 @@
                     {% for flight in data.data %}
                         <div class="p-3 mb-4 bg-light rounded-3">
                             <div class="container-md py-2" style="padding-top: 5px; margin-left: 20px;">
-                                <p>Авиаперевозчик {% airline_translated flight.airline %}</p>
+                                <p>Авиаперевозчик: {% airline_translated flight.airline %}</p>
                                 <div class="row">
                                     <div class="col">
                                         <p>Туда:</p>
@@ -72,9 +69,9 @@
                                         </ul>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">Пункт
-                                                отправления: {{ form.departure_city.value }} {{ flight.origin }}</li>
-                                            <li class="list-inline-item">Пункт
-                                                назначения: {{ form.arrival_city.value }} {{ flight.destination }}</li>
+                                                отправления: {{ form.departure_city.value }} {{ flight.origin_airport }}</li>
+                                            <li >Пункт
+                                                назначения: {{ form.arrival_city.value }} {{ flight.destination_airport }}</li>
                                         </ul>
                                     </div>
                                     <div class="col">
@@ -84,30 +81,33 @@
                                         </ul>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">Пункт
-                                                отправления: {{ form.arrival_city.value }}</li>
-                                            <li class="list-inline-item">Пункт
-                                                назначения: {{ form.departure_city.value }}</li>
+                                                отправления: {{ form.arrival_city.value }} {{ flight.destination_airport }}</li>
+                                            <li>Пункт
+                                                назначения: {{ form.departure_city.value }} {{ flight.origin_airport }}</li>
                                         </ul>
                                     </div>
-
                                 </div>
-
-
                             </div>
-                            <p class="text-center">Цена: <strong>{{ flight.price }}</strong> руб.
+                            <p class="text-center">Цена: <strong>{{ flight.price }} ₽</strong>
                             <ul class="list-inline">
                                 <form method="post" action="{% url 'waysearch:add_avia_to_travel' %}">
                                     {% csrf_token %}
-                                    <input type="hidden" name="type" value="Avia" />
-                                    <input type="hidden" name="city_from" value="{{ form.departure_city.value }}" />
-                                    <input type="hidden" name="city_to" value="{{ form.arrival_city.value }}" />
-                                    <input type="hidden" name="datetime_beg" value="{{ flight.departure_at }}" />
-                                    <input type="hidden" name="duration" value="{{ flight.duration }}" />
-                                    <input type="hidden" name="datetime_end" value="{{ flight.return_at }}" />
-                                    <input type="hidden" name="price" value="{{ flight.price }}" />
-                                    <button type="submit">Добавить</button>
+                                    <input type="hidden" name="type" value="Avia"/>
+                                    <input type="hidden" name="city_from" value="{{ form.departure_city.value }}"/>
+                                    <input type="hidden" name="city_to" value="{{ form.arrival_city.value }}"/>
+                                    <input type="hidden" name="datetime_beg" value="{{ flight.departure_at }}"/>
+                                    <input type="hidden" name="duration" value="{{ flight.duration }}"/>
+                                    <input type="hidden" name="datetime_end" value="{{ flight.return_at }}"/>
+                                    <input type="hidden" name="price" value="{{ flight.price }}"/>
+                                    <input type="hidden" name="airline" value="{{ flight.airline }}"/>
+                                    <div class="col text-center">
+                                        <button type="submit" class="btn btn-success">
+                                            Добавить в путешествие
+                                        </button>
+                                    </div>
                                 </form>
-                            </ul></p>
+                            </ul>
+                            </p>
                         </div>
 
                     {% endfor %}
@@ -121,11 +121,11 @@
                 <p class="warning">Ошибка поиска. Попробуйте позже.
                 </p>
             {% endif %}
-{#            <ul>#}
-{#                <a href="{% url 'waysearch:index' %}">#}
-{#                    {% trans "На главную страницу" %}#}
-{#                </a>#}
-{#            </ul>#}
+            {#            <ul>#}
+            {#                <a href="{% url 'waysearch:index' %}">#}
+            {#                    {% trans "На главную страницу" %}#}
+            {#                </a>#}
+            {#            </ul>#}
         </div>
     </div>
     <script>

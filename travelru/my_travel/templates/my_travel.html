@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load waysearch_tag %}
+
+{% block page_title %}
+    Мое путешествие:
+{% endblock %}
+
+
+{% block main_container %}
+    <div class="container-md py-2">
+        <div><h3 class="text-center" style="
+                 margin-bottom: 40px;">Моё путешествие на Create-travel.ru</h3></div>
+        {% if not my_hotels_list and not my_avia_list %}
+            <p class="text-center">Здесь пока нет путешествия :(</p>
+        {% endif %}
+        <ul>
+
+            {% for hotel in my_hotels_list %}
+                <div class="card">
+                    <div class="card-body">
+                        <h3>{{ hotel.hotel_city }}. Проживание </h3>
+                        <p>{{ hotel.name }}</p>
+                        <p>Пользователь: {{ hotel.user }}</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">Цена за сутки: {{ hotel.price }} ₽</li>
+                            <li class="list-inline-item">Количество ночей: {{ hotel.nights }}</li>
+                            <li class="list-inline-item ">
+                                <strong>Стоимость: {{ hotel.total_cost }} ₽</strong>
+                            </li>
+                            <ul class="list-inline">
+                                <form method="post" action="{% url 'my_travel:delete_hotel_from_travel' %}">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="hotel_id" value="{{ hotel.id }}"/>
+                                    <button type="submit" class="btn btn-warning" style="margin-top: 20px;">
+                                        Удалить из путешествия
+                                    </button>
+                                </form>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            {% endfor %}
+
+            {% for avia in my_avia_list %}
+                <div class="card">
+                <div class="card-body">
+                    <h3>{{ avia.city_from }}. Авиабилеты </h3>
+                    <p>Авиаперевозчик: {{ avia.airline }}</p>
+                    <div class="row">
+                        <div class="col">
+                            <p>Туда:</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">{{ avia.departure_at }}</li>
+                            </ul>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">Пункт
+                                    отправления: {{ avia.city_from }}</li>
+                                <li>Пункт
+                                    назначения: {{ avia.city_to }}</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <p>Обратно:</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">{{ avia.return_at }}</li>
+                            </ul>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">Пункт
+                                    отправления: {{ avia.city_to }}</li>
+                                <li>Пункт
+                                    назначения: {{ avia.city_from }}</li>
+                            </ul>
+                        </div>
+                        <p class="text-center" style="margin-top: 20px; margin-bottom: 0px;">Цена:
+                            <strong>{{ avia.price }}</strong> ₽</p>
+                        <form method="post" action="{% url 'my_travel:delete_avia_from_travel' %}">
+                            {% csrf_token %}
+                            <input type="hidden" name="avia_id" value="{{ avia.id }}"/>
+                            <button type="submit" class="btn btn-warning">
+                                Удалить из путешествия
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            {% endfor %}
+
+
+
+
+            {#                                    {% elif item.item_type == 'AVIA' %}#}
+            {#                                    <div class="card">#}
+            {#                                        <div class="card-body">#}
+            {#                                            <h3>{{ item.city_from }}. Авиабилеты </h3>#}
+            {#                                            <p>{{ item.name }}</p>#}
+            {#                                            <p>{{ item.date_beg }} {{ item.time_beg }} - {{ item.date_end }} {{ item.time_end }}</p>#}
+            {#                                            <p>Пользователь: {{ item.user }}</p>#}
+            {#                                            <p>Цена: {{ item.price }} ₽</p>#}
+            {#                                            <form method="post" action="{% url 'my_travel:delete_hotel_from_travel' %}">#}
+            {#                                                {% csrf_token %}#}
+            {#                                                <input type="hidden" name="id" value="{{ item.id }}"/>#}
+            {#                                                <button type="submit" class="btn btn-warning">Удалить</button>#}
+            {#                                            </form>#}
+            {#                                        </div>#}
+            {#                                    </div>#}
+            {#                                {% endif %}#}
+
+
+            </div>
+        </ul>
+    </div>
+{% endblock %}
