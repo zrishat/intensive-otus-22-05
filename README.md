@@ -16,9 +16,6 @@ Cоздать свою ветку
 `git checkout -b new_feature`
 После добавления своих изменений запушить коммиты в свою ветку и сделать PR на ветку develop.
 
-Запуск локального сервера:
-`python manage.py runserver`
-
 К проекту подключены github actions. Необходимо покрывать код тестами, чтобы coverage не опускался иначе PR не пройдет проверку.
 codestyle python - https://peps.python.org/pep-0008/
 
@@ -26,10 +23,10 @@ codestyle python - https://peps.python.org/pep-0008/
 - DJANGO_DEBUG - True\False для вкл\выкл. режима дебага
 - TOKEN_AVIASALES - токен можно взять у группы разработки, для работы с api
 - TRAVELRU_SECRET_KEY - для прода
+
 для бд
-- POSTGRES_HOST
-- POSTGRES_PORT
-- POSTGRES_DB
-- POSTGRES_USER
-- POSTGRES_PASSWORD
-Все переменные можно прокинуть в .env файл.
+`python manage.py migrate`
+
+
+Запуск локального сервера:
+`python manage.py runserver`
